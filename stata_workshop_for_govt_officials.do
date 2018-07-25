@@ -1,6 +1,6 @@
 		
 	* Initiate the latex doc
-	texdoc init "$script\test", replace ///
+	texdoc init "$script\stata_workshop_for_govt_officials", replace ///
 		gropts(optargs(width=0.8\textwidth))
 	
 	/***

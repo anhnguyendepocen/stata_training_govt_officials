@@ -1,8 +1,0 @@
-\frametitle{\textsc{Edit data in Stata}}
-		\begin{center}
-			\Large\textbf{Delete variables}
-		\end{center}
-		\begin{itemize}
-			\item blah blah
-		\end{itemize}
-\begin{stlog}\input{test_1.log.tex}\end{stlog}

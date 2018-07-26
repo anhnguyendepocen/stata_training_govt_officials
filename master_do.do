@@ -24,13 +24,25 @@ Last updated : July, 2018
 		global dropbox	"C:\Users\WB506744\Dropbox\DIME_work"
 		global github	"C:\Users\WB506744\Documents\GitHub"
 		}
-
+		
+	if "`c(username)'" == "roshn" {
+		global dropbox	"C:\Users\roshn\Dropbox"
+		global github	"C:\Users\roshn\Documents\GitHub"
+		}
+		
+		
+	if "`c(username)'" == "WB528092" {
+		global dropbox	"C:\Users\WB528092\Dropbox"
+		global github	"C:\Users\WB528092\Documents\GitHub"
+		}
+		
+		
 	* file path
 	global data "$dropbox\minagri_stata_training_aug2018\data"
 	global script "$github\stata_training_govt_officials"
 	
 	* packages
-	global instal		0 // Turn to 1 here if you want to install
+	global install		0 // Turn to 1 here if you want to install
 	if $install == 1 {
 		ssc install texdoc, replace
 		net from http://www.stata-journal.com/production

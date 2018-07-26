@@ -24,7 +24,7 @@
 	\date{August, 2018}
 
 	\titlegraphic{%
-		\includegraphics[width=.2\textwidth]{logo_i2i}\hfill % I think I should probably ask for a better image for this thing....
+		\includegraphics[width=.2\textwidth]{DIME}\hfill % I think I should probably ask for a better image for this thing....
 		\includegraphics[width=.15\textwidth]{logo_minagri}\hfill
 		\includegraphics[width=.2\textwidth]{logo_eu}
 		}
@@ -49,48 +49,85 @@
 		
 	\maketitle
 
-	\section{Section 1}
+\section{Section 1}
 
 	% 1.1 Why learn stata?
 	\begin{frame}
-	\frametitle{\textsc{Why learn stata?}}
-	\begin{center}
-		\textbf{Excel vs Stata} \\ \text{Can I use Excel?}
-	\end{center}
+	
+		\frametitle{\textsc{Why learn stata?}}
+		\begin{center}
+			\textbf{Excel vs Stata} \\ \text{Can I use Excel?}
+		\end{center}
+	
 	\end{frame}
 
+	
 	\begin{frame}
-	\frametitle{\textsc{Why learn stata?}}
-	\begin{center}
-		\Large\textbf{The main reasons to use Stata}
-	\end{center}
-	\begin{itemize}
-		\item In Excel you make changes directly to the data and save new versions of the data set
+		\frametitle{\textsc{Why learn stata?}}
+		\begin{center}
+			\Large\textbf{The main reasons to use Stata}
+		\end{center}
+		\begin{itemize}
+			\item In Excel you make changes directly to the data and save new versions of the data set
 		
-		\item In Stata you make changes to the instructions on how to get from the raw data to the final analysis and save new versions of the instructions
+			\item In Stata you make changes to the instructions on how to get from the raw data to the final analysis and save new versions of the instructions
 		
-		\item Since Stata is a more statistics oriented software, processing the data to create analytical products can be a lot easier. 
+			\item Since Stata is a more statistics oriented software, processing the data to create analytical products can be a lot easier. 
 		
-	\end{itemize}
+		\end{itemize}
 	\end{frame}
 
-	\section{Section 2}
+
 
 	\begin{frame}
-	\frametitle{\textsc{Edit data in Stata}}
+		\frametitle{\textsc{The main reasons to use Stata}}
+		\begin{center}
+			\Large\textbf{The main reasons to use Stata}
+		\end{center}
+		\begin{itemize}
+			\item Powerful tool with may capabilities:
+			
+			\begin{itemize}
+				\item Descriptive statistics
+				
+				\item Inference statistics
+				
+				\item Complex data analysis
+				
+			\end{itemize}
+			
+			\item But it’s also good for beginner programmers:
+			
+			\begin{itemize}
+				\item User friendly interface
+				
+				\item relatively easy programming language that can be learned while you’re using the software
+				
+			\end{itemize}
+		\end{itemize}
+	\end{frame}	
+
+
+
+\section{Section 2}
+
+	\begin{frame}
+		\frametitle{\textsc{Edit data in Stata}}
 		\begin{center}
 			\textbf{How can we delete irrelevant variables?}
 		\end{center}
 	\end{frame}
 
 	\begin{frame}[fragile]
-	\frametitle{\textsc{Edit data in Stata}}
+		\frametitle{\textsc{Edit data in Stata}}
 		\begin{center}
-			\Large\textbf{Delete variables}
+		\Large\textbf{Delete variables}
 		\end{center}
 		\begin{itemize}
-			\item blah blah
+		\item blah blah
 		\end{itemize}
+		\begin{stlog}\input{stata_workshop_for_govt_officials_1.log.tex}\end{stlog}
+
 	***/
 		texdoc stlog
 			use "$data\cs_s0_s5_household.dta", clear

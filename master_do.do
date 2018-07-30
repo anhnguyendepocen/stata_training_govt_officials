@@ -30,7 +30,7 @@ Last updated : July, 2018
 	global script "$github\stata_training_govt_officials"
 	
 	* packages
-	global instal		0 // Turn to 1 here if you want to install
+	global install		0 // Turn to 1 here if you want to install
 	if $install == 1 {
 		ssc install texdoc, replace
 		net from http://www.stata-journal.com/production
@@ -42,7 +42,7 @@ Last updated : July, 2018
 	if $lemons == 1 {
 		copy http://www.stata-journal.com/production/sjlatex/stata.sty stata.sty	
 		}
-		
+				
 	* write the tex file
 	texdoc do "$script\stata_workshop_for_govt_officials.do"
 	

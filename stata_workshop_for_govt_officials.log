@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  25 JUL 2018 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.30)  30 JUL 2018 18:16
 entering extended mode
 **C:/Users/WB506744/Documents/GitHub/stata_training_govt_officials/stata_worksh
 op_for_govt_officials.tex
@@ -833,7 +833,41 @@ Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
 Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
 aTeX to use the Fira fonts on input line 95.
 
-))
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
 (C:\Users\WB506744\AppData\Roaming\MiKTeX\2.9\tex\latex\appendixnumberbeamer\ap
 pendixnumberbeamer.sty)
 (C:\Users\WB506744\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
@@ -1036,31 +1070,36 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 18.
 
 
 (C:\Users\WB506744\AppData\Roaming\MiKTeX\2.9\tex\latex\beamertheme-metropolis\
 pgfplotsthemetol.sty
 Package: pgfplotsthemetol 2017/01/23 PGFplots colors based on Paul Tol's SRON t
 echnical note
-)
-No file stata_workshop_for_govt_officials.aux.
+) (stata_workshop_for_govt_officials.aux)
 \openout1 = `stata_workshop_for_govt_officials.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 43.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1123,7 +1162,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1133,64 +1172,60 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count186
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+
+(stata_workshop_for_govt_officials.out) (stata_workshop_for_govt_officials.out)
 \@outlinefile=\write5
 \openout5 = `stata_workshop_for_govt_officials.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 42.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 42.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 43.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 42.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 42.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 42.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 42.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 42.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 42.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 42.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 42.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 42.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 42.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 42.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 42.
+(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 42.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 42.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 42.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 42.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 42.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-2.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-42.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 42.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 43.
 
 (C:\Users\WB506744\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-b
 asic-dictionary-English.dict
@@ -1219,85 +1254,278 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 
-No file stata_workshop_for_govt_officials.nav.
-<logo_i2i.png, id=12, 85.82062pt x 49.68562pt>
-File: logo_i2i.png Graphic file (type png)
-<use logo_i2i.png>
-Package pdftex.def Info: logo_i2i.png  used on input line 44.
-(pdftex.def)             Requested size: 61.45703pt x 35.58029pt.
-<logo_minagri.png, id=14, 376.40625pt x 407.27156pt>
+(stata_workshop_for_govt_officials.nav)
+<DIME.png, id=24, 87.32625pt x 62.48344pt>
+File: DIME.png Graphic file (type png)
+<use DIME.png>
+Package pdftex.def Info: DIME.png  used on input line 45.
+(pdftex.def)             Requested size: 61.45703pt x 43.97359pt.
+<logo_minagri.png, id=26, 376.40625pt x 407.27156pt>
 File: logo_minagri.png Graphic file (type png)
 <use logo_minagri.png>
-Package pdftex.def Info: logo_minagri.png  used on input line 44.
+Package pdftex.def Info: logo_minagri.png  used on input line 45.
 (pdftex.def)             Requested size: 46.0916pt x 49.871pt.
-<logo_eu.jpg, id=15, 138.5175pt x 89.58469pt>
+<logo_eu.jpg, id=27, 138.5175pt x 89.58469pt>
 File: logo_eu.jpg Graphic file (type jpg)
 <use logo_eu.jpg>
-Package pdftex.def Info: logo_eu.jpg  used on input line 44.
+Package pdftex.def Info: logo_eu.jpg  used on input line 45.
 (pdftex.def)             Requested size: 61.45703pt x 39.74681pt.
 
-Overfull \vbox (13.79993pt too high) detected at line 44
+Overfull \vbox (13.79993pt too high) detected at line 45
  []
 
 [1
 
-{C:/Users/WB506744/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo_i
-2i.png> <./logo_minagri.png> <./logo_eu.jpg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+{C:/Users/WB506744/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./DIME.p
+ng> <./logo_minagri.png> <./logo_eu.jpg>]
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 47.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 47.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 47.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 47.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 46.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 47.
+ [2
 
-(C:\Users\WB506744\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1mathk
-erncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-) [2
-
-]
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 54.
-
-[3
+] [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 69.
-
-LaTeX Font Info:    No file OMScmss.fd. on input line 69.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 53.
 
 
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 69.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(stata_workshop_for_govt_officials_1.log.tex)
+
+LaTeX Font Warning: Font shape `OT1/lmss/bx/sc' undefined
+(Font)              using `OT1/lmss/bx/n' instead on input line 53.
 
 [4
 
-] [5
+]
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 65.
 
-] [6
+LaTeX Font Info:    No file OMSlmss.fd. on input line 65.
+
+
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 65.
+
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 65.
+
+[5
 
 ]
-\openout4 = `stata_workshop_for_govt_officials.vrb'.
+<helpfile_save_1.png, id=66, 982.42032pt x 210.7875pt>
+File: helpfile_save_1.png Graphic file (type png)
+<use helpfile_save_1.png>
+Package pdftex.def Info: helpfile_save_1.png  used on input line 79.
+(pdftex.def)             Requested size: 153.64493pt x 32.9644pt.
+<helpfile_save_2.png, id=67, 986.18437pt x 219.82124pt>
+File: helpfile_save_2.png Graphic file (type png)
+<use helpfile_save_2.png>
+Package pdftex.def Info: helpfile_save_2.png  used on input line 79.
+(pdftex.def)             Requested size: 153.64493pt x 34.24635pt.
+<helpfile_exportexcel_1.png, id=68, 860.46469pt x 207.77625pt>
+File: helpfile_exportexcel_1.png Graphic file (type png)
+<use helpfile_exportexcel_1.png>
+Package pdftex.def Info: helpfile_exportexcel_1.png  used on input line 79.
+(pdftex.def)             Requested size: 153.64493pt x 37.10008pt.
+<helpfile_exportexcel_2.png, id=69, 1001.24063pt x 513.41812pt>
+File: helpfile_exportexcel_2.png Graphic file (type png)
+<use helpfile_exportexcel_2.png>
+Package pdftex.def Info: helpfile_exportexcel_2.png  used on input line 79.
+(pdftex.def)             Requested size: 153.64493pt x 78.77989pt.
+ [6
 
- (stata_workshop_for_govt_officials.vrb
-(stata_workshop_for_govt_officials_1.log.tex
-Overfull \hbox (95.21565pt too wide) in paragraph at lines 3--3
- []\OT1/cmtt/m/n/8 . keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq1
-5 s5cq23 s5bq2 s5cq22 s5cq13 s[] 
+ <./helpfile_save_1.png> <./helpfile_save_2.png> <./helpfile_exportexcel_1.png>
+ <./helpfile_exportexcel_2.png>]
+(stata_workshop_for_govt_officials_2.log.tex)
+<error_save_existing.png, id=79, 492.33937pt x 58.71938pt>
+File: error_save_existing.png Graphic file (type png)
+<use error_save_existing.png>
+Package pdftex.def Info: error_save_existing.png  used on input line 96.
+(pdftex.def)             Requested size: 245.83282pt x 29.31927pt.
+ [7
+
+ <./error_save_existing.png>]
+(stata_workshop_for_govt_officials_2.log.tex)
+File: error_save_existing.png Graphic file (type png)
+<use error_save_existing.png>
+Package pdftex.def Info: error_save_existing.png  used on input line 96.
+(pdftex.def)             Requested size: 245.83282pt x 29.31927pt.
+ [8
+
+]
+(stata_workshop_for_govt_officials_2.log.tex)
+File: error_save_existing.png Graphic file (type png)
+<use error_save_existing.png>
+Package pdftex.def Info: error_save_existing.png  used on input line 96.
+(pdftex.def)             Requested size: 245.83282pt x 29.31927pt.
+ [9
+
+]
+(stata_workshop_for_govt_officials_3.log.tex)
+(stata_workshop_for_govt_officials_4.log.tex
+Overfull \hbox (69.71016pt too wide) in paragraph at lines 115--1
+ []\OT1/lmtt/m/n/8 export excel using "$data\cs_s0_s5_household_modified.xls", 
+replace firstrow(variabl 
  []
 
-)) [7
+) [10
 
-] [8
+] (stata_workshop_for_govt_officials_3.log.tex)
+(stata_workshop_for_govt_officials_4.log.tex
+Overfull \hbox (69.71016pt too wide) in paragraph at lines 115--1
+ []\OT1/lmtt/m/n/8 export excel using "$data\cs_s0_s5_household_modified.xls", 
+replace firstrow(variabl 
+ []
+
+) [11
+
+] (stata_workshop_for_govt_officials_3.log.tex)
+(stata_workshop_for_govt_officials_4.log.tex
+Overfull \hbox (69.71016pt too wide) in paragraph at lines 115--1
+ []\OT1/lmtt/m/n/8 export excel using "$data\cs_s0_s5_household_modified.xls", 
+replace firstrow(variabl 
+ []
+
+) [12
+
+] (stata_workshop_for_govt_officials_3.log.tex)
+(stata_workshop_for_govt_officials_4.log.tex
+Overfull \hbox (69.71016pt too wide) in paragraph at lines 115--1
+ []\OT1/lmtt/m/n/8 export excel using "$data\cs_s0_s5_household_modified.xls", 
+replace firstrow(variabl 
+ []
+
+) [13
+
+] [14
+
+] [15
+
+]
+Package epstopdf Info: Source file: <stata_workshop_for_govt_officials_4.eps>
+(epstopdf)                    date: 2018-07-30 18:16:31
+(epstopdf)                    size: 16711 bytes
+(epstopdf)             Output file: <stata_workshop_for_govt_officials_4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2018-07-30 18:11:50
+(epstopdf)                    size: 4498 bytes
+(epstopdf)             Command: <epstopdf --outfile=stata_workshop_for_govt_off
+icials_4-eps-converted-to.pdf stata_workshop_for_govt_officials_4.eps>
+(epstopdf)             \includegraphics on input line 132.
+runsystem(epstopdf --outfile=stata_workshop_for_govt_officials_4-eps-converted-
+to.pdf stata_workshop_for_govt_officials_4.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <stata_workshop_for_govt_officials_4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2018-07-30 18:16:34
+(epstopdf)                    size: 4498 bytes.
+<stata_workshop_for_govt_officials_4-eps-converted-to.pdf, id=130, 397.485pt x 
+289.08pt>
+File: stata_workshop_for_govt_officials_4-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use stata_workshop_for_govt_officials_4-eps-converted-to.pdf>
+Package pdftex.def Info: stata_workshop_for_govt_officials_4-eps-converted-to.p
+df  used on input line 132.
+(pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
+
+Overfull \vbox (2.62665pt too high) detected at line 132
+ []
+
+[16
+
+ <./stata_workshop_for_govt_officials_4-eps-converted-to.pdf>]
+<boxplot_1.png, id=140, 329.73187pt x 162.6075pt>
+File: boxplot_1.png Graphic file (type png)
+<use boxplot_1.png>
+Package pdftex.def Info: boxplot_1.png  used on input line 143.
+(pdftex.def)             Requested size: 143.64491pt x 70.84038pt.
+ [17
+
+ <./boxplot_1.png>]
+File: boxplot_1.png Graphic file (type png)
+<use boxplot_1.png>
+Package pdftex.def Info: boxplot_1.png  used on input line 143.
+(pdftex.def)             Requested size: 143.64491pt x 70.84038pt.
+ [18
+
+]
+File: boxplot_1.png Graphic file (type png)
+<use boxplot_1.png>
+Package pdftex.def Info: boxplot_1.png  used on input line 143.
+(pdftex.def)             Requested size: 143.64491pt x 70.84038pt.
+ [19
+
+]
+File: boxplot_1.png Graphic file (type png)
+<use boxplot_1.png>
+Package pdftex.def Info: boxplot_1.png  used on input line 143.
+(pdftex.def)             Requested size: 143.64491pt x 70.84038pt.
+ [20
+
+]
+Package epstopdf Info: Source file: <stata_workshop_for_govt_officials_4.eps>
+(epstopdf)                    date: 2018-07-30 18:16:31
+(epstopdf)                    size: 16711 bytes
+(epstopdf)             Output file: <stata_workshop_for_govt_officials_4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2018-07-30 18:16:34
+(epstopdf)                    size: 4498 bytes
+(epstopdf)             Command: <epstopdf --outfile=stata_workshop_for_govt_off
+icials_4-eps-converted-to.pdf stata_workshop_for_govt_officials_4.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+File: stata_workshop_for_govt_officials_4-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use stata_workshop_for_govt_officials_4-eps-converted-to.pdf>
+Package pdftex.def Info: stata_workshop_for_govt_officials_4-eps-converted-to.p
+df  used on input line 151.
+(pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
+ [21
+
+] [22
+
+] [23
+
+] [24
 
 ]
 \tf@nav=\write6
@@ -1309,45 +1537,41 @@ Overfull \hbox (95.21565pt too wide) in paragraph at lines 3--3
 \tf@snm=\write8
 \openout8 = `stata_workshop_for_govt_officials.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (stata_workshop_for_govt_officials.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
 
+(stata_workshop_for_govt_officials.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package rerunfilecheck Info: File `stata_workshop_for_govt_officials.out' has n
+ot changed.
+(rerunfilecheck)             Checksum: FD756C7226062DCBF8CFF4ABED0F1C16;166.
 
-Package rerunfilecheck Warning: File `stata_workshop_for_govt_officials.out' ha
-s changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `stata_workshop_for_govt_officials.o
-ut':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  84F4D85B28C692A6F12FE3251EE40A4A;135.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 30674 strings out of 493305
- 751390 string characters out of 3138865
- 963851 words of memory out of 3000000
- 33575 multiletter control sequences out of 15000+200000
- 11011 words of font info for 39 fonts, out of 3000000 for 9000
+ 30941 strings out of 493305
+ 757272 string characters out of 3138865
+ 965900 words of memory out of 3000000
+ 33748 multiletter control sequences out of 15000+200000
+ 49665 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,98p,1926b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmtt8.pfb>
-Output written on stata_workshop_for_govt_officials.pdf (8 pages, 452546 bytes)
-.
+c/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb>
+Output written on stata_workshop_for_govt_officials.pdf (24 pages, 862580 bytes
+).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

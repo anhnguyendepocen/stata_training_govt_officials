@@ -313,7 +313,22 @@
 		\end{center}
 	\end{frame}
 
-
+	\begin{frame}
+		\frametitle{\textsc{Exploring a new dataset}}
+		\begin{center}
+			\Large\textbf{Introduction}
+		\end{center}
+		\begin{itemize}
+			\item To successfully clean a data set you must first understand the data set
+			\item Some terminology:
+			\begin{itemize}
+				\item Columns are called variables
+				\item Rows are called observations
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+		
+		
 	\begin{frame}
 		\frametitle{\textsc{Exploring a new dataset}}
 		\begin{center}
@@ -459,11 +474,11 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Tis and resources}}
+		\frametitle{\textsc{Tips and resources}}
 		\begin{itemize}
 			\item Using help - Type \textit{help summarize} to get documentation on the summarize function
-			\item Using search- Type \textit{search regression} to get general documentation on running regressions in Stata
-			\item Google -Search what you want to do. There are many resources online (e.g. Statalist)
+			\item Using search - Type \textit{search regression} to get general documentation on running regressions in Stata
+			\item Google - Search what you want to do. There are many resources online (e.g. Statalist)
 			
 		\end{itemize}
 	\end{frame}
@@ -471,25 +486,340 @@
 \section{Section 2}
 
 	\begin{frame}
-		\frametitle{\textsc{Edit data in Stata}}
+		\frametitle{\textsc{The basics of Stata}}
 		\begin{center}
-			\textbf{How can we delete irrelevant variables?}
+			\textbf{Editing data in Stata}
 		\end{center}
 	\end{frame}
 
-	\begin{frame}[fragile]
-		\frametitle{\textsc{Edit data in Stata}}
+	\begin{frame}
+		\frametitle{\textsc{Editing data in Stata}}
 		\begin{center}
 		\Large\textbf{Delete variables}
 		\end{center}
 		\begin{itemize}
-		\item blah blah
+			\item You can delete variables using the commands \textit{drop} or \textit{keep}
+			\item Deleting variables is useful to
+			\begin{itemize}
+				\item Simplify a very complex data-set for you to work with	
+				\item Reduce computational time when dealing with large data-sets
+				\item Create temporary subsets of data for analytical purposes, like creating a table or graph
+			\end{itemize}
+			\item WARNING: be careful not save the new data on top of the original
 		\end{itemize}
-
-\begin{stlog}\input{stata_workshop_for_govt_officials_3.log.tex}\end{stlog}
 	\end{frame}
 
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}
+			\Large\textbf{Task 3}
+		\end{center}
+		\begin{itemize}
+			\item Open the \textbf{cs\_s0\_s5\_household.dta} data set
+		\end{itemize}
+	
+\begin{stlog}\input{stata_workshop_for_govt_officials_3.log.tex}\end{stlog}
+		\begin{itemize}
+			\item Keep the variables we will use in this excerise by typing
+		\end{itemize}
+	
+\begin{stlog}\input{stata_workshop_for_govt_officials_4.log.tex}\end{stlog}
+		\begin{itemize}
+			\item Now let’s say we kept a few variables that we didn’t actually needed.To drop them, type
+		\end{itemize}
+	
+\begin{stlog}\input{stata_workshop_for_govt_officials_5.log.tex}\end{stlog}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Editing data in Stata}}
+		\begin{center}
+			\Large\textbf{Renaming variables}
+		\end{center}
+		\begin{itemize}
+			\item You can use the command \textit{rename} to change the names of your variables
+			\item Renaming is useful as
+			\begin{itemize}
+				\item Can make your life easier when programming. Especially when the original variable names don’t make much sense
+				\item It helps you remember what the variable means when a meaningful name is chosen
+				\item Picking a short variable name reduces time when typing it
+				
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+			
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}
+			\Large\textbf{Task 4}
+		\end{center}
+		\begin{itemize} 
+			\item Rename all the remaining variables. Type the code bellow, one line at a time
+		\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_6.log.tex}\end{stlog}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Editing data in Stata}}
+		\begin{center}
+			\Large\textbf{Generating variables}
+		\end{center}
+		\begin{itemize}
+			\item You can use the command \textit{\underline{gen}erate} to create new variables		
+			\item Generating variables can be useful to
+			\begin{itemize}
+				\item Change the values of a variable to a different measurement unit
+				\item Create a dummy variable identifying if how many observations have a given characteristic
+			\end{itemize}
+		\end{itemize}		
+	\end{frame}		
+	
+	
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}
+			\Large\textbf{Task 5}
+		\end{center}
+		\begin{itemize} 
+			\item Let us create a variable that converts the number of meters to the main water source to centimeters. Type:
+		\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_7.log.tex}\end{stlog}
+		\begin{itemize}
+			\item Now get descriptives for the new variable using \textit{summarize}
+		\end{itemize}
+	\end{frame}
+	
+	
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}
+			\Large\textbf{Task 5}
+		\end{center}
+		\begin{itemize} 
+			\item Let us create a dummy variable (that assumes values 0 or 1) to see if the main water source is the same as the used water source. 
+			\item First create a variable that equals zero
+		\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_8.log.tex}\end{stlog}
+		\begin{itemize}
+			\item Now let’s replace that with 1 when it satisfies the condition that the two variables are equal. Type:
+		\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_9.log.tex}\end{stlog}
+		\begin{itemize}
+			\item Finally, tabulate the data using the function \textit{tabulate}
+		\end{itemize}		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Editing data in Stata}}
+		\begin{center}
+			\Large\textbf{Labeling variables and values}
+		\end{center}
+		\begin{itemize}	
+			\item Labeling variables helps understand the variable 
+			\item Value labels indicate what each category of a categorical variable stands for
+			\item Labeling variables and values is essential for easier understanding in the future by you and others
+		\end{itemize}
+	\end{frame}
+		
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}	
+			\Large\textbf{Task 6}
+		\end{center}
+		\begin{itemize}
+			\item Let us create a label for the two variables we created in Task 5
+		\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_10.log.tex}\end{stlog}
+	
+		\begin{itemize}
+			\item Check the variable window to see the label!
+		\end{itemize}		
+	\end{frame}	
+	
 
-	\section{Section 3}
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}	
+			\Large\textbf{Task 6}
+		\end{center}
+		\begin{itemize}
+			\item We can also create labels for values with the functions \textit{label define} and \textit{label values}. Type:
+		\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_11.log.tex}\end{stlog}
+	
+		\begin{itemize}
+			\item You can see the labels if you tabulate the labeled variable or browse the data
+			\item This is very useful for binary or categorical variables when visualizing the data
+		\end{itemize}		
+	\end{frame}		
+	
+	
+	\begin{frame}
+		\frametitle{\textsc{The basics of Stata}}
+		\begin{center}
+			\textbf{How to share your work with your team}
+		\end{center}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{Sharing work with a team}}
+		\begin{center}
+			\textbf{You are asked to share your work}
+		\end{center}
+		\begin{itemize}
+			\item How would you share the work you have done so far?
+			\item Send only the data set? That would be like Excel and only shares the latest version of the data
+			\item Nowadays there's a greater demand than to share more than the latest version of the data. We need to show what we did
+			\item This is where .do files come into the picture
+
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Sharing work with a team}}
+		\begin{center}
+			\textbf{Do-files}
+		\end{center}
+		\begin{itemize}
+			\item Open up a new do-file. Window $\rightarrow$ Do-file Editor $\rightarrow$ New Do-file Editor
+			\item Alternatively click the shortcut highlighted below:
+		\end{itemize}
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.9\linewidth]{dofile}
+		\end{figure}
+		\begin{itemize}
+			\item A do-file works similarly to the command window. But instead of running one line of code at the time, a do-file lets you do that run any number of lines of code
+
+			\item Running the code in your do-file using menus: Tools $\rightarrow$ Execute (Do) 
+			\item Alternatively, select Ctrl+R (Windows) on your keyboard
+			\item Alternatively, click the shortcut highlighted below
+
+		\end{itemize}
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.9\linewidth]{run}
+		\end{figure}		
+
+	\end{frame}
+		
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}	
+			\Large\textbf{Task 7}
+		\end{center}
+		\begin{itemize}
+			\item Open a new do-file. Save it! 
+			\item Type the following in your do file
+			\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_12.log.tex}\end{stlog}
+		\begin{itemize}
+			\item Next, use the review window to copy to your do-file all the actions you already did:
+			\begin{itemize}
+				\item Now run the do-file
+				\item Load the dataset 
+				\item Keep only the variables that you need
+				\item Drop the ones you forgot
+				\item Rename all the variables
+				\item Create the cm to the main water source variable
+				\item Create the dummy if main water source is the same as the used water source
+				\item Label the variables and values
+			\end{itemize}
+		\end{itemize}	
+	\end{frame}
+	
+	
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}	
+			\Large\textbf{Task 7}
+		\end{center}	
+		\begin{itemize}
+			\item Now let’s edit the do-file!
+			\item We just realized that the number of centimeters to the main water source doesn’t make much sense. Let’s edit it to the number of kilometers.  Replace the code:
+			\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_13.log.tex}\end{stlog}
+	to
+\begin{stlog}\input{stata_workshop_for_govt_officials_14.log.tex}\end{stlog}
+	Also, remember to edit the label before you run the do-file!
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Sharing work with a team}}
+		\begin{center}	
+			\Large\textbf{Comments}
+		\end{center}	
+		\begin{itemize}	
+			\item Comments is the green text you have seen in the code examples
+			\item Comments is text that Stata will ignore when running your code
+			\item Comments is what makes the difference between instructions that are easy to follow or impossible to understand
+			\item You can also use comments to omit certain parts of your do-file that you don’t want to run anymore, but don’t want to erase
+			\begin{itemize}
+				\item Maybe you might need it in the future! Just be careful, keeping lots of old code in your do-file might make it messy and hard to understand.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Sharing work with a team}}
+		\begin{center}	
+			\Large\textbf{Different types of comments}
+		\end{center}	
+		\begin{enumerate}	
+			\item \textit{/* comment */} 
+			\begin{itemize}
+				\item Used for long comments or to explain many lines of code in the following section
+			\end{itemize}
+			\item \textit{* comment} 
+			\begin{itemize}
+				\item Used to explain what happens on the following few rows
+			\end{itemize}
+			\item \textit{ // comment} 
+			\begin{itemize}
+				\item Used to explain the same line of code
+			\end{itemize}
+		\end{enumerate}
+	\end{frame}
+	
+	
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}	
+			\Large\textbf{Task 8}
+		\end{center}	
+		\begin{itemize}	
+			\item Now that you know about comments, add them to your do-file! 
+			\item First, add a title and a brief explanation of what your do-file does (e.g. “Stata training do-file – Uses EICV4 data to practice Stata, limiting the variables to water usage”)
+			\item Now, add a heading to every main section of your do-file (e.g. load data, keep the variables I’ll use, create new variables, etc.)
+			\item Finally, we realized that we actually don’t need the \textit{km\_main\_ws}  variable now, but don’t want to erase the code because we might want to use it in the future. Comment out that variable's creation.
+			\item Run everything!
+		\end{itemize}
+
+	\end{frame}
+	
+		
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}	
+			\Large\textbf{Task 8}
+		\end{center}	
+		\begin{itemize}	
+			\item Did it work? 
+
+			\item If you comment out the variable creation and not the labeling, you probably got an error like this:
+		\end{itemize}
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.9\linewidth]{error}
+		\end{figure}
+		\begin{itemize}
+			\item To avoid this, comment out the labeling of the \textit{km\_main\_ws} variable as well. 
+		\end{itemize}
+
+	\end{frame}
+		
+	
+	
+\section{Section 3}
 
 	\end{document}

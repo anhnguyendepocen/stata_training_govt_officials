@@ -74,7 +74,7 @@
 
 
 		\begin{frame}
-			\frametitle{\textsc{The main reasons to use Stata}}
+			\frametitle{\textsc{Why learn stata?}}
 			\begin{center}
 				\Large\textbf{The main reasons to use Stata}
 			\end{center}
@@ -102,7 +102,7 @@
 		\end{frame}	
 
 		\begin{frame}
-			\frametitle{\textsc{What's the fuss about do-files?}}
+			\frametitle{\textsc{Why learn stata?}}
 			\begin{center}
 				\Large\textbf{What's the fuss about do-files?}
 			\end{center}
@@ -113,19 +113,82 @@
 				
 				\end{itemize}
 			\end{frame}
+		
+	\begin{frame}
+		\frametitle{\textsc{The basics of Stata}}
+		\begin{center}
+			\textbf{Stata interface}
+		\end{center}
+	\end{frame}
+		
+		
+	\begin{frame}
+		\frametitle{\textsc{The Stata interface}}
+		
+		\begin{figure}[H] 
+		\centering
+		\includegraphics[width=0.9\linewidth]{stata_interface}
+		\end{figure}
+	\end{frame}
 
+	\begin{frame}
+
+		\frametitle{\textsc{The Stata interface}}
+			\begin{center}
+				\textbf{The review window} 
+			\end{center}
+		\begin{itemize}
+			\item  Provides a history of your actions
+			\item  A convenient way to bring back your previous commands and modify it to do something new
+			\item Double click on a command you want to use again and it will appear in your command window
+			\begin{itemize}
+				\item You can also click in command window and select the commands in the result window by using \textit{PageUp/PageDown} buttons (or \textit{fn+ArrowUp/ fn+ArrowDown} on Mac)
+			\end{itemize}
+			\item If a command is \textcolor{red}{red} in the review window, it means it did not finish because an error
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{The Stata interface}}
+		\begin{center}
+			\textbf{Filtering in variable and review windows} 
+		\end{center}
+	\begin{minipage}{0.45\linewidth}
+		\begin{itemize}
+			\item  Both the variable and the review window will soon be very crowded. You can then search both of them for commands/variables
+			
+			\item  If you do not see the search bar, click the little funnel symbol
+			
+			
+		\end{itemize}
+	\end{minipage}
+ 	\hfill
+	\begin{minipage}{0.45\linewidth}
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.75\linewidth]{review_window}
+		\end{figure}
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.75\linewidth]{variable_window}
+		\end{figure}
+	\end{minipage}
+	\end{frame}
+
+
+ 
 		\begin{frame}
 
-			\frametitle{\textsc{How to open up a data set in Stata?}}
+			\frametitle{\textsc{The basics of Stata}}
 			\begin{center}
-				\textbf{How to open up a data set in Stata?} 
+				\textbf{How to open a data set in Stata} 
 			\end{center}
 
 		\end{frame}
 
 
 		\begin{frame}
-			\frametitle{\textsc{Three ways to tell Stata what to do}}
+			\frametitle{\textsc{Opening datasets}}
 			\begin{center}
 				\Large\textbf{Three ways to tell Stata what to do}
 			\end{center}
@@ -157,25 +220,25 @@
 
 
 		\begin{frame}
-			\frametitle{\textsc{Open a dataset - menus}}
+			\frametitle{\textsc{Opening datasets}}
 			\begin{center}
 				\Large\textbf{Open a dataset - menus}
 			\end{center}
-			% \begin{figure}[H] 
-			%	\centering
-			%	\includegraphics[width=0.9\linewidth]{../open_dataset_menu}
-		%	\end{figure}
+			 \begin{figure}[H] 
+				\centering
+				\includegraphics[width=0.9\linewidth]{open_dataset_menu}
+			\end{figure}
 		\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Open a dataset – command windows}}
+		\frametitle{\textsc{Opening datasets}}
 		\begin{center}
-			\Large\textbf{Open a dataset – command window}
+			\Large\textbf{Open a dataset - command window}
 		\end{center}
-		% \begin{figure}[H] 
-		%	\centering
-		%	\includegraphics[width=0.9\linewidth]{../open_dataset_command}
-		%	\end{figure}
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.9\linewidth]{open_dataset_command}
+		\end{figure}
 		\begin{itemize}
 			\item When you use the menus, Stata produces the code for that action (except for Data Browse)
 			\begin{itemize}
@@ -188,7 +251,7 @@
 
 
 	\begin{frame}
-		\frametitle{\textsc{Task 1}}
+		\frametitle{\textsc{Tasks}}
 		\begin{center}
 			\Large\textbf{Task 1}
 		\end{center}
@@ -204,7 +267,7 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Task 1}}
+		\frametitle{\textsc{Tasks}}
 		\begin{center}
 			\Large\textbf{Task 1}
 		\end{center}
@@ -216,16 +279,16 @@
 			\end{itemize}
 		\end{itemize}
 
-		% \begin{figure}[H] 
-			%	\centering
-			%	\includegraphics[width=0.9\linewidth]{../task1}
-		%	\end{figure}
+		 \begin{figure}[H] 
+				\centering
+				\includegraphics[width=0.9\linewidth]{task1}
+		\end{figure}
 	\end{frame}
 
 
 
 	\begin{frame}
-		\frametitle{\textsc{Task 1}}
+		\frametitle{\textsc{Tasks}}
 		\begin{center}
 			\Large\textbf{Task 1}
 		\end{center}
@@ -242,44 +305,168 @@
 
 
 
+
 	\begin{frame}
-		\frametitle{\textsc{An introduction to Stata:Stata interface}}
+		\frametitle{\textsc{The basics of stata}}
 		\begin{center}
-			\textbf{An introduction to Stata} \\
-			Stata interface
+			\Large\textbf{Exploring a data set opened for the first time}
 		\end{center}
 	\end{frame}
 
+
 	\begin{frame}
-\frametitle{\textsc{}}
-\begin{center}
-	\Large\textbf{}
-\end{center}
-\begin{itemize}
-	\item
-\end{itemize}
-\end{frame}
+		\frametitle{\textsc{Exploring a new dataset}}
+		\begin{center}
+			\Large\textbf{The EICV data}
+		\end{center}
+		\begin{itemize}
+			\item For our exercises we will explore part of EICV 4 data
+			\item The data is a household survey collected between 2013 and 2014 by NISR
+			\item It is a cross-section of more than 14 thousand Rwandese households both in rural and urban areas
+			\item Close to 2 thousand of these households form a panel have been also interviewed in EICV 3		
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{Exploring a new dataset}}
+		\begin{center}
+			\Large\textbf{Types of variables}
+		\end{center}
+		\begin{itemize}
+			\item 	In Stata, each variable (column) has to be either:
+			\begin{itemize}
+				\item string (text) – values are red when browsing
+				\item numeric (number) – values are black or blue when browsing
+			\end{itemize}
+			\item Numbers \textbf{can} be stored as text, but text \textbf{cannot} be stored as number
+			\begin{itemize}
+				\item Not possible to do computations on numbers stored as text 		
+			\end{itemize}
+			\item Categorical variables should be stored as numeric variables and have labels
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{Exploring a new dataset}}
+		\begin{center}
+			\Large\textbf{How the data looks}
+		\end{center}	
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.9\linewidth]{dataset1}
+		\end{figure}
+	\end{frame}
+	\begin{frame}
+		\frametitle{\textsc{Exploring a new dataset}}
+		\begin{center}
+			\Large\textbf{How the data actually is}
+		\end{center}	
+		\begin{figure}[H] 
+			\centering
+			\includegraphics[width=0.9\linewidth]{dataset2}
+	\end{figure}	
+	\end{frame}
 
 
 	\begin{frame}
-\frametitle{\textsc{}}
-\begin{center}
-	\Large\textbf{}
-\end{center}
-\begin{itemize}
-	\item
-\end{itemize}
-\end{frame}
+		\frametitle{\textsc{Exploring a new dataset}}
+		\begin{center}
+			\Large\textbf{Useful commands}
+		\end{center}
+		\begin{itemize}
+			\item 	\textit{\underline{br}owse}: see all data in spreadsheet format
+			\item \textit{\underline{d}escribe}: list of all variables in memory
+			\begin{itemize}
+				\item Total number of variables \& observations (size of matrix)
+				\item Variable name, type, format, value label name, variable label
+			\end{itemize}
+			\item \textit{\underline{su}mmarize}: Basic statistics for numeric variables
+			\begin{itemize}
+				\item Obs (Number of observations), Mean, Std. Dev. (Standard deviation), Min (Minimum), Max (Maximum)
+			\end{itemize}
+			\item \textit{\underline{tab}ulate}: frequencies
+			
+		\end{itemize}
+	\end{frame}
 
 	\begin{frame}
-\frametitle{\textsc{}}
-\begin{center}
-	\Large\textbf{}
-\end{center}
-\begin{itemize}
-	\item
-\end{itemize}
-\end{frame}
+		\frametitle{\textsc{Exploring a new dataset}}
+		\begin{center}
+			\Large\textbf{More commands}
+		\end{center}
+		\begin{itemize}
+			\item 	\textit{codebook}: displays the following for each variable
+		
+			\begin{itemize}
+				\item Type (more detail than describe)
+				\item Number of unique values and number of missing values
+				\item Range and units
+				\item Examples of values (strings); tabulations (categorical); or mean, sd and percentiles (continuous)
+				\item Warnings if embedded blanks (may or may not be ok)
+			\end{itemize}
+			\item \textit{labelbook}: displays the following for each stored value label
+			\begin{itemize}
+				\item Label definitions
+				\item Which variables labels are applied to
+			\end{itemize}
+			\item \textit{\underline{l}ist}: lists all variables and observations
+			\begin{itemize}
+				\item Can qualify: \textit{“list if price \textless 5000”, “list in 1/10”}
+			\end{itemize}
+			\item \textit{\underline{su}mmarize, \underline{d}etail} : percentiles, variance, skewness, kurtosis
+			
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}
+			\Large\textbf{Task 2}
+		\end{center}
+		\begin{enumerate}
+			\item Open the \textbf{cs\_s0\_s5\_household.dta} again. Use the command prompt this time.
+			\item Explore the dataset
+			\begin{itemize}
+				\item browse - see the different colors in the columns
+				\item describe - check the storage type column
+				\item summarize - are there any statistics that might not make sense to interpret?
+			\end{itemize}
+			\item Learn more about the variable \textit{‘s5bq3a’}, the household estimated rent amount. What values does it take on? What is minimum, maximum, mean of this variable? How many unique values does it have?
+		\end{enumerate}
+		
+\begin{stlog}\input{stata_workshop_for_govt_officials_1.log.tex}\end{stlog}
+		\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{Tasks}}
+		\begin{center}
+			\Large\textbf{Task 2}
+		\end{center}
+		\begin{itemize}
+			\item Learn more about the variable \textit{ur2012}, to learn about the proportion of urban and rural households in Rwanda
+		\begin{itemize}
+				\item
+			
+\begin{stlog}\input{stata_workshop_for_govt_officials_2.log.tex}\end{stlog}
+				\item Create now a pie chart: Graphics $\rightarrow$ Pie chart, select \textit{ur2012} as Category variable and press OK
+			\end{itemize}
+		\item Now, create a pie-chart graph for the variable \textit{s5cq7}, the type drinking water source used. This time, use the command prompt!
+			\begin{itemize}
+				\item Use the code printed by the previous graph and replace the name of the variable
+			\end{itemize}
+
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{Tis and resources}}
+		\begin{itemize}
+			\item Using help - Type \textit{help summarize} to get documentation on the summarize function
+			\item Using search- Type \textit{search regression} to get general documentation on running regressions in Stata
+			\item Google -Search what you want to do. There are many resources online (e.g. Statalist)
+			
+		\end{itemize}
+	\end{frame}
 		
 \section{Section 2}
 
@@ -298,9 +485,8 @@
 		\begin{itemize}
 		\item blah blah
 		\end{itemize}
-		\begin{stlog}\input{stata_workshop_for_govt_officials_1.log.tex}\end{stlog}
 
-\begin{stlog}\input{stata_workshop_for_govt_officials_1.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_3.log.tex}\end{stlog}
 	\end{frame}
 
 

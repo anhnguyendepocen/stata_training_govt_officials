@@ -5,6 +5,5 @@
 		\begin{itemize}
 		\item blah blah
 		\end{itemize}
-		\begin{stlog}\input{stata_workshop_for_govt_officials_1.log.tex}\end{stlog}
 
-\begin{stlog}\input{stata_workshop_for_govt_officials_1.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_3.log.tex}\end{stlog}

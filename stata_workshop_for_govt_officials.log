@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.15)  30 JUL 2018 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.15)  30 JUL 2018 17:29
 entering extended mode
-**C:/Users/WB528092/Documents/GitHub/stata_training_govt_officials/stata_worksh
-op_for_govt_officials.tex
-
-(C:/Users/WB528092/Documents/GitHub/stata_training_govt_officials/stata_worksho
-p_for_govt_officials.tex
+**./stata_workshop_for_govt_officials.tex
+(stata_workshop_for_govt_officials.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 (C:\Users\WB528092\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamer.cls
@@ -1300,46 +1297,149 @@ Missing character: There is no ô in font cmss10!
 
 ] [7
 
-] [8
+]
+<stata_interface.png, id=74, 1106.63437pt x 767.86874pt>
+File: stata_interface.png Graphic file (type png)
+<use stata_interface.png>
+Package pdftex.def Info: stata_interface.png  used on input line 132.
+(pdftex.def)             Requested size: 276.559pt x 191.89641pt.
+ [8
 
-] [9
+ <./stata_interface.png>] [9
 
 ]
-Missing character: There is no ‚ in font cmssbx10!
-Missing character: There is no Ä in font cmssbx10!
-Missing character: There is no ì in font cmssbx10!
-Missing character: There is no ‚ in font cmssbx10!
-Missing character: There is no Ä in font cmssbx10!
-Missing character: There is no ì in font cmssbx10!
+<review_window.png, id=87, 372.64218pt x 264.23718pt>
+File: review_window.png Graphic file (type png)
+<use review_window.png>
+Package pdftex.def Info: review_window.png  used on input line 176.
+(pdftex.def)             Requested size: 103.70961pt x 73.53836pt.
+<variable_window.png, id=88, 371.88937pt x 316.93407pt>
+File: variable_window.png Graphic file (type png)
+<use variable_window.png>
+Package pdftex.def Info: variable_window.png  used on input line 176.
+(pdftex.def)             Requested size: 103.70961pt x 88.38306pt.
  [10
 
-] [11
+ <./review_window.png> <./variable_window.png>] [11
 
 ] [12
 
-] [13
+]
+<open_dataset_menu.png, id=106, 1066.7353pt x 542.025pt>
+File: open_dataset_menu.png Graphic file (type png)
+<use open_dataset_menu.png>
+Package pdftex.def Info: open_dataset_menu.png  used on input line 231.
+(pdftex.def)             Requested size: 276.559pt x 140.51791pt.
+ [13
 
-] [14
+ <./open_dataset_menu.png>]
+<open_dataset_command.png, id=114, 767.11594pt x 261.97874pt>
+File: open_dataset_command.png Graphic file (type png)
+<use open_dataset_command.png>
+Package pdftex.def Info: open_dataset_command.png  used on input line 250.
+(pdftex.def)             Requested size: 276.559pt x 94.44818pt.
+ [14
 
-] [15
+ <./open_dataset_command.png>] [15
 
-] [16
+]
+<task1.png, id=127, 780.66656pt x 325.96782pt>
+File: task1.png Graphic file (type png)
+<use task1.png>
+Package pdftex.def Info: task1.png  used on input line 286.
+(pdftex.def)             Requested size: 276.559pt x 115.47815pt.
 
-] [17
+Overfull \vbox (4.76367pt too high) detected at line 286
+ []
+
+[16
+
+ <./task1.png>] [17
 
 ] [18
 
 ] [19
 
 ]
+Missing character: There is no ‚ in font cmss9!
+Missing character: There is no Ä in font cmss9!
+Missing character: There is no ì in font cmss9!
+Missing character: There is no ‚ in font cmss9!
+Missing character: There is no Ä in font cmss9!
+Missing character: There is no ì in font cmss9!
+ [20
+
+]
+<dataset1.png, id=155, 1018.55531pt x 491.58656pt>
+File: dataset1.png Graphic file (type png)
+<use dataset1.png>
+Package pdftex.def Info: dataset1.png  used on input line 358.
+(pdftex.def)             Requested size: 276.559pt x 133.47273pt.
+ [21
+
+ <./dataset1.png>]
+<dataset2.png, id=162, 1018.55531pt x 491.58656pt>
+File: dataset2.png Graphic file (type png)
+<use dataset2.png>
+Package pdftex.def Info: dataset2.png  used on input line 368.
+(pdftex.def)             Requested size: 276.559pt x 133.47273pt.
+ [22
+
+ <./dataset2.png>] [23
+
+]
+Missing character: There is no ‚ in font cmssi9!
+Missing character: There is no Ä in font cmssi9!
+Missing character: There is no ú in font cmssi9!
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 419
+.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 419.
+
+
+LaTeX Font Warning: Font shape `OML/cmss/m/it' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 419.
+
+Missing character: There is no ‚ in font cmssi9!
+Missing character: There is no Ä in font cmssi9!
+Missing character: There is no ù in font cmssi9!
+Missing character: There is no ‚ in font cmssi9!
+Missing character: There is no Ä in font cmssi9!
+Missing character: There is no ú in font cmssi9!
+Missing character: There is no ‚ in font cmssi9!
+Missing character: There is no Ä in font cmssi9!
+Missing character: There is no ù in font cmssi9!
+[24
+
+]
+Missing character: There is no ‚ in font cmssi10!
+Missing character: There is no Ä in font cmssi10!
+Missing character: There is no ò in font cmssi10!
+Missing character: There is no ‚ in font cmssi10!
+Missing character: There is no Ä in font cmssi10!
+Missing character: There is no ô in font cmssi10!
+ (stata_workshop_for_govt_officials_1.log.tex)
+Overfull \vbox (7.71259pt too high) detected at line 438
+ []
+
+[25
+
+] (stata_workshop_for_govt_officials_2.log.tex) [26
+
+] [27
+
+] [28
+
+] [29
+
+]
 \openout4 = `stata_workshop_for_govt_officials.vrb'.
 
 
 (stata_workshop_for_govt_officials.vrb
-(stata_workshop_for_govt_officials_1.log.tex)
-(stata_workshop_for_govt_officials_1.log.tex)) [20
+(stata_workshop_for_govt_officials_3.log.tex)) [30
 
-] [21
+] [31
 
 ]
 \tf@nav=\write6
@@ -1351,12 +1451,12 @@ Missing character: There is no ì in font cmssbx10!
 \tf@snm=\write8
 \openout8 = `stata_workshop_for_govt_officials.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
 
 (stata_workshop_for_govt_officials.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
 Package rerunfilecheck Info: File `stata_workshop_for_govt_officials.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: 84F4D85B28C692A6F12FE3251EE40A4A;135.
@@ -1366,26 +1466,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 30819 strings out of 493305
- 754178 string characters out of 3138865
- 965851 words of memory out of 3000000
- 33682 multiletter control sequences out of 15000+200000
- 11622 words of font info for 41 fonts, out of 3000000 for 9000
+ 30929 strings out of 493305
+ 755718 string characters out of 3138865
+ 968851 words of memory out of 3000000
+ 33754 multiletter control sequences out of 15000+200000
+ 15322 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,98p,1926b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-tt8.pfb>
-Output written on stata_workshop_for_govt_officials.pdf (21 pages, 493888 bytes
-).
+ 71i,13n,98p,1863b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmssi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on stata_workshop_for_govt_officials.pdf (31 pages, 1362762 byte
+s).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

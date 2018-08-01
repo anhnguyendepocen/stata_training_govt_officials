@@ -1,4 +1,5 @@
-local numberA 3
-local numberB 5
-local result = (`numberA' * `numberB') - `numberA'
-display "The result is `result'."
+graph combine ///
+        "$script/box_better.gph" ///
+        "$script/histogram_better.gph" ///      
+        "$script/scatter_better.gph", ///
+        title("Statistics on the Distance to Drinking Water Sources")

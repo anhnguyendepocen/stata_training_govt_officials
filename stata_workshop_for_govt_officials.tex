@@ -184,19 +184,16 @@
 		\begin{columns}
 			\column{0.4\linewidth}
 			\textbf{[graph \textit{graphtype}]} \\
-			\small graphs which plot one or more variables on one axis \\ \vspace{3mm}
+			\small graphs which plot one or more variables on one axis \\ \vspace{2mm}
 			\textbf{[twoway \textit{graphtype}]} \\
-			\small graphs which plot two variables together on an x and y axis \\  \vspace{3mm}
+			\small graphs which plot two variables together on an x and y axis \\  \vspace{2mm}
+			\small \textbf{\textit{twoway\_options}} is a set of optional commands that can be
+					applied to all twoway graphs. \\
 			\textbf{[histogram], [kdensity], [lowess]} \\
 			\small Essential distributional commands
 			\column{0.6\linewidth}
 			\includegraphics[height=6cm, width=7cm]{stata_builtin_graph_functions}
 		\end{columns}
-	\end{frame}
-
-	\begin{frame}
-	\frametitle{\textsc{Oneway vs Twoway}}
-		super quick explanation about what they mean and twoway\_options
 	\end{frame}
 	
 	\begin{frame}
@@ -407,10 +404,22 @@
 \end{center}
 		\begin{itemize}
 			\onslide<2-> \item Why look so ugly?
-			\onslide<3-> \item Luckily, there are ways to make this nice like this.
+			\onslide<3-> \item Luckily, there are ways to make this nice like this.			
 		\end{itemize}
-			Add the clean version of this and tell that the code is in the solution do file. 
 	\end{frame}
+				
+	\begin{frame}
+	\frametitle{\textsc{Combining Stata graphs}}
+		There are many ways to make it look better like the following. \\
+		The solution do file will contain the commands to make the below graph. \\
+		Change it around and have fun with it! \\
+		Remember help files are your best friend.
+	
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{combined_better.pdf}
+\end{center}
+	\end{frame}
+
 				
 	\section{Extra section: More about Stata}
 	
@@ -449,11 +458,11 @@
 		Type in your dofile the following and \textit{run all the lines at once}.
 		\begin{itemize}
 			\item Note that \textbf{`} is not the same as \textbf{'}.
-\begin{stlog}\input{stata_workshop_for_govt_officials_21.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_22.log.tex}\end{stlog}
 		\vspace{2mm}
 		\onslide<2-> \item What did the result say?
 		\onslide<3-> 
-\begin{stlog}\input{stata_workshop_for_govt_officials_22.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_23.log.tex}\end{stlog}
 			\onslide<4-> \item Try running them one by one, and see what happens?
 				\begin{itemize}
 					\onslide<5-> \item It probably didn't run. 
@@ -522,10 +531,10 @@
 		Here are some examples.
 		\begin{itemize}
 			\item This is the very basic command.
-\begin{stlog}\input{stata_workshop_for_govt_officials_23.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_24.log.tex}\end{stlog}
 			\vspace{2mm}
 			\item You can add multiple variable at a time.
-\begin{stlog}\input{stata_workshop_for_govt_officials_24.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_25.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
 		
@@ -535,7 +544,7 @@
 		\begin{itemize}
 			\vspace{2mm}
 			\item You choose what types of statistics you want it to display.
-\begin{stlog}\input{stata_workshop_for_govt_officials_25.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_26.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
 	

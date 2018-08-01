@@ -215,19 +215,16 @@
 		\begin{columns}
 			\column{0.4\linewidth}
 			\textbf{[graph \textit{graphtype}]} \\
-			\small graphs which plot one or more variables on one axis \\ \vspace{3mm}
+			\small graphs which plot one or more variables on one axis \\ \vspace{2mm}
 			\textbf{[twoway \textit{graphtype}]} \\
-			\small graphs which plot two variables together on an x and y axis \\  \vspace{3mm}
+			\small graphs which plot two variables together on an x and y axis \\  \vspace{2mm}
+			\small \textbf{\textit{twoway\_options}} is a set of optional commands that can be
+					applied to all twoway graphs. \\
 			\textbf{[histogram], [kdensity], [lowess]} \\
 			\small Essential distributional commands
 			\column{0.6\linewidth}
 			\includegraphics[height=6cm, width=7cm]{stata_builtin_graph_functions}
 		\end{columns}
-	\end{frame}
-
-	\begin{frame}
-	\frametitle{\textsc{Oneway vs Twoway}}
-		super quick explanation about what they mean and twoway\_options
 	\end{frame}
 	
 	\begin{frame}
@@ -509,10 +506,49 @@
 		/***
 		\begin{itemize}
 			\onslide<2-> \item Why look so ugly?
-			\onslide<3-> \item Luckily, there are ways to make this nice like this.
+			\onslide<3-> \item Luckily, there are ways to make this nice like this.			
 		\end{itemize}
-			Add the clean version of this and tell that the code is in the solution do file. 
 	\end{frame}
+				
+	\begin{frame}
+	\frametitle{\textsc{Combining Stata graphs}}
+		There are many ways to make it look better like the following. \\
+		The solution do file will contain the commands to make the below graph. \\
+		Change it around and have fun with it! \\
+		Remember help files are your best friend.
+		***/
+			graph box m_drink_ws, over(urban_2012) ///
+				title("Distribution by residential area", size(small)) ///
+				ylabel(, angle(0) labsize(small)) 
+			graph save "$script/box_better.gph", replace
+			
+			histogram m_drink_ws, ///
+				title("Distribution of the Distance to Drinking Water (metres)", size(small)) ///
+				ylabel(, angle(0) labsize(small)) ///
+				xlabel(, labsize(small))
+			graph save "$script/histogram_better.gph", replace
+
+			scatter m_used_ws m_drink_ws  || ///
+			lfit m_drink_ws m_used_ws, ///
+				ylabel(, angle(0) labsize(small)) legend(off) ///
+				xlabel(, labsize(small)) ///
+				ytitle("Distance to the nearest drinking water source", size(small)) ///
+				xtitle("Distance to the main drinking source used", size(small)) ///
+				title("Is the main drinking water source also the closest one?", size(small))
+			graph save "$script/scatter_better.gph", replace		
+
+			
+			texdoc stlog, nolog			
+			graph combine ///
+				"$script/box_better.gph" ///
+				"$script/histogram_better.gph" ///	
+				"$script/scatter_better.gph", ///
+				title("Statistics on the Distance to Drinking Water Sources")
+			texdoc stlog close
+			texdoc graph combined_better, optargs(width=0.5\textwidth) 	
+		/***
+	\end{frame}
+
 				
 	\section{Extra section: More about Stata}
 	

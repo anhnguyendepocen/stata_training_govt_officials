@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Section 1}{2}{0}{1}
 \beamer@sectionintoc {2}{Section 2}{29}{0}{2}
-\beamer@sectionintoc {3}{Section 3: \\ Introduction to Stata Graphics}{61}{0}{3}
-\beamer@sectionintoc {4}{Extra section: More about Stata}{100}{0}{4}
+\beamer@sectionintoc {3}{Section 3: \\ Introduction to Stata Graphics}{60}{0}{3}
+\beamer@sectionintoc {4}{Extra section: More about Stata}{99}{0}{4}

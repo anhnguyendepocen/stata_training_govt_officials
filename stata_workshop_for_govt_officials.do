@@ -50,7 +50,7 @@
 		
 	\maketitle
 
-	\section{Section 1}
+	\section{Section 1: \\ Basics of Stata}
 
 		% 1.1 Why learn stata?
 		\begin{frame}
@@ -64,10 +64,7 @@
 
 		
 		\begin{frame}
-			\frametitle{\textsc{Why learn stata?}}
-			\begin{center}
-				\Large \textbf{The main reasons to use Stata}
-			\end{center}
+			\frametitle{\textsc{The main reasons to use Stata}}
 			\begin{itemize}
 				\item In Excel you make changes directly to the data and save new versions of the data set
 			
@@ -81,12 +78,9 @@
 
 
 		\begin{frame}
-			\frametitle{\textsc{Why learn stata?}}
-			\begin{center}
-				\Large\textbf{The main reasons to use Stata}
-			\end{center}
+			\frametitle{\textsc{The main reasons to use Stata}}
 			\begin{itemize}
-				\item Powerful tool with may capabilities:
+				\onslide<1-> \item Powerful tool with may capabilities:
 				
 				\begin{itemize}
 					\item Descriptive statistics
@@ -97,7 +91,7 @@
 					
 				\end{itemize}
 				
-				\item But it's also good for beginner programmers:
+				\onslide<2-> \item But it's also good for beginner programmers:
 				
 				\begin{itemize}
 					\item User friendly interface
@@ -109,10 +103,8 @@
 		\end{frame}	
 
 		\begin{frame}
-			\frametitle{\textsc{Why learn stata?}}
-			\begin{center}
-				\Large\textbf{What's the fuss about do-files?}
-			\end{center}
+			\frametitle{\textsc{What's the fuss about do-files?}}
+			
 			\begin{itemize}
 				\item It's through the do-file you communicate your work to other members in your team, both current and future
 				\item Think of the do-files as instructions on how to get from raw data to final report
@@ -122,7 +114,8 @@
 			\end{frame}
 		
 	\begin{frame}
-		\frametitle{\textsc{The basics of Stata}}
+		\frametitle{\textsc{}}
+
 		\begin{center}
 			\Large \textbf{Stata interface}
 		\end{center}
@@ -140,9 +133,9 @@
 
 	\begin{frame}
 
-		\frametitle{\textsc{The Stata interface}}
+		\frametitle{\textsc{The Stata interface - Review window}}
 			\begin{center}
-				\Large \textbf{The review window} 
+				\Large \textbf{} 
 			\end{center}
 		\begin{itemize}
 			\item  Provides a history of your actions
@@ -156,10 +149,7 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{The Stata interface}}
-		\begin{center}
-			\Large 	\textbf{Filtering in variable and review windows} 
-		\end{center}
+		\frametitle{\textsc{Filtering in variable and review windows}}
 	\begin{minipage}{0.45\linewidth}
 		\begin{itemize}
 			\item  Both the variable and the review window will soon be very crowded. You can then search both of them for commands/variables
@@ -186,7 +176,7 @@
  
 		\begin{frame}
 
-			\frametitle{\textsc{The basics of Stata}}
+			\frametitle{\textsc{}}
 			\begin{center}
 				\Large \textbf{How to open a data set in Stata} 
 			\end{center}
@@ -195,25 +185,22 @@
 
 
 		\begin{frame}
-			\frametitle{\textsc{Opening datasets}}
-			\begin{center}
-				\Large\textbf{Three ways to tell Stata what to do}
-			\end{center}
+			\frametitle{\textsc{Three ways to tell stata what to do}}
 			\begin{itemize}
-				\item Drop-down menus
+				\onslide<1-> \item Drop-down menus
 				
 				\begin{itemize}
 					\item An easy place to start but quickly becomes inefficient
 					
 				\end{itemize}
 				
-				\item Command window
+				\onslide<2-> \item Command window
 				
 			\begin{itemize}
 				\item Faster than menus but require that you are familiar with the command
 				
 			\end{itemize}
-				\item Do-file
+				\onslide<3-> \item Do-file
 				
 			\begin{itemize}
 				\item The only feasible way to run long instructions
@@ -227,10 +214,7 @@
 
 
 		\begin{frame}
-			\frametitle{\textsc{Opening datasets}}
-			\begin{center}
-				\Large\textbf{Open a dataset - menus}
-			\end{center}
+			\frametitle{\textsc{Open a dataset - menus}}
 			 \begin{figure}[H] 
 				\centering
 				\includegraphics[width=0.9\linewidth]{open_dataset_menu}
@@ -238,10 +222,7 @@
 		\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Opening datasets}}
-		\begin{center}
-			\Large\textbf{Open a dataset - command window}
-		\end{center}
+		\frametitle{\textsc{Open a dataset - command window}}
 		\begin{figure}[H] 
 			\centering
 			\includegraphics[width=0.9\linewidth]{open_dataset_command}
@@ -258,14 +239,11 @@
 
 
 	\begin{frame}
-			\frametitle{\textsc{Opening datasets}}
-		\begin{center}
-			\Large\textbf{Task 1}
-		\end{center}
+			\frametitle{\textsc{Task 1 - opening datasets}}
 		\begin{enumerate}
-			\item Open Stata and then open the EICV household data set \textbf{cs\_s0\_s5\_household.dta} using the menu: File $\rightarrow$ Open. Navigate to where you saved the material for this lab. Select the data set and click \textit{Open}
-			\item Browse to check that you have data: Data  $\rightarrow$ Data Editor  $\rightarrow$ Data Editor Browse 
-			\item Describe to get additional information on the data: Data  $\rightarrow$ Describe data $\rightarrow$ Describe data in memory or in a file.
+			\onslide<1-> \item Open Stata and then open the EICV household data set \textbf{cs\_s0\_s5\_household.dta} using the menu: File $\rightarrow$ Open. Navigate to where you saved the material for this lab. Select the data set and click \textit{Open}
+			\onslide<2-> \item Browse to check that you have data: Data  $\rightarrow$ Data Editor  $\rightarrow$ Data Editor Browse 
+			\onslide<3-> \item Describe to get additional information on the data: Data  $\rightarrow$ Describe data $\rightarrow$ Describe data in memory or in a file.
 			\begin{itemize}
 				\item A new window will open
 				\item Select In memory and press OK
@@ -274,10 +252,8 @@
 	\end{frame}
 
 	\begin{frame}
-			\frametitle{\textsc{Opening datasets}}
-		\begin{center}
-			\Large\textbf{Task 1}
-		\end{center}
+			\frametitle{\textsc{Task 1 - opening datasets}}
+
 		\begin{itemize}
 			\item You can see that one the second command printed information on your screen.
 			\begin{itemize}
@@ -295,10 +271,7 @@
 
 
 	\begin{frame}
-			\frametitle{\textsc{Opening datasets}}
-		\begin{center}
-			\Large\textbf{Task 1}
-		\end{center}
+			\frametitle{\textsc{Task 1 - opening datasets}}
 		\begin{itemize}
 			\item You can perform both tasks by typing the in your command prompt. This will yield the same results
 			
@@ -310,7 +283,7 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{The basics of stata}}
+		\frametitle{\textsc{}}
 		\begin{center}
 			\Large  \textbf{Exploring a data set opened for the first time}
 		\end{center}
@@ -318,9 +291,6 @@
 
 	\begin{frame}
 		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{Introduction}
-		\end{center}
 		\begin{itemize}
 			\item To successfully clean a data set you must first understand the data set
 			\item Some terminology:
@@ -333,10 +303,7 @@
 		
 		
 	\begin{frame}
-		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{The EICV data}
-		\end{center}
+		\frametitle{\textsc{The EICV data}}
 		\begin{itemize}
 			\item For our exercises we will explore part of EICV 4 data
 			\item The data is a household survey collected between 2013 and 2014 by NISR
@@ -346,39 +313,31 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{Types of variables}
-		\end{center}
+		\frametitle{\textsc{Types of variables}}
+	
 		\begin{itemize}
-			\item 	In Stata, each variable (column) has to be either:
+		\onslide<1->	\item 	In Stata, each variable (column) has to be either:
 			\begin{itemize}
-				\item string (text) – values are red when browsing
-				\item numeric (number) – values are black or blue when browsing
+				\item string (text): values are red when browsing
+				\item numeric (number): values are black or blue when browsing
 			\end{itemize}
-			\item Numbers \textbf{can} be stored as text, but text \textbf{cannot} be stored as number
+		\onslide<2->	\item Numbers \textbf{can} be stored as text, but text \textbf{cannot} be stored as number
 			\begin{itemize}
 				\item Not possible to do computations on numbers stored as text 		
 			\end{itemize}
-			\item Categorical variables should be stored as numeric variables and have labels
+		\onslide<3->	\item Categorical variables should be stored as numeric variables and have labels
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{How the data looks}
-		\end{center}	
+		\frametitle{\textsc{How the data looks}}	
 		\begin{figure}[H] 
 			\centering
 			\includegraphics[width=0.9\linewidth]{dataset1}
 		\end{figure}
 	\end{frame}
 	\begin{frame}
-		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{How the data actually is}
-		\end{center}	
+		\frametitle{\textsc{How the data actually is}}	
 		\begin{figure}[H] 
 			\centering
 			\includegraphics[width=0.9\linewidth]{dataset2}
@@ -387,33 +346,28 @@
 
 
 	\begin{frame}
-		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{Useful commands}
-		\end{center}
+		\frametitle{\textsc{Useful commands}}
+
 		\begin{itemize}
-			\item 	\textit{\underline{br}owse}: see all data in spreadsheet format
-			\item \textit{\underline{d}escribe}: list of all variables in memory
+		\onslide<1->	\item 	\textit{\underline{br}owse}: see all data in spreadsheet format
+		\onslide<1->	\item \textit{\underline{d}escribe}: list of all variables in memory
 			\begin{itemize}
 				\item Total number of variables \& observations (size of matrix)
 				\item Variable name, type, format, value label name, variable label
 			\end{itemize}
-			\item \textit{\underline{su}mmarize}: Basic statistics for numeric variables
+		\onslide<1->	\item \textit{\underline{su}mmarize}: Basic statistics for numeric variables
 			\begin{itemize}
 				\item Obs (Number of observations), Mean, Std. Dev. (Standard deviation), Min (Minimum), Max (Maximum)
 			\end{itemize}
-			\item \textit{\underline{tab}ulate}: frequencies
+		\onslide<1->	\item \textit{\underline{tab}ulate}: frequencies
 			
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{More commands}
-		\end{center}
+		\frametitle{\textsc{More commands}}
 		\begin{itemize}
-			\item 	\textit{codebook}: displays the following for each variable
+			\onslide<1->\item 	\textit{codebook}: displays the following for each variable
 		
 			\begin{itemize}
 				\item Type (more detail than describe)
@@ -422,39 +376,36 @@
 				\item Examples of values (strings); tabulations (categorical); or mean, sd and percentiles (continuous)
 				\item Warnings if embedded blanks (may or may not be ok)
 			\end{itemize}
-			\item \textit{labelbook}: displays the following for each stored value label
+			\onslide<2->\item \textit{labelbook}: displays the following for each stored value label
 			\begin{itemize}
 				\item Label definitions
 				\item Which variables labels are applied to
 			\end{itemize}
-			\item \textit{\underline{l}ist}: lists all variables and observations
+			\onslide<3->\item \textit{\underline{l}ist}: lists all variables and observations
 			\begin{itemize}
-				\item Can qualify: \textit{“list if price \textless 5000”, “list in 1/10”}
+				\item Can qualify: \textit{list if price \textless 5000, list in 1/10}
 			\end{itemize}
-			\item \textit{\underline{su}mmarize, \underline{d}etail} : percentiles, variance, skewness, kurtosis
+			\onslide<4->\item \textit{\underline{su}mmarize, \underline{d}etail} : percentiles, variance, skewness, kurtosis
 			
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Exploring a new dataset}}
-		\begin{center}
-			\Large\textbf{Task 2}
-		\end{center}
+		\frametitle{\textsc{Task 2 - exploring a data set}}
 		\begin{enumerate}
-			\item Open the \textbf{cs\_s0\_s5\_household.dta} again. Use the command prompt this time.
-			\item Explore the dataset
+			\onslide<1-> \item Open the \textbf{cs\_s0\_s5\_household.dta} again. Use the command prompt this time.
+			\onslide<2-> \item Explore the dataset
 			\begin{itemize}
 				\item browse - see the different colors in the columns
 				\item describe - check the storage type column
 				\item summarize - are there any statistics that might not make sense to interpret?
 			\end{itemize}
-			\item Learn more about the variable \textit{s5bq3a}, the household estimated rent amount. What values does it take on? What is minimum, maximum, mean of this variable? How many unique values does it have?
+			\onslide<3->\item Learn more about the variable \textit{s5bq3a}, the household estimated rent amount. What values does it take on? What is minimum, maximum, mean of this variable? How many unique values does it have?
 		\end{enumerate}
 		
 	***/
-		texdoc stlog, nooutput
 			use "$data\cs_s0_s5_household.dta", clear
+		texdoc stlog, nooutput cmdlog
 			tabulate s5bq3a
 			summarize s5bq3a 
 			codebook s5bq3a
@@ -463,23 +414,21 @@
 		\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Tasks}}
-		\begin{center}
-			\Large\textbf{Task 2}
-		\end{center}
-		\begin{itemize}
+		\frametitle{\textsc{Task 2 - exploring a data set}}
+
+	\onslide<1->	\begin{itemize}
 			\item Learn more about the variable \textit{ur2012}, to learn about the proportion of urban and rural households in Rwanda
-		\begin{itemize}
-				\item
+	
 			
 	***/
-		texdoc stlog, nooutput	
+		texdoc stlog, nooutput cmdlog
 			tabulate ur2012 
 		texdoc stlog close
 	/***	
-				\item Create now a pie chart: Graphics $\rightarrow$ Pie chart, select \textit{ur2012} as Category variable and press OK
+		\begin{itemize}
+				\item Now Create a pie chart: Graphics $\rightarrow$ Pie chart, select \textit{ur2012} as Category variable and press OK
 			\end{itemize}
-		\item Now, create a pie-chart graph for the variable \textit{s5cq7}, the type drinking water source used. This time, use the command prompt!
+		\onslide<2-> \item Now, create a pie-chart graph for the variable \textit{s5cq7}, the type drinking water source used. This time, use the command prompt!
 			\begin{itemize}
 				\item Use the code printed by the previous graph and replace the name of the variable
 			\end{itemize}
@@ -496,21 +445,20 @@
 			
 		\end{itemize}
 	\end{frame}
-		
-\section{Section 2}
+			 
+\section{Section 2: \\ Editing data}
 
 	\begin{frame}
-		\frametitle{\textsc{The basics of Stata}}
+		\frametitle{\textsc{}}
+
 		\begin{center}
 			\Large \textbf{Editing data in Stata}
 		\end{center}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-		\Large\textbf{Delete variables}
-		\end{center}
+		\frametitle{\textsc{Deleting variables}}
+
 		\begin{itemize}
 			\item You can delete variables using the commands \textbf{\textit{drop}} 
 				  or \textbf{\textit{keep}}
@@ -525,41 +473,34 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-			\Large\textbf{Task 3}
-		\end{center}
+		\frametitle{\textsc{Task 3 - deleting variables}}
+
 		\begin{itemize}
-			\item Open the \textbf{cs\_s0\_s5\_household.dta} data set
+		\onslide<1->	\item Open the \textbf{cs\_s0\_s5\_household.dta} data set (use the command prompt)
 		\end{itemize}
 		***/
-			texdoc stlog
 			use "$data\cs_s0_s5_household.dta", clear
-			texdoc stlog close
 		/***
 		\begin{itemize}
-			\item Keep the variables we will use in this excerise by typing
+		\onslide<2->	\item Keep the variables we will use in this excerise by typing
 		\end{itemize}
 		***/
-		texdoc stlog
+		texdoc stlog, cmdlog
 			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
 		texdoc stlog close			
 		/***
 		\begin{itemize}
-			\item Now let's say we kept a few variables that we didn't actually needed.To drop them, type
+		\onslide<3->	\item Now let's say we kept a few variables that we didn't actually needed.To drop them, type
 		\end{itemize}
 		***/
-		texdoc stlog
+		texdoc stlog, cmdlog
 			drop province s5bq2 s5cq17 s5cq15
 		texdoc stlog close	
 		/***
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-			\Large\textbf{Renaming variables}
-		\end{center}
+		\frametitle{\textsc{Renaming variables}}
 		\begin{itemize}
 			\item You can use the command \textbf{\textit{rename}} to change the names of your variables
 			\item Renaming is useful as
@@ -573,15 +514,12 @@
 	\end{frame}
 			
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-			\Large\textbf{Task 4}
-		\end{center}
+		\frametitle{\textsc{Task 4 - renaming variables}}
 		\begin{itemize} 
-			\item Rename all the remaining variables. Type the code bellow, one line at a time
+			\item Rename all the remaining variables. Type the code below, one line at a time
 		\end{itemize}
 	***/
-		texdoc stlog
+		texdoc stlog, cmdlog
 			rename ur2012 	urban_2012
 			rename s5cq2 	m_main_ws
 			rename s5cq4 	m_used_ws
@@ -595,10 +533,7 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-			\Large\textbf{Generating variables}
-		\end{center}
+		\frametitle{\textsc{Generating variables}}
 		\begin{itemize}
 			\item You can use the command \textbf{\textit{\underline{gen}erate}} to create new variables		
 			\item Generating variables can be useful to
@@ -611,15 +546,12 @@
 	
 	
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-			\Large\textbf{Task 5}
-		\end{center}
+		\frametitle{\textsc{Task 5 - generating variables}}
 		\begin{itemize} 
 			\item Let us create a variable that converts the number of meters to the main water source to centimeters. Type:
 		\end{itemize}
 	***/
-		texdoc stlog
+		texdoc stlog, nooutput cmdlog
 			generate  cm_main_ws = m_main_ws*100
 		texdoc stlog close
 	/***	
@@ -630,37 +562,31 @@
 	
 	
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-			\Large\textbf{Task 5}
-		\end{center}
-		\begin{itemize} 
+		\frametitle{\textsc{Task 5 - generating variables}}
+		\onslide<1->\begin{itemize} 
 			\item Let us create a dummy variable (that assumes values 0 or 1) to see if the main water source is the same as the used water source. 
-			\item First create a variable that equals zero
+		\onslide<2->	\item First create a variable that equals zero
 		\end{itemize}
 	***/
-		texdoc stlog
-			gen  d_closest_ws	 = 0
+		texdoc stlog, cmdlog
+			generate  d_closest_ws	 = 0
 		texdoc stlog close
 	/***	
 		\begin{itemize}
-			\item Now let's replace that with 1 when it satisfies the condition that the two variables are equal. Type:
+		\onslide<3->	\item Now let's replace that with 1 when it satisfies the condition that the two variables are equal. Type:
 		\end{itemize}
 	***/
-		texdoc stlog
+		texdoc stlog, nooutput cmdlog
 			replace d_closest_ws = 1 if m_main_ws == m_used_ws
 		texdoc stlog close
 	/***	
 		\begin{itemize}
-			\item Finally, tabulate the data using the function \textit{tabulate}
+		\onslide<4->	\item Finally, tabulate the data using the function \textit{tabulate}
 		\end{itemize}		
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}
-			\Large\textbf{Labeling variables and values}
-		\end{center}
+		\frametitle{\textsc{Labeling variables and values}}
 		\begin{itemize}	
 			\item Labeling variables helps understand the variable 
 			\item Value labels indicate what each category of a categorical variable stands for
@@ -669,15 +595,12 @@
 	\end{frame}
 		
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}	
-			\Large\textbf{Task 6}
-		\end{center}
+		\frametitle{\textsc{Task 6 - labeling}}
 		\begin{itemize}
 			\item Let us create a label for the two variables we created in Task 5
 		\end{itemize}
 	***/
-		texdoc stlog	
+		texdoc stlog, cmdlog
 			label variable cm_main_ws "Cm to main water source"
 			label variable d_closest_ws "Closest water source is used water source" 
 		texdoc stlog close
@@ -689,38 +612,34 @@
 	
 
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}	
-			\Large\textbf{Task 6}
-		\end{center}
+		\frametitle{\textsc{Task 6 - labeling}}
 		\begin{itemize}
-			\item We can also create labels for values with the functions \textit{label define} and \textit{label values}. Type:
+		\onslide<1-> 	\item We can also create labels for values with the functions \textit{label define} and \textit{label values}. Type:
 		\end{itemize}
 	***/
-		texdoc stlog	
+		texdoc stlog, cmdlog
 			label define yes_no_lb 1 "Yes" 0 "No"
 			label values d_closest_ws yes_no_lb
 		texdoc stlog close
 	/***		
 		\begin{itemize}
-			\item You can see the labels if you tabulate the labeled variable or browse the data
+	\onslide<2-> 		\item You can see the labels if you tabulate the labeled variable or browse the data
 			\item This is very useful for binary or categorical variables when visualizing the data
 		\end{itemize}		
 	\end{frame}		
 	
 	
 	\begin{frame}
-		\frametitle{\textsc{The basics of Stata}}
+		\frametitle{\textsc{}}
+
 		\begin{center}
 			\Large  \textbf{How to share your work with your team}
 		\end{center}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{\textsc{Sharing work with a team}}
-		\begin{center}
-			\Large \textbf{You are asked to share your work}
-		\end{center}
+		\frametitle{\textsc{You are asked to share your work}}
+
 		\begin{itemize}
 			\item How would you share the work you have done so far?
 			\item Send only the data set? That would be like Excel and only shares the latest version of the data
@@ -731,10 +650,7 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Sharing work with a team}}
-		\begin{center}
-			\Large \textbf{Do-files}
-		\end{center}
+		\frametitle{\textsc{Do-files}}
 		\begin{itemize}
 			\item Open up a new do-file. Window $\rightarrow$ Do-file Editor $\rightarrow$ New Do-file Editor
 			\item Alternatively click the shortcut highlighted below:
@@ -755,29 +671,73 @@
 			\centering
 			\includegraphics[width=0.9\linewidth]{run}
 		\end{figure}		
-
 	\end{frame}
-		
+	
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}	
-			\Large\textbf{Task 7}
-		\end{center}
+		\frametitle{\textsc{How do you find a file path?}}		
+		\begin{itemize}
+			\item File path are a integral part of sharing data which we will explain in the next slide
+		\end{itemize}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\linewidth]{file_path}
+		\end{figure}
+		\begin{itemize}
+			\item When you open any folder, clicking on the \textbf{Home} button on the top right
+			\item Then clicking on \textbf{Copy} copies the path to the folder you opened
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Macros}}
+
+		\begin{itemize}
+			\item You need to be at least familiar with this topic as this technique is critical especially when projects grow in size
+			\item Macros (globals, locals, scalar) save some information 
+				 (text or number) that you can reference later
+				\begin{itemize}
+					\item Example: We want to access files in the folder 
+								   multiple times. We can store the folder 
+								   location in a global and use it multiple times
+				\end{itemize}
+			\item To call a global saved we use the \$ symbol
+		\end{itemize}
+	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{\textsc{Task 7 - using a do-file}}
 		\begin{itemize}
 			\item Open a new do-file. Save it! 
+
 			\item Type the following in your do file
 			\end{itemize}
 	***/
-		texdoc stlog	
+		texdoc stlog, cmdlog	
 		clear all
 		texdoc stlog close
 		
 	/***
 		\begin{itemize}
+			\item Open the folder where you saved the data we shared
+			\item Copy the file path of this folder
+			\item Create a \textbf{global} called \textit{data} using the file path you copied
+		\end{itemize}
+	***/
+		texdoc stlog	
+		global 	data "$dropbox\minagri_stata_training_aug2018\data"
+		texdoc stlog close	
+	/***
+	\end{frame}
+		
+	\begin{frame}
+		\frametitle{\textsc{Task 7 - using a do-file}}
+		
+		
+	\begin{itemize}
 			\item Next, use the review window to copy to your do-file all the actions you already did:
 			\begin{itemize}
 				\item Now run the do-file
-				\item Load the dataset 
+				\item Load the dataset using the global you created
 				\item Keep only the variables that you need
 				\item Drop the ones you forgot
 				\item Rename all the variables
@@ -787,29 +747,54 @@
 			\end{itemize}
 		\end{itemize}	
 	\end{frame}
-	
-	
+		
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}	
-			\Large\textbf{Task 7}
-		\end{center}	
+		\frametitle{\textsc{Task 7 - using a do-file}}
+		This is how your do-file should look now
+	***/
+		texdoc stlog, nooutput cmdlog
+		clear all
+		use "$data\cs_s0_s5_household.dta", clear 
+		keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
+		drop province s5bq2 s5cq17 s5cq15
+		rename ur2012 	urban_2012
+		rename s5cq2 	m_main_ws
+		rename s5cq4 	m_used_ws
+		rename s5cq8 	m_drink_ws
+		rename s5cq13 	earnings_sell_w
+		rename s5cq22 	d_affected_dis
+		rename s5cq23	dis_type
+		generate  cm_main_ws = m_main_ws*100
+		generate  d_closest_ws	 = 0
+		replace d_closest_ws = 1 if m_main_ws == m_used_ws
+		label variable cm_main_ws "Cm to main water source"
+		label variable d_closest_ws "Closest water source is used water source" 
+		label define yes_no_lb 1 "Yes" 0 "No"
+		label values d_closest_ws yes_no_lb
+	texdoc stlog close
+	save "${data}\cs_s0_s5_household_modified.dta", replace
+		
+	/***
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\textsc{Task 7 - editing a do-file}}
+	
 		\begin{itemize}
 			\item Now let's edit the do-file!
-			\item We just realized that the number of centimeters to the main water source doesn't make much sense. Let's edit it to the number of kilometers.  Replace the code:
+			\item We just realized that the number of centimeters to the main water source doesn't make much sense. Let's edit it to the number of kilometers. Replace the code:
 			\end{itemize}
 	***/
-		texdoc stlog	
-			quietly use "$data\cs_s0_s5_household.dta", clear 
-			quietly rename s5cq2 m_main_ws
-			gen  cm_main_ws = m_main_ws*1000
+	use "${data}\cs_s0_s5_household.dta",clear
+	rename s5cq2 	m_main_ws
+		texdoc stlog, cmdlog
+			generate  cm_main_ws = m_main_ws*1000
 		texdoc stlog close
 	/***
 	to
 	***/
-		texdoc stlog	
-			quietly use "$data\cs_s0_s5_household.dta", clear 
-			quietly rename s5cq2 m_main_ws
+	use "${data}\cs_s0_s5_household_modified.dta", clear
+		texdoc stlog, cmdlog	
 			gen  km_main_ws = m_main_ws/1000
 		texdoc stlog close
 	/***
@@ -817,10 +802,7 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Sharing work with a team}}
-		\begin{center}	
-			\Large\textbf{Comments}
-		\end{center}	
+		\frametitle{\textsc{Comments}}	
 		\begin{itemize}	
 			\item Comments is the green text you have seen in the code examples
 			\item Comments is text that Stata will ignore when running your code
@@ -833,20 +815,20 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Sharing work with a team}}
+		\frametitle{\textsc{Different types of comments}}
 		\begin{center}	
-			\Large\textbf{Different types of comments}
+			\Large\textbf{}
 		\end{center}	
 		\begin{enumerate}	
-			\item \textit{/* comment */} 
+			\onslide<1-> \item \textit{/* comment */} 
 			\begin{itemize}
 				\item Used for long comments or to explain many lines of code in the following section
 			\end{itemize}
-			\item \textit{* comment} 
+			\onslide<2-> \item \textit{* comment} 
 			\begin{itemize}
 				\item Used to explain what happens on the following few rows
 			\end{itemize}
-			\item \textit{ // comment} 
+			\onslide<3-> \item \textit{ // comment} 
 			\begin{itemize}
 				\item Used to explain the same line of code
 			\end{itemize}
@@ -855,15 +837,13 @@
 	
 	
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}	
-			\Large\textbf{Task 8}
-		\end{center}	
+		\frametitle{\textsc{Task 8 - commenting}}
+
 		\begin{itemize}	
 			\item Now that you know about comments, add them to your do-file! 
-			\item First, add a title and a brief explanation of what your do-file does (e.g. “Stata training do-file – Uses EICV4 data to practice Stata, limiting the variables to water usage”)
-			\item Now, add a heading to every main section of your do-file (e.g. load data, keep the variables I'll use, create new variables, etc.)
-			\item Finally, we realized that we actually don't need the \textit{km\_main\_ws}  variable now, but don't want to erase the code because we might want to use it in the future. Comment out that variable's creation.
+			\onslide<1-> \item First, add a title and a brief explanation of what your do-file does (e.g. Stata training do-file : Uses EICV4 data to practice Stata, limiting the variables to water usage)
+			\onslide<2-> \item Now, add a heading to every main section of your do-file (e.g. load data, keep the variables I'll use, create new variables, etc.)
+			\onslide<3-> \item Finally, we realized that we actually don't need the \textit{km\_main\_ws}  variable now, but don't want to erase the code because we might want to use it in the future. Comment out that variable's creation.
 			\item Run everything!
 		\end{itemize}
 
@@ -871,10 +851,8 @@
 	
 		
 	\begin{frame}
-		\frametitle{\textsc{Editing data in Stata}}
-		\begin{center}	
-			\Large\textbf{Task 8}
-		\end{center}	
+		\frametitle{\textsc{Task 8 - commenting}}
+
 		\begin{itemize}	
 			\item Did it work? 
 
@@ -918,10 +896,7 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Saving Stata datasets}}	
-		\begin{center}
-			\Large \textbf{Task 9}
-		\end{center}		
+		\frametitle{\textsc{Task 9 - saving Stata datasets}}		
 		\onslide<1-> Let's save the modified data as a dta file.
 					\vspace{2mm} Type...
 	***/
@@ -944,10 +919,8 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{\textsc{Saving Stata datasets}}
-		\begin{center}
-			\Large \textbf{Task 10}
-		\end{center}				
+		\frametitle{\textsc{Task 10 - exporting Stata datasets}}
+			
 		\onslide<1-> Now, let's save the modified data as a excel. 
 					 This is helpful if you are sending the dataset to 
 					 someone who does not use or have Stata. \\
@@ -984,7 +957,7 @@
 	\section{Section 3: \\ Introduction to Stata Graphics}	
 	
 	\begin{frame}
-	\frametitle{\textsc{Table gives all the details.}}
+	\frametitle{\textsc{Table gives all the details}}
 		\begin{center}
 		What's happening in this regression table? What's important?
 		\begin{figure}
@@ -994,7 +967,7 @@
 	\end{frame}
 
 	\begin{frame}
-	\frametitle{\textsc{But figures \textit{tell the story}.}}
+	\frametitle{\textsc{But figures \textit{tell the story}}}
 		\begin{columns}
 			\column{0.55\linewidth}
 			\includegraphics[height=5cm, width=6cm]{figure_example_1}
@@ -1028,12 +1001,12 @@
 	\frametitle{\textsc{Stata default graphs}}
 		\begin{itemize}
 			\item This is what a Stata graph looks like with very minimal 
-				  customizing using optional commands.
+				  customizing using optional commands
 			\item Notice that there is no graph title. 
-				  They are still informative, but need much improvement.
+				  They are still informative, but need much improvement
 			\item We will not go too deep to editing a Stata graph today,
 				  but I'll show you have to make a graph and make some edits
-				  for effective data visualization.
+				  for effective data visualization
 		\end{itemize}	
 		\begin{center}
 			\includegraphics[width=\linewidth]{figure_example_3}
@@ -1069,19 +1042,6 @@
 		Let's make a a box plot like the one below using the variable, \textbf{m\_drink\_ws}.
 		Notice a box plot is an example of a oneway graph. 
 	***/
-
-	// !! To Roshni
-		use "$data\cs_s0_s5_household.dta", clear // This needs to be changed to _modified.
-		
-		* You can delete these renaming commands!
-		rename ur2012 	urban_2012
-		rename s5cq2 	m_main_ws
-		rename s5cq4 	m_used_ws
-		rename s5cq8 	m_drink_ws
-		rename s5cq13 	earnings_sell_w
-		rename s5cq22 	d_affected_dis
-		rename s5cq23	dis_type
-		
 		texdoc stlog, nolog			
 			graph box m_drink_ws, over(urban_2012)
 		texdoc stlog close
@@ -1094,7 +1054,7 @@
 	\frametitle{\textsc{Box plot}}	
 		\onslide<1-> Let's make a box plot from your do file.
 		\begin{enumerate}
-			 \item Open "\$data\\cs\_s0\_s5\_household\_modified.xls"
+			 \item Open "\$data/cs\_s0\_s5\_household\_modified.xls"
 			 \item Type \textbf{\textit{search box plots}} in the command window to find out what command to be used.
 					\textbf{\textit{search}} is a more general search through help files and other Stata resources.
 			 \onslide<2-> \item The command should look like the following. Run from the do file.
@@ -1153,7 +1113,7 @@
 	\end{frame}
 	
 	\begin{frame}
-	\frametitle{\textsc{Histrogram}}	
+	\frametitle{\textsc{Histogram}}	
 		\onslide<1-> Let's make a histogram from your do file.
 		\begin{enumerate}
 			 \item Type \textbf{\textit{help histogram}} in the command window to find out what command to be used.
@@ -1176,7 +1136,7 @@
 	\end{frame}
 
 	\begin{frame}
-	\frametitle{\textsc{Histrogram}}	
+	\frametitle{\textsc{Histogram}}	
 		\onslide<1-> Now, let's add the title. You can also choose your own title that is informative.
 					 Notice in general a good title is informative but short.
 		\begin{enumerate}
@@ -1385,7 +1345,16 @@
 		/***
 	\end{frame}
 
-				
+		\begin{frame}
+	\frametitle{\textsc{Some Stata do's and don't}}
+	\begin{itemize}
+		  \item NEVER save over the existing dataset (especially a raw dataset)!
+		  \item Comment on why, not on what
+		  \item Always write a do-file
+		  \item Make sure your work flow works smoothly
+		  \item Provide concise and self explanatory titles to graphs
+	  \end{itemize}
+	 \end{frame}			
 	\section{Extra section: More about Stata}
 	
 	\begin{frame}
@@ -1393,26 +1362,6 @@
 		\begin{center}
 		\Large \textbf{Using macros \\ (globals, locals and scalars)}
 		\end{center}
-	\end{frame}
-
-	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-			\LARGE \textbf{Macros}
-		\end{center}
-		\begin{itemize}
-			\item You need to be at least familiar with this topic for 
-				  the resources you will be introduced to this week
-			\item This technique is critical as projects grow in size. 
-				  But even the smallest DIME project absolutely needs this.
-			\item Macros (globals, locals, scalar) save some information 
-				 (text or number) that you can reference later.
-				\begin{itemize}
-					\item Example: we want to access files in the folder 
-								   multiple times. We can store the folder 
-								   location in a global and use it multiple times
-				\end{itemize}
-		\end{itemize}
 	\end{frame}
 
 	\begin{frame}

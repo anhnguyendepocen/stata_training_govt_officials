@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.18)  7 AUG 2018 08:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.18)  7 AUG 2018 11:58
 entering extended mode
 **C:/Users/roshn/Documents/GitHub/stata_training_govt_officials/stata_workshop_
 for_govt_officials.tex
@@ -1550,67 +1550,61 @@ ter source"[]
 
 ] [61
 
+] [62
+
 ]
-<dofile.png, id=382, 1044.90375pt x 595.47469pt>
+<dofile.png, id=387, 1044.90375pt x 595.47469pt>
 File: dofile.png Graphic file (type png)
 <use dofile.png>
-Package pdftex.def Info: dofile.png  used on input line 619. on input line 619.
+Package pdftex.def Info: dofile.png  used on input line 631. on input line 631.
 
 Package pdftex.def Info: Requested size: 276.559pt x 157.60922pt on input line 
-619.
-<run.png, id=383, 255.95625pt x 57.96657pt>
+631.
+<run.png, id=388, 255.95625pt x 57.96657pt>
 File: run.png Graphic file (type png)
 <use run.png>
-Package pdftex.def Info: run.png  used on input line 619. on input line 619.
+Package pdftex.def Info: run.png  used on input line 631. on input line 631.
 Package pdftex.def Info: Requested size: 276.559pt x 62.63655pt on input line 6
-19.
+31.
 
-Overfull \vbox (187.36964pt too high) detected at line 619
+Overfull \vbox (187.36964pt too high) detected at line 631
  []
 
-[62
+[63
 
  <./dofile.png> <./run.png>]
-<file_path.png, id=391, 648.92438pt x 164.86594pt>
+<file_path.png, id=396, 648.92438pt x 164.86594pt>
 File: file_path.png Graphic file (type png)
 <use file_path.png>
-Package pdftex.def Info: file_path.png  used on input line 634. on input line 6
-34.
+Package pdftex.def Info: file_path.png  used on input line 646. on input line 6
+46.
 Package pdftex.def Info: Requested size: 276.559pt x 70.26204pt on input line 6
-34.
- [63
+46.
+ [64
 
- <./file_path.png>] [64
+ <./file_path.png>] [65
 
 ]
 (stata_workshop_for_govt_officials_11.log.tex)
-(stata_workshop_for_govt_officials_12.log.tex) [65
+(stata_workshop_for_govt_officials_12.log.tex) [66
 
-] [66
+] [67
 
 ]
 (stata_workshop_for_govt_officials_13.log.tex
-Overfull \hbox (78.21016pt too wide) in paragraph at lines 3--3
- []\OT1/lmtt/m/n/8 keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 
-s5cq23 s5bq2 s5cq22 s5cq13[] 
- []
-
-
 Overfull \hbox (14.46016pt too wide) in paragraph at lines 17--17
  []\OT1/lmtt/m/n/8 label variable d_closest_ws "Closest water source is used wa
 ter source"[] 
  []
 
 )
-Overfull \vbox (1.36237pt too high) detected at line 691
+Overfull \vbox (1.36237pt too high) detected at line 703
  []
 
-[67
+[68
 
 ] (stata_workshop_for_govt_officials_14.log.tex)
-(stata_workshop_for_govt_officials_15.log.tex) [68
-
-] [69
+(stata_workshop_for_govt_officials_15.log.tex) [69
 
 ] [70
 
@@ -1618,89 +1612,87 @@ Overfull \vbox (1.36237pt too high) detected at line 691
 
 ] [72
 
-]
-[73
+] [73
 
-] [74
+]
+[74
 
 ] [75
 
+] [76
+
 ]
-<error.png, id=459, 485.56406pt x 88.83188pt>
+<error.png, id=464, 485.56406pt x 88.83188pt>
 File: error.png Graphic file (type png)
 <use error.png>
-Package pdftex.def Info: error.png  used on input line 771. on input line 771.
+Package pdftex.def Info: error.png  used on input line 783. on input line 783.
 Package pdftex.def Info: Requested size: 276.559pt x 50.59402pt on input line 7
-71.
- [76
+83.
+ [77
 
- <./error.png>] [77
+ <./error.png>] [78
 
 ]
-<helpfile_save_1.png, id=471, 982.42032pt x 210.7875pt>
+<helpfile_save_1.png, id=476, 982.42032pt x 210.7875pt>
 File: helpfile_save_1.png Graphic file (type png)
 <use helpfile_save_1.png>
-Package pdftex.def Info: helpfile_save_1.png  used on input line 798. on input 
-line 798.
+Package pdftex.def Info: helpfile_save_1.png  used on input line 810. on input 
+line 810.
 Package pdftex.def Info: Requested size: 153.64493pt x 32.9644pt on input line 
-798.
-<helpfile_save_2.png, id=472, 986.18437pt x 219.82124pt>
+810.
+<helpfile_save_2.png, id=477, 986.18437pt x 219.82124pt>
 File: helpfile_save_2.png Graphic file (type png)
 <use helpfile_save_2.png>
-Package pdftex.def Info: helpfile_save_2.png  used on input line 798. on input 
-line 798.
+Package pdftex.def Info: helpfile_save_2.png  used on input line 810. on input 
+line 810.
 Package pdftex.def Info: Requested size: 153.64493pt x 34.24635pt on input line
- 798.
-<helpfile_exportexcel_1.png, id=473, 860.46469pt x 207.77625pt>
+ 810.
+<helpfile_exportexcel_1.png, id=478, 860.46469pt x 207.77625pt>
 File: helpfile_exportexcel_1.png Graphic file (type png)
 <use helpfile_exportexcel_1.png>
-Package pdftex.def Info: helpfile_exportexcel_1.png  used on input line 798. on
- input line 798.
+Package pdftex.def Info: helpfile_exportexcel_1.png  used on input line 810. on
+ input line 810.
 Package pdftex.def Info: Requested size: 153.64493pt x 37.10008pt on input line
- 798.
-<helpfile_exportexcel_2.png, id=474, 1001.24063pt x 513.41812pt>
+ 810.
+<helpfile_exportexcel_2.png, id=479, 1001.24063pt x 513.41812pt>
 File: helpfile_exportexcel_2.png Graphic file (type png)
 <use helpfile_exportexcel_2.png>
-Package pdftex.def Info: helpfile_exportexcel_2.png  used on input line 798. on
- input line 798.
+Package pdftex.def Info: helpfile_exportexcel_2.png  used on input line 810. on
+ input line 810.
 Package pdftex.def Info: Requested size: 153.64493pt x 78.77989pt on input line
- 798.
- [78
+ 810.
+ [79
 
  <./helpfile_save_1.png> <./helpfile_save_2.png> <./helpfile_exportexcel_1.png>
  <./helpfile_exportexcel_2.png>]
 (stata_workshop_for_govt_officials_16.log.tex)
-<error_save_existing.png, id=484, 492.33937pt x 58.71938pt>
+<error_save_existing.png, id=490, 492.33937pt x 58.71938pt>
 File: error_save_existing.png Graphic file (type png)
 <use error_save_existing.png>
-Package pdftex.def Info: error_save_existing.png  used on input line 815. on in
-put line 815.
+Package pdftex.def Info: error_save_existing.png  used on input line 827. on in
+put line 827.
 Package pdftex.def Info: Requested size: 245.83282pt x 29.31927pt on input line
- 815.
- [79
+ 827.
+ [80
 
  <./error_save_existing.png>] (stata_workshop_for_govt_officials_16.log.tex)
 File: error_save_existing.png Graphic file (type png)
 <use error_save_existing.png>
-Package pdftex.def Info: error_save_existing.png  used on input line 815. on in
-put line 815.
+Package pdftex.def Info: error_save_existing.png  used on input line 827. on in
+put line 827.
 Package pdftex.def Info: Requested size: 245.83282pt x 29.31927pt on input line
- 815.
- [80
+ 827.
+ [81
 
 ]
 (stata_workshop_for_govt_officials_16.log.tex)
 File: error_save_existing.png Graphic file (type png)
 <use error_save_existing.png>
-Package pdftex.def Info: error_save_existing.png  used on input line 815. on in
-put line 815.
+Package pdftex.def Info: error_save_existing.png  used on input line 827. on in
+put line 827.
 Package pdftex.def Info: Requested size: 245.83282pt x 29.31927pt on input line
- 815.
- [81
-
-]
-(stata_workshop_for_govt_officials_17.log.tex)
-(stata_workshop_for_govt_officials_18.log.tex) [82
+ 827.
+ [82
 
 ]
 (stata_workshop_for_govt_officials_17.log.tex)
@@ -1718,237 +1710,233 @@ Package pdftex.def Info: Requested size: 245.83282pt x 29.31927pt on input line
 (stata_workshop_for_govt_officials_17.log.tex)
 (stata_workshop_for_govt_officials_18.log.tex) [86
 
-] [87
+]
+(stata_workshop_for_govt_officials_17.log.tex)
+(stata_workshop_for_govt_officials_18.log.tex) [87
+
+] [88
 
 ]
-<reg_table_example.png, id=535, 371.76178pt x 345.4261pt>
+<reg_table_example.png, id=540, 371.76178pt x 345.4261pt>
 File: reg_table_example.png Graphic file (type png)
 <use reg_table_example.png>
-Package pdftex.def Info: reg_table_example.png  used on input line 850. on inpu
-t line 850.
+Package pdftex.def Info: reg_table_example.png  used on input line 862. on inpu
+t line 862.
 Package pdftex.def Info: Requested size: 215.10196pt x 199.86763pt on input lin
-e 850.
+e 862.
 
-Overfull \vbox (18.84773pt too high) detected at line 850
+Overfull \vbox (18.84773pt too high) detected at line 862
  []
 
-[88
+[89
 
  <./reg_table_example.png>]
-<figure_example_1.png, id=542, 425.36057pt x 295.27457pt>
+<figure_example_1.png, id=547, 425.36057pt x 295.27457pt>
 File: figure_example_1.png Graphic file (type png)
 <use figure_example_1.png>
-Package pdftex.def Info: figure_example_1.png  used on input line 865. on input
- line 865.
+Package pdftex.def Info: figure_example_1.png  used on input line 877. on input
+ line 877.
 Package pdftex.def Info: Requested size: 170.71236pt x 142.26633pt on input lin
-e 865.
+e 877.
 
-Overfull \hbox (1.702pt too wide) in paragraph at lines 865--865
+Overfull \hbox (1.702pt too wide) in paragraph at lines 877--877
 [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 865
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 877
 .
-[89
-
- <./figure_example_1.png>]
-<figure_example_2.png, id=549, 420.1296pt x 381.5856pt>
-File: figure_example_2.png Graphic file (type png)
-<use figure_example_2.png>
-Package pdftex.def Info: figure_example_2.png  used on input line 880. on input
- line 880.
-Package pdftex.def Info: Requested size: 170.71568pt x 142.26161pt on input lin
-e 880.
-
-Overfull \hbox (1.70532pt too wide) in paragraph at lines 880--880
-[][] 
- []
-
 [90
 
- <./figure_example_2.png>]
-<figure_example_3.png, id=556, 854.7132pt x 359.4228pt>
-File: figure_example_3.png Graphic file (type png)
-<use figure_example_3.png>
-Package pdftex.def Info: figure_example_3.png  used on input line 897. on input
- line 897.
-Package pdftex.def Info: Requested size: 307.28987pt x 129.22209pt on input lin
-e 897.
+ <./figure_example_1.png>]
+<figure_example_2.png, id=554, 420.1296pt x 381.5856pt>
+File: figure_example_2.png Graphic file (type png)
+<use figure_example_2.png>
+Package pdftex.def Info: figure_example_2.png  used on input line 892. on input
+ line 892.
+Package pdftex.def Info: Requested size: 170.71568pt x 142.26161pt on input lin
+e 892.
 
-Overfull \vbox (25.55733pt too high) detected at line 897
+Overfull \hbox (1.70532pt too wide) in paragraph at lines 892--892
+[][] 
  []
 
 [91
 
- <./figure_example_3.png>]
-LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 914
-.
-<stata_builtin_graph_functions.png, id=564, 458.1918pt x 382.0674pt>
-File: stata_builtin_graph_functions.png Graphic file (type png)
-<use stata_builtin_graph_functions.png>
-Package pdftex.def Info: stata_builtin_graph_functions.png  used on input line 
-914. on input line 914.
-Package pdftex.def Info: Requested size: 199.16501pt x 170.71611pt on input lin
-e 914.
+ <./figure_example_2.png>]
+<figure_example_3.png, id=562, 854.7132pt x 359.4228pt>
+File: figure_example_3.png Graphic file (type png)
+<use figure_example_3.png>
+Package pdftex.def Info: figure_example_3.png  used on input line 909. on input
+ line 909.
+Package pdftex.def Info: Requested size: 307.28987pt x 129.22209pt on input lin
+e 909.
 
-Overfull \hbox (14.78922pt too wide) in paragraph at lines 914--914
-[][]  
+Overfull \vbox (25.55733pt too high) detected at line 909
  []
 
 [92
 
- <./stata_builtin_graph_functions.png>] [93
+ <./figure_example_3.png>]
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <9> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 926
+.
+<stata_builtin_graph_functions.png, id=569, 458.1918pt x 382.0674pt>
+File: stata_builtin_graph_functions.png Graphic file (type png)
+<use stata_builtin_graph_functions.png>
+Package pdftex.def Info: stata_builtin_graph_functions.png  used on input line 
+926. on input line 926.
+Package pdftex.def Info: Requested size: 199.16501pt x 170.71611pt on input lin
+e 926.
+
+Overfull \hbox (14.78922pt too wide) in paragraph at lines 926--926
+[][]  
+ []
+
+[93
+
+ <./stata_builtin_graph_functions.png>] [94
 
 ]
 
 pdfTeX warning: pdflatex (file ./boxplot_1.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<boxplot_1.pdf, id=576, pagebox=cropbox, 397.485pt x 289.08pt>
+<boxplot_1.pdf, id=581, pagebox=cropbox, 397.485pt x 289.08pt>
 File: boxplot_1.pdf Graphic file (type pdf)
 <use boxplot_1.pdf>
-Package pdftex.def Info: boxplot_1.pdf  used on input line 930. on input line 9
-30.
+Package pdftex.def Info: boxplot_1.pdf  used on input line 942. on input line 9
+42.
 Package pdftex.def Info: Requested size: 245.83282pt x 178.79105pt on input lin
-e 930.
+e 942.
 
-Overfull \vbox (4.57108pt too high) detected at line 930
+Overfull \vbox (4.57108pt too high) detected at line 942
  []
 
-[94
+[95
 
  <./boxplot_1.pdf>] (stata_workshop_for_govt_officials_20.log.tex)
 
 pdfTeX warning: pdflatex (file ./boxplot_2.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<boxplot_2.pdf, id=592, pagebox=cropbox, 397.485pt x 289.08pt>
+<boxplot_2.pdf, id=597, pagebox=cropbox, 397.485pt x 289.08pt>
 File: boxplot_2.pdf Graphic file (type pdf)
 <use boxplot_2.pdf>
-Package pdftex.def Info: boxplot_2.pdf  used on input line 950. on input line 9
-50.
+Package pdftex.def Info: boxplot_2.pdf  used on input line 962. on input line 9
+62.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 950.
+e 962.
 
-Overfull \vbox (23.9695pt too high) detected at line 950
- []
-
-[95
-
- <./boxplot_2.pdf>] (stata_workshop_for_govt_officials_20.log.tex)
-File: boxplot_2.pdf Graphic file (type pdf)
-<use boxplot_2.pdf>
-Package pdftex.def Info: boxplot_2.pdf  used on input line 950. on input line 9
-50.
-Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 950.
-
-Overfull \vbox (23.9695pt too high) detected at line 950
+Overfull \vbox (23.9695pt too high) detected at line 962
  []
 
 [96
 
-] (stata_workshop_for_govt_officials_20.log.tex)
+ <./boxplot_2.pdf>] (stata_workshop_for_govt_officials_20.log.tex)
 File: boxplot_2.pdf Graphic file (type pdf)
 <use boxplot_2.pdf>
-Package pdftex.def Info: boxplot_2.pdf  used on input line 950. on input line 9
-50.
+Package pdftex.def Info: boxplot_2.pdf  used on input line 962. on input line 9
+62.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 950.
+e 962.
 
-Overfull \vbox (23.9695pt too high) detected at line 950
+Overfull \vbox (23.9695pt too high) detected at line 962
  []
 
 [97
 
+] (stata_workshop_for_govt_officials_20.log.tex)
+File: boxplot_2.pdf Graphic file (type pdf)
+<use boxplot_2.pdf>
+Package pdftex.def Info: boxplot_2.pdf  used on input line 962. on input line 9
+62.
+Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
+e 962.
+
+Overfull \vbox (23.9695pt too high) detected at line 962
+ []
+
+[98
+
 ] (stata_workshop_for_govt_officials_22.log.tex)
 File: boxplot_1.pdf Graphic file (type pdf)
 <use boxplot_1.pdf>
-Package pdftex.def Info: boxplot_1.pdf  used on input line 965. on input line 9
-65.
+Package pdftex.def Info: boxplot_1.pdf  used on input line 977. on input line 9
+77.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 965.
- [98
+e 977.
+ [99
 
 ]
 (stata_workshop_for_govt_officials_22.log.tex)
 File: boxplot_1.pdf Graphic file (type pdf)
 <use boxplot_1.pdf>
-Package pdftex.def Info: boxplot_1.pdf  used on input line 965. on input line 9
-65.
+Package pdftex.def Info: boxplot_1.pdf  used on input line 977. on input line 9
+77.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 965.
- [99
+e 977.
+ [100
 
-] [100
+] [101
 
 ]
 
 pdfTeX warning: pdflatex (file ./hist_1.pdf): PDF inclusion: found PDF version 
 <1.6>, but at most version <1.5> allowed
-<hist_1.pdf, id=634, pagebox=cropbox, 397.485pt x 289.08pt>
+<hist_1.pdf, id=639, pagebox=cropbox, 397.485pt x 289.08pt>
 File: hist_1.pdf Graphic file (type pdf)
 <use hist_1.pdf>
-Package pdftex.def Info: hist_1.pdf  used on input line 982. on input line 982.
+Package pdftex.def Info: hist_1.pdf  used on input line 994. on input line 994.
 
 Package pdftex.def Info: Requested size: 245.83282pt x 178.79105pt on input lin
-e 982.
+e 994.
 
-Overfull \vbox (6.57108pt too high) detected at line 982
+Overfull \vbox (6.57108pt too high) detected at line 994
  []
 
-[101
+[102
 
  <./hist_1.pdf>] (stata_workshop_for_govt_officials_24.log.tex)
 
 pdfTeX warning: pdflatex (file ./hist_2.pdf): PDF inclusion: found PDF version 
 <1.6>, but at most version <1.5> allowed
-<hist_2.pdf, id=650, pagebox=cropbox, 397.485pt x 289.08pt>
+<hist_2.pdf, id=655, pagebox=cropbox, 397.485pt x 289.08pt>
 File: hist_2.pdf Graphic file (type pdf)
 <use hist_2.pdf>
-Package pdftex.def Info: hist_2.pdf  used on input line 1000. on input line 100
-0.
+Package pdftex.def Info: hist_2.pdf  used on input line 1012. on input line 101
+2.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1000.
+e 1012.
 
-Overfull \vbox (2.0602pt too high) detected at line 1000
- []
-
-[102
-
- <./hist_2.pdf>] (stata_workshop_for_govt_officials_24.log.tex)
-File: hist_2.pdf Graphic file (type pdf)
-<use hist_2.pdf>
-Package pdftex.def Info: hist_2.pdf  used on input line 1000. on input line 100
-0.
-Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1000.
-
-Overfull \vbox (2.0602pt too high) detected at line 1000
+Overfull \vbox (2.0602pt too high) detected at line 1012
  []
 
 [103
 
-] (stata_workshop_for_govt_officials_24.log.tex)
+ <./hist_2.pdf>] (stata_workshop_for_govt_officials_24.log.tex)
 File: hist_2.pdf Graphic file (type pdf)
 <use hist_2.pdf>
-Package pdftex.def Info: hist_2.pdf  used on input line 1000. on input line 100
-0.
+Package pdftex.def Info: hist_2.pdf  used on input line 1012. on input line 101
+2.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1000.
+e 1012.
 
-Overfull \vbox (2.0602pt too high) detected at line 1000
+Overfull \vbox (2.0602pt too high) detected at line 1012
  []
 
 [104
 
-] (stata_workshop_for_govt_officials_26.log.tex
-Overfull \hbox (4.71019pt too wide) in paragraph at lines 2--2
- []\OT1/lmtt/m/n/8 title("Distribution of the Distance to Drinking Water (metre
-s)")[] 
+] (stata_workshop_for_govt_officials_24.log.tex)
+File: hist_2.pdf Graphic file (type pdf)
+<use hist_2.pdf>
+Package pdftex.def Info: hist_2.pdf  used on input line 1012. on input line 101
+2.
+Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
+e 1012.
+
+Overfull \vbox (2.0602pt too high) detected at line 1012
  []
 
-) [105
+[105
 
 ] (stata_workshop_for_govt_officials_26.log.tex
 Overfull \hbox (4.71019pt too wide) in paragraph at lines 2--2
@@ -1974,120 +1962,108 @@ s)")[]
 
 ) [108
 
-] [109
+] (stata_workshop_for_govt_officials_26.log.tex
+Overfull \hbox (4.71019pt too wide) in paragraph at lines 2--2
+ []\OT1/lmtt/m/n/8 title("Distribution of the Distance to Drinking Water (metre
+s)")[] 
+ []
+
+) [109
+
+] [110
 
 ]
 
 pdfTeX warning: pdflatex (file ./scatter_1.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<scatter_1.pdf, id=703, pagebox=cropbox, 397.485pt x 289.08pt>
+<scatter_1.pdf, id=708, pagebox=cropbox, 397.485pt x 289.08pt>
 File: scatter_1.pdf Graphic file (type pdf)
 <use scatter_1.pdf>
-Package pdftex.def Info: scatter_1.pdf  used on input line 1033. on input line 
-1033.
+Package pdftex.def Info: scatter_1.pdf  used on input line 1045. on input line 
+1045.
 Package pdftex.def Info: Requested size: 245.83282pt x 178.79105pt on input lin
-e 1033.
+e 1045.
 
-Overfull \vbox (23.21626pt too high) detected at line 1033
+Overfull \vbox (23.21626pt too high) detected at line 1045
  []
 
-[110
+[111
 
  <./scatter_1.pdf>] (stata_workshop_for_govt_officials_28.log.tex)
 
 pdfTeX warning: pdflatex (file ./scatter_2.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<scatter_2.pdf, id=719, pagebox=cropbox, 397.485pt x 289.08pt>
+<scatter_2.pdf, id=724, pagebox=cropbox, 397.485pt x 289.08pt>
 File: scatter_2.pdf Graphic file (type pdf)
 <use scatter_2.pdf>
-Package pdftex.def Info: scatter_2.pdf  used on input line 1051. on input line 
-1051.
+Package pdftex.def Info: scatter_2.pdf  used on input line 1063. on input line 
+1063.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1051.
-[111
+e 1063.
+[112
 
  <./scatter_2.pdf>] (stata_workshop_for_govt_officials_28.log.tex)
 File: scatter_2.pdf Graphic file (type pdf)
 <use scatter_2.pdf>
-Package pdftex.def Info: scatter_2.pdf  used on input line 1051. on input line 
-1051.
+Package pdftex.def Info: scatter_2.pdf  used on input line 1063. on input line 
+1063.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1051.
- [112
+e 1063.
+ [113
 
 ]
 (stata_workshop_for_govt_officials_28.log.tex)
 File: scatter_2.pdf Graphic file (type pdf)
 <use scatter_2.pdf>
-Package pdftex.def Info: scatter_2.pdf  used on input line 1051. on input line 
-1051.
+Package pdftex.def Info: scatter_2.pdf  used on input line 1063. on input line 
+1063.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1051.
- [113
+e 1063.
+ [114
 
 ]
 (stata_workshop_for_govt_officials_30.log.tex)
 
 pdfTeX warning: pdflatex (file ./scatter_3.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<scatter_3.pdf, id=745, pagebox=cropbox, 397.485pt x 289.08pt>
+<scatter_3.pdf, id=750, pagebox=cropbox, 397.485pt x 289.08pt>
 File: scatter_3.pdf Graphic file (type pdf)
 <use scatter_3.pdf>
-Package pdftex.def Info: scatter_3.pdf  used on input line 1071. on input line 
-1071.
+Package pdftex.def Info: scatter_3.pdf  used on input line 1083. on input line 
+1083.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1071.
+e 1083.
 
-Overfull \vbox (8.66402pt too high) detected at line 1071
- []
-
-[114
-
- <./scatter_3.pdf>] (stata_workshop_for_govt_officials_30.log.tex)
-File: scatter_3.pdf Graphic file (type pdf)
-<use scatter_3.pdf>
-Package pdftex.def Info: scatter_3.pdf  used on input line 1071. on input line 
-1071.
-Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1071.
-
-Overfull \vbox (8.66402pt too high) detected at line 1071
+Overfull \vbox (8.66402pt too high) detected at line 1083
  []
 
 [115
 
-] (stata_workshop_for_govt_officials_30.log.tex)
+ <./scatter_3.pdf>] (stata_workshop_for_govt_officials_30.log.tex)
 File: scatter_3.pdf Graphic file (type pdf)
 <use scatter_3.pdf>
-Package pdftex.def Info: scatter_3.pdf  used on input line 1071. on input line 
-1071.
+Package pdftex.def Info: scatter_3.pdf  used on input line 1083. on input line 
+1083.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1071.
+e 1083.
 
-Overfull \vbox (8.66402pt too high) detected at line 1071
+Overfull \vbox (8.66402pt too high) detected at line 1083
  []
 
 [116
 
-] (stata_workshop_for_govt_officials_32.log.tex
-Overfull \hbox (17.46019pt too wide) in paragraph at lines 3--3
- []        \OT1/lmtt/m/n/8 ytitle("Distance to the nearest drinking water sourc
-e") ///[] 
+] (stata_workshop_for_govt_officials_30.log.tex)
+File: scatter_3.pdf Graphic file (type pdf)
+<use scatter_3.pdf>
+Package pdftex.def Info: scatter_3.pdf  used on input line 1083. on input line 
+1083.
+Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
+e 1083.
+
+Overfull \vbox (8.66402pt too high) detected at line 1083
  []
 
-
-Overfull \hbox (0.46019pt too wide) in paragraph at lines 4--4
- []        \OT1/lmtt/m/n/8 xtitle("Distance to the main drinking source used") 
-///[] 
- []
-
-
-Overfull \hbox (21.71019pt too wide) in paragraph at lines 5--5
- []        \OT1/lmtt/m/n/8 title("Is the main drinking water also the closest s
-ource?")[] 
- []
-
-) [117
+[117
 
 ] (stata_workshop_for_govt_officials_32.log.tex
 Overfull \hbox (17.46019pt too wide) in paragraph at lines 3--3
@@ -2109,71 +2085,87 @@ ource?")[]
 
 ) [118
 
-] [119
+] (stata_workshop_for_govt_officials_32.log.tex
+Overfull \hbox (17.46019pt too wide) in paragraph at lines 3--3
+ []        \OT1/lmtt/m/n/8 ytitle("Distance to the nearest drinking water sourc
+e") ///[] 
+ []
+
+
+Overfull \hbox (0.46019pt too wide) in paragraph at lines 4--4
+ []        \OT1/lmtt/m/n/8 xtitle("Distance to the main drinking source used") 
+///[] 
+ []
+
+
+Overfull \hbox (21.71019pt too wide) in paragraph at lines 5--5
+ []        \OT1/lmtt/m/n/8 title("Is the main drinking water also the closest s
+ource?")[] 
+ []
+
+) [119
 
 ] [120
 
 ] [121
 
+] [122
+
 ]
 
 pdfTeX warning: pdflatex (file ./combined.pdf): PDF inclusion: found PDF versio
 n <1.6>, but at most version <1.5> allowed
-<combined.pdf, id=798, pagebox=cropbox, 397.485pt x 289.08pt>
+<combined.pdf, id=803, pagebox=cropbox, 397.485pt x 289.08pt>
 File: combined.pdf Graphic file (type pdf)
 <use combined.pdf>
-Package pdftex.def Info: combined.pdf  used on input line 1127. on input line 1
-127.
+Package pdftex.def Info: combined.pdf  used on input line 1139. on input line 1
+139.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1127.
-[122
+e 1139.
+[123
 
  <./combined.pdf>]
 File: combined.pdf Graphic file (type pdf)
 <use combined.pdf>
-Package pdftex.def Info: combined.pdf  used on input line 1127. on input line 1
-127.
+Package pdftex.def Info: combined.pdf  used on input line 1139. on input line 1
+139.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1127.
- [123
+e 1139.
+ [124
 
 ]
 File: combined.pdf Graphic file (type pdf)
 <use combined.pdf>
-Package pdftex.def Info: combined.pdf  used on input line 1127. on input line 1
-127.
+Package pdftex.def Info: combined.pdf  used on input line 1139. on input line 1
+139.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1127.
- [124
+e 1139.
+ [125
 
 ]
 
 pdfTeX warning: pdflatex (file ./combined_better.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<combined_better.pdf, id=824, pagebox=cropbox, 397.485pt x 289.08pt>
+<combined_better.pdf, id=829, pagebox=cropbox, 397.485pt x 289.08pt>
 File: combined_better.pdf Graphic file (type pdf)
 <use combined_better.pdf>
-Package pdftex.def Info: combined_better.pdf  used on input line 1139. on input
- line 1139.
+Package pdftex.def Info: combined_better.pdf  used on input line 1151. on input
+ line 1151.
 Package pdftex.def Info: Requested size: 153.64493pt x 111.74385pt on input lin
-e 1139.
-[125
+e 1151.
+[126
 
- <./combined_better.pdf>] [126
-
-] [127
+ <./combined_better.pdf>] [127
 
 ] [128
+
+] [129
 
 ]
 (stata_workshop_for_govt_officials_36.log.tex
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 3.
 )
-(stata_workshop_for_govt_officials_37.log.tex) [129
-
-]
-(stata_workshop_for_govt_officials_36.log.tex)
 (stata_workshop_for_govt_officials_37.log.tex) [130
 
 ]
@@ -2188,7 +2180,9 @@ LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <8> not available
 (stata_workshop_for_govt_officials_36.log.tex)
 (stata_workshop_for_govt_officials_37.log.tex) [133
 
-] [134
+]
+(stata_workshop_for_govt_officials_36.log.tex)
+(stata_workshop_for_govt_officials_37.log.tex) [134
 
 ] [135
 
@@ -2196,12 +2190,14 @@ LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <8> not available
 
 ] [137
 
-]
-(stata_workshop_for_govt_officials_38.log.tex)
-(stata_workshop_for_govt_officials_39.log.tex) [138
+] [138
 
 ]
-(stata_workshop_for_govt_officials_40.log.tex) [139
+(stata_workshop_for_govt_officials_38.log.tex)
+(stata_workshop_for_govt_officials_39.log.tex) [139
+
+]
+(stata_workshop_for_govt_officials_40.log.tex) [140
 
 ]
 \tf@nav=\write6
@@ -2213,12 +2209,12 @@ LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <8> not available
 \tf@snm=\write8
 \openout8 = `stata_workshop_for_govt_officials.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1258.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1258.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1270.
 
 (stata_workshop_for_govt_officials.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1270.
 
 Package rerunfilecheck Info: File `stata_workshop_for_govt_officials.out' has n
 ot changed.
@@ -2229,10 +2225,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31672 strings out of 493312
- 772474 string characters out of 3136307
- 969541 words of memory out of 3000000
- 34059 multiletter control sequences out of 15000+200000
+ 31676 strings out of 493312
+ 772513 string characters out of 3136307
+ 969542 words of memory out of 3000000
+ 34061 multiletter control sequences out of 15000+200000
  74636 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,98p,1923b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2251,10 +2247,10 @@ X 2.9/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtk10
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb>
-Output written on stata_workshop_for_govt_officials.pdf (139 pages, 3629778 byt
+Output written on stata_workshop_for_govt_officials.pdf (140 pages, 3631430 byt
 es).
 PDF statistics:
- 1027 PDF objects out of 1200 (max. 8388607)
- 283 named destinations out of 1000 (max. 500000)
+ 1032 PDF objects out of 1200 (max. 8388607)
+ 285 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

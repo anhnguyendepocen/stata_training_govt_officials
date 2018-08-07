@@ -476,7 +476,8 @@
 		\end{itemize}
 		***/
 		texdoc stlog, cmdlog
-			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
+			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 ///
+				s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
 		texdoc stlog close			
 		/***
 		\begin{itemize}
@@ -620,6 +621,18 @@
 	
 	
 	\begin{frame}
+		\frametitle{\textsc{Refresher}}
+		Yesterday we learnt ...
+		\begin{itemize}
+			\item how stata works
+			\item using the dropdown and command window to execute actions
+			\item how to explore a dataset using commands like \textit{browse describe tabulate summarize}
+			\item how to manipulate a dataset using commands like \textit{drop keep generate replace}
+			\item how to label variables and values
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
 		\frametitle{\textsc{}}
 
 		\begin{center}
@@ -756,7 +769,8 @@
 		texdoc stlog, nooutput cmdlog
 		clear all
 		use "$data\cs_s0_s5_household.dta", clear 
-		keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
+		keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 ///
+			s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
 		drop province s5bq2 s5cq17 s5cq15
 		rename ur2012 	urban_2012
 		rename s5cq2 	m_main_ws
@@ -1055,7 +1069,7 @@
 	\frametitle{\textsc{Box plot}}	
 		\onslide<1-> Let's make a box plot from your do file.
 		\begin{enumerate}
-			 \item Open "\$data\cs\_s0\_s5\_household\_modified.xls"
+			 \item Open "\$data\_cs\_s0\_s5\_household\_modified.xls"
 			 \item Type \textbf{\textit{search box plots}} in the command window to find out what command to be used.
 					\textbf{\textit{search}} is a more general search through help files and other Stata resources.
 			 \onslide<2-> \item The command should look like the following. Run from the do file.

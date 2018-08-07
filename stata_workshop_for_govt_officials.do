@@ -476,7 +476,8 @@
 		\end{itemize}
 		***/
 		texdoc stlog, cmdlog
-			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
+			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 ///
+				s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
 		texdoc stlog close			
 		/***
 		\begin{itemize}
@@ -1055,7 +1056,7 @@
 	\frametitle{\textsc{Box plot}}	
 		\onslide<1-> Let's make a box plot from your do file.
 		\begin{enumerate}
-			 \item Open "\$data\cs\_s0\_s5\_household\_modified.xls"
+			 \item Open "\$data\_cs\_s0\_s5\_household\_modified.xls"
 			 \item Type \textbf{\textit{search box plots}} in the command window to find out what command to be used.
 					\textbf{\textit{search}} is a more general search through help files and other Stata resources.
 			 \onslide<2-> \item The command should look like the following. Run from the do file.

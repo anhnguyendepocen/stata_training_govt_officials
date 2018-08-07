@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.18)  7 AUG 2018 03:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.18)  7 AUG 2018 08:00
 entering extended mode
 **C:/Users/roshn/Documents/GitHub/stata_training_govt_officials/stata_workshop_
 for_govt_officials.tex
@@ -1491,31 +1491,16 @@ LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
 ] [43
 
 ]
-(stata_workshop_for_govt_officials_3.log.tex
-Overfull \hbox (78.21016pt too wide) in paragraph at lines 465--1
- []\OT1/lmtt/m/n/8 keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 
-s5cq23 s5bq2 s5cq22 s5cq13 
- []
-
-) (stata_workshop_for_govt_officials_4.log.tex) [44
+(stata_workshop_for_govt_officials_3.log.tex)
+(stata_workshop_for_govt_officials_4.log.tex) [44
 
 ]
-(stata_workshop_for_govt_officials_3.log.tex
-Overfull \hbox (78.21016pt too wide) in paragraph at lines 465--1
- []\OT1/lmtt/m/n/8 keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 
-s5cq23 s5bq2 s5cq22 s5cq13 
- []
-
-) (stata_workshop_for_govt_officials_4.log.tex) [45
+(stata_workshop_for_govt_officials_3.log.tex)
+(stata_workshop_for_govt_officials_4.log.tex) [45
 
 ]
-(stata_workshop_for_govt_officials_3.log.tex
-Overfull \hbox (78.21016pt too wide) in paragraph at lines 465--1
- []\OT1/lmtt/m/n/8 keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 
-s5cq23 s5bq2 s5cq22 s5cq13 
- []
-
-) (stata_workshop_for_govt_officials_4.log.tex) [46
+(stata_workshop_for_govt_officials_3.log.tex)
+(stata_workshop_for_govt_officials_4.log.tex) [46
 
 ] [47
 
@@ -2266,7 +2251,7 @@ X 2.9/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtk10
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb>
-Output written on stata_workshop_for_govt_officials.pdf (139 pages, 3629755 byt
+Output written on stata_workshop_for_govt_officials.pdf (139 pages, 3629778 byt
 es).
 PDF statistics:
  1027 PDF objects out of 1200 (max. 8388607)

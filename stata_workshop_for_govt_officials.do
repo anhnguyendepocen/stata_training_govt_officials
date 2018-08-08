@@ -659,6 +659,8 @@
 				\item It's through the do-file you communicate your work to other members in your team, both current and future
 				\item Think of the do-files as instructions on how to get from raw data to final report
 				\item For a simple task you can enter commands manually. But for more complex tasks you need to write a recipe, or a list of instructions
+				\item A do-file works similarly to the command window. But instead of running one line of code at the time, a do-file lets you do that run any number of lines of code
+
 				
 				\end{itemize}
 			\end{frame}
@@ -673,18 +675,18 @@
 			\centering
 			\includegraphics[width=0.9\linewidth]{dofile}
 		\end{figure}
+	\end{frame}
+	\begin{frame}
 		\begin{itemize}
-			\item A do-file works similarly to the command window. But instead of running one line of code at the time, a do-file lets you do that run any number of lines of code
-
 			\item Running the code in your do-file using menus: Tools $\rightarrow$ Execute (Do) 
-			\item Alternatively, select Ctrl+R (Windows) on your keyboard
+			\item Alternatively, select Ctrl+D (Windows) on your keyboard
 			\item Alternatively, click the shortcut highlighted below
-
 		\end{itemize}
 		\begin{figure}[H] 
 			\centering
 			\includegraphics[width=0.9\linewidth]{run}
 		\end{figure}		
+		
 	\end{frame}
 	
 	\begin{frame}

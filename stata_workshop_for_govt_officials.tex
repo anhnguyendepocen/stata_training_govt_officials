@@ -565,7 +565,7 @@
 	
 	\begin{frame}
 		\frametitle{\textsc{Refresher}}
-		Yesterday we learnt ...
+		On day 1 we learnt ...
 		\begin{itemize}
 			\item how stata works
 			\item using the dropdown and command window to execute actions
@@ -879,7 +879,7 @@
 	\end{frame}
 
 	\begin{frame}
-	\frametitle{\textsc{Example: compairng means}}
+	\frametitle{\textsc{Example: comparing means}}
 		\begin{columns}
 		\column{0.55\linewidth}
 		\includegraphics[height=5cm, width=6cm]{figure_example_2}
@@ -1029,6 +1029,17 @@
 	\end{frame}
 	
 	\begin{frame}
+		\frametitle{\textsc{Refresher}}
+		Yesterday we learnt ...
+		\begin{itemize}
+			\item how to use do-files
+			\item how to write comments in do-files
+			\item how to save and export datasets
+			\item how to create simple graphs
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
 	\frametitle{\textsc{Stata graph exercise 3}}
 		\begin{center}
 		\Large \textbf{Scatter plot}
@@ -1151,62 +1162,52 @@
     \includegraphics[width=0.5\textwidth]{combined_better.pdf}
 \end{center}
 	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Importing an excel file}}
+		\begin{itemize}
+		\item You can import an excel using the drop down menus:
+		File $\rightarrow$ Import $\rightarrow$ Excel spreadsheet
+		\item You can also write a command to import an excel file
+		\item Let us import the excel file we saved yesterday
+		\end{itemize}
+		
+\begin{stlog}\input{stata_workshop_for_govt_officials_36.log.tex}\end{stlog}
+		
+		
+		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Destringing}}
 
+		\begin{itemize}
+			\item Sometimes numbers are be stored as text
+			\item We can convert numbers stored as strings to numbers by using the \textit{destring} command
+			\item Let us try converting the variable \textit{earnings\_sell\_w} to a numeric variable
+		\end{itemize}
+\begin{stlog}\input{stata_workshop_for_govt_officials_37.log.tex}\end{stlog}
+	\end{frame}
 		\begin{frame}
 	\frametitle{\textsc{Some Stata do's and don't}}
 	\begin{itemize}
 		  \item NEVER save over the existing dataset (especially a raw dataset)!
 		  \item Comment on why, not on what
-		  \item Always write a do-file
+		
+		\item Always write a do-file
 		  \item Make sure your work flow works smoothly
 		  \item Provide concise and self explanatory titles to graphs
 	  \end{itemize}
-	 \end{frame}			
+	 \end{frame}	
+	 
+	 
+	 
 	\section{Extra section: More about Stata}
 	
-	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-		\Large \textbf{Using macros \\ (globals, locals and scalars)}
-		\end{center}
-	\end{frame}
+
 
 	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-			\onslide<1-> \LARGE \textbf{Defining macros - local}
-		\end{center}
-		Type in your dofile the following and \textit{run all the lines at once}.
-		\begin{itemize}
-			\item Note that \textbf{`} is not the same as \textbf{'}.
-\begin{stlog}\input{stata_workshop_for_govt_officials_36.log.tex}\end{stlog}
-		\vspace{2mm}
-		\onslide<2-> \item What did the result say?
-		\onslide<3-> 
-\begin{stlog}\input{stata_workshop_for_govt_officials_37.log.tex}\end{stlog}
-			\onslide<4-> \item Try running them one by one, and see what happens?
-				\begin{itemize}
-					\onslide<5-> \item It probably didn't run. 
-									   This is one of the major differences between global and local.
-									   Local is really local and only last within a single run.
-									   For more please refer to the help file on \textit{macro}.
-				\end{itemize}
-		\end{itemize}
-	\end{frame} 
-	
-	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-		\Large \textbf{Missing values}
-		\end{center}
-	\end{frame}
-		
-	
-	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-			\LARGE 	\textbf{Missing values}
-		\end{center}
+	\frametitle{\textsc{Missing values}}
 		\begin{itemize}
 			\item String variables can be empty, but numeric variables can't be empty. 
 				  Instead numeric variables have something called “missing values”.
@@ -1223,18 +1224,49 @@
 		\end{itemize}
 	\end{frame}
 	
+	
 	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
-		\begin{center}
-		\Large \textbf{tabstat: \\ another command of summary statistics}
-		\end{center}
+		\frametitle{\textsc{Using drop down menus to create graphs}}
+		
+		\begin{itemize}
+			\item It is hard to remember all the commands and options in general and especially to create graphs
+			\item We can use drop down menus to create the graph
+			\item For instance, if we want to create a pie chart for the variable \textit{urban\_2012} using dropdown menus we can follow these steps
+			\end{itemize}
+			Graphics $\rightarrow$ Pie chart, select \textit{urban\_2012} as Category variable and press OK
+		
 	\end{frame}
+	
+	
+
+	\begin{frame}
+	\frametitle{\textsc{Macros - locals}}
+		\begin{center}
+			\onslide<1-> \LARGE \textbf{Defining macros - local}
+		\end{center}
+		Type in your dofile the following and \textit{run all the lines at once}.
+		\begin{itemize}
+			\item Note that \textbf{`} is not the same as \textbf{'}.
+\begin{stlog}\input{stata_workshop_for_govt_officials_38.log.tex}\end{stlog}
+		\vspace{2mm}
+		\onslide<2-> \item What did the result say?
+		\onslide<3-> 
+\begin{stlog}\input{stata_workshop_for_govt_officials_39.log.tex}\end{stlog}
+			\onslide<4-> \item Try running them one by one, and see what happens?
+				\begin{itemize}
+					\onslide<5-> \item It probably didn't run. 
+									   This is one of the major differences between global and local.
+									   Local is really local and only last within a single run.
+									   For more please refer to the help file on \textit{macro}.
+				\end{itemize}
+		\end{itemize}
+	\end{frame} 
+	
+
+
 		
 	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
-		\begin{center}
-			\LARGE \textbf{tabstat}
-		\end{center}
+	\frametitle{\textsc{tabstat}}
 		\begin{itemize}
 			\item While \textbf{\textit{summarize}} and \textbf{\textit{tabulate}} 
 				  provide useful fixed format output, 
@@ -1248,24 +1280,24 @@
 	\end{frame}
 	
 	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
+	\frametitle{\textsc{tabstat}}
 		Here are some examples.
 		\begin{itemize}
 			\item This is the very basic command.
-\begin{stlog}\input{stata_workshop_for_govt_officials_38.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_40.log.tex}\end{stlog}
 			\vspace{2mm}
 			\item You can add multiple variable at a time.
-\begin{stlog}\input{stata_workshop_for_govt_officials_39.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_41.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
 		
 	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
+	\frametitle{\textsc{tatstat}}
 	Lastly...
 		\begin{itemize}
 			\vspace{2mm}
 			\item You choose what types of statistics you want it to display.
-\begin{stlog}\input{stata_workshop_for_govt_officials_40.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_42.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
 	

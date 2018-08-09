@@ -622,7 +622,7 @@
 	
 	\begin{frame}
 		\frametitle{\textsc{Refresher}}
-		Yesterday we learnt ...
+		On day 1 we learnt ...
 		\begin{itemize}
 			\item how stata works
 			\item using the dropdown and command window to execute actions
@@ -999,7 +999,7 @@
 	\end{frame}
 
 	\begin{frame}
-	\frametitle{\textsc{Example: compairng means}}
+	\frametitle{\textsc{Example: comparing means}}
 		\begin{columns}
 		\column{0.55\linewidth}
 		\includegraphics[height=5cm, width=6cm]{figure_example_2}
@@ -1169,6 +1169,17 @@
 			\vspace{1mm}
 			\onslide <4-> \item \textbf{\textit{help twoway\_options}} to find out more about the \textbf{\textit{title}} option and more.
 		\end{enumerate}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Refresher}}
+		Yesterday we learnt ...
+		\begin{itemize}
+			\item how to use do-files
+			\item how to write comments in do-files
+			\item how to save and export datasets
+			\item how to create simple graphs
+		\end{itemize}
 	\end{frame}
 	
 	\begin{frame}
@@ -1361,28 +1372,97 @@
 			texdoc graph combined_better, optargs(width=0.5\textwidth) 	
 		/***
 	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Importing an excel file}}
+		\begin{itemize}
+		\item You can import an excel using the drop down menus:
+		File $\rightarrow$ Import $\rightarrow$ Excel spreadsheet
+		\item You can also write a command to import an excel file
+		\item Let us import the excel file we saved yesterday
+		\end{itemize}
+			***/
+	
+	texdoc stlog, cmdlog
+	import excel using "$data\cs_s0_s5_household_modified.xls", ///
+	clear firstrow
+	texdoc stlog close
 
+	/***
+		
+		
+		
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{\textsc{Destringing}}
+
+		\begin{itemize}
+			\item Sometimes numbers are be stored as text
+			\item We can convert numbers stored as strings to numbers by using the \textit{destring} command
+			\item Let us try converting the variable \textit{earnings\_sell\_w} to a numeric variable
+		\end{itemize}
+	***/
+	
+	texdoc stlog, cmdlog
+	destring earnings_sell_w, replace
+	texdoc stlog close
+
+	/***
+	\end{frame}
 		\begin{frame}
 	\frametitle{\textsc{Some Stata do's and don't}}
 	\begin{itemize}
 		  \item NEVER save over the existing dataset (especially a raw dataset)!
 		  \item Comment on why, not on what
-		  \item Always write a do-file
+		
+		\item Always write a do-file
 		  \item Make sure your work flow works smoothly
 		  \item Provide concise and self explanatory titles to graphs
 	  \end{itemize}
-	 \end{frame}			
+	 \end{frame}	
+	 
+	 
+	 
 	\section{Extra section: More about Stata}
 	
-	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-		\Large \textbf{Using macros \\ (globals, locals and scalars)}
-		\end{center}
-	\end{frame}
+
 
 	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
+	\frametitle{\textsc{Missing values}}
+		\begin{itemize}
+			\item String variables can be empty, but numeric variables can't be empty. 
+				  Instead numeric variables have something called “missing values”.
+				\begin{itemize}
+					\item Missing values are represented in Stata with a period as in " \textbf{.} ". 
+					\item You can also use .a or .b etc. to .z for missing values 
+						  and you will learn later how these can be used
+				\end{itemize}
+			\item Stata can't use missing values in computations (averages, regressions etc.) 
+				  so it skips observations with missing values . 
+			\item Missing values changes the analysis as observations with 
+				  missing values are excluded from commands like summarize and regress.
+			\item Good practice to always check for missing values when tabulating variables.			
+		\end{itemize}
+	\end{frame}
+	
+	
+	\begin{frame}
+		\frametitle{\textsc{Using drop down menus to create graphs}}
+		
+		\begin{itemize}
+			\item It is hard to remember all the commands and options in general and especially to create graphs
+			\item We can use drop down menus to create the graph
+			\item For instance, if we want to create a pie chart for the variable \textit{urban\_2012} using dropdown menus we can follow these steps
+			\end{itemize}
+			Graphics $\rightarrow$ Pie chart, select \textit{urban\_2012} as Category variable and press OK
+		
+	\end{frame}
+	
+	
+
+	\begin{frame}
+	\frametitle{\textsc{Macros - locals}}
 		\begin{center}
 			\onslide<1-> \LARGE \textbf{Defining macros - local}
 		\end{center}
@@ -1420,47 +1500,11 @@
 		\end{itemize}
 	\end{frame} 
 	
-	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-		\Large \textbf{Missing values}
-		\end{center}
-	\end{frame}
-		
-	
-	\begin{frame}
-	\frametitle{\textsc{Other features of Stata}}
-		\begin{center}
-			\LARGE 	\textbf{Missing values}
-		\end{center}
-		\begin{itemize}
-			\item String variables can be empty, but numeric variables can't be empty. 
-				  Instead numeric variables have something called “missing values”.
-				\begin{itemize}
-					\item Missing values are represented in Stata with a period as in " \textbf{.} ". 
-					\item You can also use .a or .b etc. to .z for missing values 
-						  and you will learn later how these can be used
-				\end{itemize}
-			\item Stata can't use missing values in computations (averages, regressions etc.) 
-				  so it skips observations with missing values . 
-			\item Missing values changes the analysis as observations with 
-				  missing values are excluded from commands like summarize and regress.
-			\item Good practice to always check for missing values when tabulating variables.			
-		\end{itemize}
-	\end{frame}
-	
-	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
-		\begin{center}
-		\Large \textbf{tabstat: \\ another command of summary statistics}
-		\end{center}
-	\end{frame}
+
+
 		
 	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
-		\begin{center}
-			\LARGE \textbf{tabstat}
-		\end{center}
+	\frametitle{\textsc{tabstat}}
 		\begin{itemize}
 			\item While \textbf{\textit{summarize}} and \textbf{\textit{tabulate}} 
 				  provide useful fixed format output, 
@@ -1474,19 +1518,20 @@
 	\end{frame}
 	
 	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
+	\frametitle{\textsc{tabstat}}
 		Here are some examples.
 		\begin{itemize}
 			\item This is the very basic command.
 	***/
-		texdoc stlog
+		use "$data\cs_s0_s5_household_modified.dta", clear
+		texdoc stlog, cmdlog
 			tabstat m_main_ws
 		texdoc stlog close	
 	/***
 			\vspace{2mm}
 			\item You can add multiple variable at a time.
 	***/
-		texdoc stlog
+		texdoc stlog, cmdlog
 			tabstat m_main_ws m_used_ws
 		texdoc stlog close
 		
@@ -1495,13 +1540,13 @@
 	\end{frame}
 		
 	\begin{frame}
-	\frametitle{\textsc{One more useful command}}
+	\frametitle{\textsc{tatstat}}
 	Lastly...
 		\begin{itemize}
 			\vspace{2mm}
 			\item You choose what types of statistics you want it to display.
 	***/
-		texdoc stlog
+		texdoc stlog, cmdlog
 			tabstat m_main_ws m_used_ws, statistics(mean sd median)
 		texdoc stlog close
 	/***

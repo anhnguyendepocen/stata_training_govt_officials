@@ -1476,10 +1476,16 @@
 	\begin{frame}
 		\frametitle{\textsc{Importing an excel file}}
 		\begin{itemize}
-		\item You can import an excel using the drop down menus:
+		\item You can import an excel using the drop down menu:
 		File $\rightarrow$ Import $\rightarrow$ Excel spreadsheet
-		\item You can also write a command to import an excel file
 		\item Let us import the excel file we saved yesterday
+		\item Use the default options in the option window. 
+		Use browse to check that the data was imported correctly
+		\item In excel the first row can be used as variable names,
+		but in Stata the first row is always data. 
+
+		\item Import the excel file using the following command. Does this add the variable names?
+		
 		\end{itemize}
 			***/
 	

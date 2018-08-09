@@ -1040,7 +1040,81 @@
 	\end{frame}
 	
 	\begin{frame}
+	\frametitle{\textsc{Histogram}}
+		\onslide<1-> I wanted to start today by adding onto the histrogram we made yesterday.
+		\onslide<2-> The optional command, \textbf{\textit{by()}} 
+					 splits by a categorical variable. Try:
+	
+\begin{stlog}\input{stata_workshop_for_govt_officials_27.log.tex}\end{stlog}
+		\onslide<3-> Does your graph look like this?
+	
+\begin{center}
+    \includegraphics[width=0.8\textwidth]{hist_3.pdf}
+\end{center}
+	\end{frame}
+	
+
+	\begin{frame}
 	\frametitle{\textsc{Stata graph exercise 3}}
+		\begin{center}
+		\Large \textbf{Bar graph}
+		\end{center}
+	\end{frame}		
+	
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}
+		Let's make a bar graph like the one below using the variable, \textbf{d\_closest\_ws} and \textbf{urban_2012}.
+		\vspace{1mm}
+	
+\begin{center}
+    \includegraphics[width=0.8\textwidth]{bar_1.pdf}
+\end{center}
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}	
+		\onslide<1-> Let's make a bar graph from your do file.
+		\begin{enumerate}
+			 \item Type \textbf{\textit{help graph bar}} in the command window 
+				   to find out what command to be used.
+			 \onslide<2-> \item Note that you can make vertical or horizontal 
+								bars with this commands. The basic command should
+								look like this.
+		
+\begin{stlog}\input{stata_workshop_for_govt_officials_30.log.tex}\end{stlog}
+			\vspace{1mm}
+			\onslide<3-> \item Recall the \textbf{\textit{over}} option.
+			\vspace{1mm}
+			\onslide<4-> \item It should look something like this.
+		
+\begin{stlog}\input{stata_workshop_for_govt_officials_31.log.tex}\end{stlog}
+		\end{enumerate}
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}	
+		\onslide<1-> Now we need to add the main and y axis titles.
+					 Recall yesterday's lesson and try on your own. \vspace{1mm}
+		\onslide<2-> Does your command and graph look like this?
+		
+\begin{center}
+    \includegraphics[width=0.8\textwidth]{bar_2.pdf}
+\end{center}
+			\vspace{1mm}
+		\onslide<3-> Something is still missing...
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}	
+		\onslide<1-> The y axis has unintuitive labels. This is proportion.
+					 So let's convert to percentage. We can achieve this with 
+					 the optional command, \textbf{\textit{ylabel}}. \vspace{1mm}
+	
+\begin{stlog}\input{stata_workshop_for_govt_officials_33.log.tex}\end{stlog}
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Stata graph exercise 4}}
 		\begin{center}
 		\Large \textbf{Scatter plot}
 		\end{center}
@@ -1064,7 +1138,7 @@
 			 \item Type \textbf{\textit{help scatter}} in the command window to find out what command to be used.
 			 \onslide<2-> \item The command should look like the following. Run from the do file.
 		
-\begin{stlog}\input{stata_workshop_for_govt_officials_28.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_35.log.tex}\end{stlog}
 			\vspace{1mm}
 			\onslide<3-> \item Notice the difference from earlier? No fitted line!
 			\vspace{1mm}
@@ -1084,7 +1158,7 @@
 								To do this, run the following command.
 								Notice that \textbf{$\Vert$} is a way to overlay the graphs.
 		
-\begin{stlog}\input{stata_workshop_for_govt_officials_30.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_37.log.tex}\end{stlog}
 			\vspace{1mm}
 			\onslide<3-> \item Notice the difference from earlier? No main title and y and y titles!
 			\vspace{1mm}
@@ -1105,7 +1179,7 @@
 								You can use the same option and very similar options called \textbf{\textit{xtitle()}} and
 								\textbf{\textit{ytitle()}}.
 		
-\begin{stlog}\input{stata_workshop_for_govt_officials_32.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_39.log.tex}\end{stlog}
 		\end{enumerate}
 	\end{frame}
 	
@@ -1172,7 +1246,7 @@
 		\item Let us import the excel file we saved yesterday
 		\end{itemize}
 		
-\begin{stlog}\input{stata_workshop_for_govt_officials_36.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_43.log.tex}\end{stlog}
 		
 		
 		
@@ -1186,7 +1260,7 @@
 			\item We can convert numbers stored as strings to numbers by using the \textit{destring} command
 			\item Let us try converting the variable \textit{earnings\_sell\_w} to a numeric variable
 		\end{itemize}
-\begin{stlog}\input{stata_workshop_for_govt_officials_37.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_44.log.tex}\end{stlog}
 	\end{frame}
 		\begin{frame}
 	\frametitle{\textsc{Some Stata do's and don't}}
@@ -1247,11 +1321,11 @@
 		Type in your dofile the following and \textit{run all the lines at once}.
 		\begin{itemize}
 			\item Note that \textbf{`} is not the same as \textbf{'}.
-\begin{stlog}\input{stata_workshop_for_govt_officials_38.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_45.log.tex}\end{stlog}
 		\vspace{2mm}
 		\onslide<2-> \item What did the result say?
 		\onslide<3-> 
-\begin{stlog}\input{stata_workshop_for_govt_officials_39.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_46.log.tex}\end{stlog}
 			\onslide<4-> \item Try running them one by one, and see what happens?
 				\begin{itemize}
 					\onslide<5-> \item It probably didn't run. 
@@ -1284,10 +1358,10 @@
 		Here are some examples.
 		\begin{itemize}
 			\item This is the very basic command.
-\begin{stlog}\input{stata_workshop_for_govt_officials_40.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_47.log.tex}\end{stlog}
 			\vspace{2mm}
 			\item You can add multiple variable at a time.
-\begin{stlog}\input{stata_workshop_for_govt_officials_41.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_48.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
 		
@@ -1297,8 +1371,32 @@
 		\begin{itemize}
 			\vspace{2mm}
 			\item You choose what types of statistics you want it to display.
-\begin{stlog}\input{stata_workshop_for_govt_officials_42.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_49.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
+	
+	\begin{frame}
+	\frametitle{DIME Resources}
+		\begin{center}
+		\begin{columns}
+		\column{0.4\linewidth}
+		\includegraphics[height=5cm, width=3.5cm]{dime_resource_1} \\
+		\tiny \url{https://worldbank.github.io/Stata-IE-Visual-Library/}
+		\column{0.6\linewidth}
+		\includegraphics[height=5cm, width=6cm]{dime_resource_2} \\
+		\tiny \url{https://worldbank.github.io/stata/}
+		\end{columns}	
+		\end{center}
+	\end{frame}
+	
+	\begin{frame}
+		\begin{center}
+			\Large Murakoze neza! \\
+			\vspace{10mm}
+			\normalsize Roshni Khincha and Sakina Shibuya \\
+			\small \url{sshibuya@worldbank.org}
+			\small \url{rkhincha@worldbank.org}			
+		\end{center}
+	\end{frame}	
 	
 	\end{document}

@@ -1,7 +1,7 @@
 clear all
 use "$data\\cs_s0_s5_household.dta", clear 
-keep hhid province district ur2012 s5cq2 s5cq4 s5cq
-> 8 s5cq15 ///
+keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 /
+> //
         s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
 drop province s5bq2 s5cq17 s5cq15
 rename ur2012   urban_2012
@@ -15,7 +15,7 @@ generate  cm_main_ws = m_main_ws*100
 generate  d_closest_ws   = 0
 replace d_closest_ws = 1 if m_main_ws == m_used_ws
 label variable cm_main_ws "Cm to main water source"
-label variable d_closest_ws "Closest water source i
-> s used water source" 
+label variable d_closest_ws "Closest water source is used wat
+> er source" 
 label define yes_no_lb 1 "Yes" 0 "No"
 label values d_closest_ws yes_no_lb

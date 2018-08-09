@@ -1145,7 +1145,7 @@
 			\vspace{2mm}
 			***/
 				texdoc stlog, nolog
-					histogram m_drink_ws
+					histogram m_drink_ws, by(urban_2012)
 				texdoc stlog close
 				texdoc graph hist_2, optargs(width=0.5\textwidth)
 			/***
@@ -1183,7 +1183,108 @@
 	\end{frame}
 	
 	\begin{frame}
+	\frametitle{\textsc{Histogram}}
+		\onslide<1-> I wanted to start today by adding onto the histrogram we made yesterday.
+		\onslide<2-> The optional command, \textbf{\textit{by()}} 
+					 splits by a categorical variable. Try:
+		***/
+			texdoc stlog, cmdlog			
+				histogram m_drink_ws, by(urban_2012)
+			texdoc stlog close		
+		/***
+		\onslide<3-> Does your graph look like this?
+		***/
+		texdoc stlog, nolog			
+			histogram m_drink_ws, by(urban_2012)
+		texdoc stlog close
+		texdoc graph hist_3
+		/***
+	\end{frame}
+	
+
+	\begin{frame}
 	\frametitle{\textsc{Stata graph exercise 3}}
+		\begin{center}
+		\Large \textbf{Bar graph}
+		\end{center}
+	\end{frame}		
+	
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}
+		Let's make a bar graph like the one below using the variable, \textbf{d\_closest\_ws} and \textbf{urban_2012}.
+		\vspace{1mm}
+		***/
+		texdoc stlog, nolog			
+			graph hbar d_closest_ws , over(urban_2012) ///
+				title("Closet water source is the main source") ///
+				ylabel(0 "0%" .25 "25%" .5 "50%" .75 "75%" 1 "100%") ///
+				ytitle("Proportion of households whose main water source is the closest source", size(small))
+		texdoc stlog close
+		texdoc graph bar_1
+		graph save "$script/bar_1.gph", replace		
+		/***
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}	
+		\onslide<1-> Let's make a bar graph from your do file.
+		\begin{enumerate}
+			 \item Type \textbf{\textit{help graph bar}} in the command window 
+				   to find out what command to be used.
+			 \onslide<2-> \item Note that you can make vertical or horizontal 
+								bars with this commands. The basic command should
+								look like this.
+			***/
+				texdoc stlog, cmdlog
+					graph hbar d_closest_ws
+				texdoc stlog close
+			/***
+			\vspace{1mm}
+			\onslide<3-> \item Recall the \textbf{\textit{over}} option.
+			\vspace{1mm}
+			\onslide<4-> \item It should look something like this.
+			***/
+				texdoc stlog, cmdlog
+					graph hbar d_closest_ws , over(urban_2012)
+				texdoc stlog close
+			/***
+		\end{enumerate}
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}	
+		\onslide<1-> Now we need to add the main and y axis titles.
+					 Recall yesterday's lesson and try on your own. \vspace{1mm}
+		\onslide<2-> Does your command and graph look like this?
+			***/
+			texdoc stlog, nolog			
+				graph hbar d_closest_ws , over(urban_2012) ///
+					title("Closet water source is the main source") ///
+					ytitle("Proportion of households whose main water source is the closest source", size(small))
+			texdoc stlog close
+			texdoc graph bar_2			
+			/***
+			\vspace{1mm}
+		\onslide<3-> Something is still missing...
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{\textsc{Bar graph}}	
+		\onslide<1-> The y axis has unintuitive labels. This is proportion.
+					 So let's convert to percentage. We can achieve this with 
+					 the optional command, \textbf{\textit{ylabel}}. \vspace{1mm}
+		***/
+		texdoc stlog, cmdlog			
+			graph hbar d_closest_ws , over(urban_2012) ///
+				title("Closet water source is the main source") ///
+				ylabel(0 "0%" .25 "25%" .5 "50%" .75 "75%" 1 "100%") ///
+				ytitle("Proportion of households whose main water source is the closest source", size(small))
+		texdoc stlog close
+		/***
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Stata graph exercise 4}}
 		\begin{center}
 		\Large \textbf{Scatter plot}
 		\end{center}
@@ -1294,7 +1395,6 @@
 		texdoc stlog, nolog			
 			histogram m_drink_ws, ///
 			title("Distribution of the Distance to Drinking Water (metres)")
-
 			graph save "$script/histogram.gph", replace
 		texdoc stlog close
 		/***
@@ -1552,6 +1652,30 @@
 	/***
 		\end{itemize}
 	\end{frame}
+	
+	\begin{frame}
+	\frametitle{DIME Resources}
+		\begin{center}
+		\begin{columns}
+		\column{0.4\linewidth}
+		\includegraphics[height=5cm, width=3.5cm]{dime_resource_1} \\
+		\tiny \url{https://worldbank.github.io/Stata-IE-Visual-Library/}
+		\column{0.6\linewidth}
+		\includegraphics[height=5cm, width=6cm]{dime_resource_2} \\
+		\tiny \url{https://worldbank.github.io/stata/}
+		\end{columns}	
+		\end{center}
+	\end{frame}
+	
+	\begin{frame}
+		\begin{center}
+			\Large Murakoze neza! \\
+			\vspace{10mm}
+			\normalsize Roshni Khincha and Sakina Shibuya \\
+			\small \url{sshibuya@worldbank.org}
+			\small \url{rkhincha@worldbank.org}			
+		\end{center}
+	\end{frame}	
 	
 	\end{document}
 	***/

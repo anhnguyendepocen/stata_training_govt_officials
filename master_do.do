@@ -16,7 +16,8 @@ Last updated : July, 2018
 
 	* User identification
 	if "`c(username)'" == "Sakina" {
-		global dropbox	"C:\DB Mount\Dropbox\DIME_work"
+		*global dropbox	"C:\DB Mount\Dropbox\DIME_work"
+		global dropbox "C:\Users\Sakina\Dropbox\DIME_work"
 		global github	"C:\Users\Sakina\Documents\GitHub"
 		}
 		

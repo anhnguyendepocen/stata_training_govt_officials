@@ -958,7 +958,7 @@
 			\vspace{1mm}			
 		
 \begin{center}
-    \includegraphics[width=0.5\textwidth]{boxplot_2.pdf}
+    \includegraphics[width=0.4\textwidth]{boxplot_2.pdf}
 \end{center}
 		\end{enumerate}
 	\end{frame}
@@ -1049,10 +1049,9 @@
 		\onslide<3-> Does your graph look like this?
 	
 \begin{center}
-    \includegraphics[width=0.8\textwidth]{hist_3.pdf}
+    \includegraphics[width=0.5\textwidth]{hist_3.pdf}
 \end{center}
 	\end{frame}
-	
 
 	\begin{frame}
 	\frametitle{\textsc{Stata graph exercise 3}}
@@ -1108,7 +1107,12 @@
 	\frametitle{\textsc{Bar graph}}	
 		\onslide<1-> The y axis has unintuitive labels. This is proportion.
 					 So let's convert to percentage. We can achieve this with 
-					 the optional command, \textbf{\textit{ylabel}}. \vspace{1mm}
+					 the optional command, \textbf{\textit{ylabel}}. \\
+		\vspace{1mm}			 
+					 Type \textbf{\textit{help axis\_label\_options}} in the
+					 command window to learn how to use this. 
+		\vspace{1mm}
+		\onslide<2-> Your command should look something like this. 
 	
 \begin{stlog}\input{stata_workshop_for_govt_officials_33.log.tex}\end{stlog}
 	\end{frame}
@@ -1174,68 +1178,129 @@
 		\onslide<1-> This is because the fitted line is a linear prediction and 
 					 no longer represents the raw distance values. 
 					 But we can simply add on titles that can be helpful for the graph's intended audience.
-		\begin{enumerate}
-			 \onslide<2-> \item Recall the \textbf{\textit{twoway\_options}}, and the \textbf{\textit{title()}} option.
+		
+		\onslide<2-> Recall the \textbf{\textit{twoway\_options}}, and the \textbf{\textit{title()}} option.
 								You can use the same option and very similar options called \textbf{\textit{xtitle()}} and
 								\textbf{\textit{ytitle()}}.
 		
 \begin{stlog}\input{stata_workshop_for_govt_officials_39.log.tex}\end{stlog}
-		\end{enumerate}
 	\end{frame}
 	
 	\begin{frame}
-	\frametitle{\textsc{Stata graph exercise 3}}
+	\frametitle{\textsc{Stata graph exercise 5}}
 		\begin{center}
 		\Large \textbf{Saving and combining graphs}
 		\end{center}
 	\end{frame}	
 	
 	\begin{frame}
-	\frametitle{\textsc{Saving a Stata graph}}
-		Let's save all 3 graphs we made today.
-		\begin{enumerate}
-			\item To do so, add \textbf{\textit{graph save}} after each of your graphs like the following.
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> Let's save all 5 graphs we made during this training.
+		\vspace{2mm}
+		\onslide<2-> To do so, add \textbf{\textit{graph save}} 
+					 after each of your graphs like the following.
 	
-			\item Notice that you need to specify where you want save it,
-				  and how you want to name it.
-		\end{enumerate}
+		\vspace{1mm}
+		Notice that you need to specify where you want save it, 
+		and how you want to name it.
 	\end{frame}
 	
 	\begin{frame}
-	\frametitle{\textsc{Combining Stata graphs}}
-		Let's combine all 3 graphs we made today.
-		\begin{enumerate}
-			\item To do so, add \textbf{\textit{graph combine}} after each of your graphs like the following.
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> Stata can also combine multiple graphs and output
+					 as a single figure.
+			\vspace{1mm}
+		\onslide<2-> To do so, use the command,  \textbf{\textit{graph combine}}. \\
+					 Check the help file to learn how to use it.
+			\vspace{1mm}					
+		\onslide<3-> This is what your command should look like.
 	
-			\item Notice that you need to specify where you want save it,
-				  and how you want to name it.
-		\end{enumerate}
-	\end{frame}
-	
-	\begin{frame}
-	\frametitle{\textsc{Combining Stata graphs}}
-		\onslide<1-> Does yours look like this?
-	
-\begin{center}
-    \includegraphics[width=0.5\textwidth]{combined.pdf}
-\end{center}
-		\begin{itemize}
-			\onslide<2-> \item Why look so ugly?
-			\onslide<3-> \item Luckily, there are ways to make this nice like this.			
-		\end{itemize}
 	\end{frame}
 				
 	\begin{frame}
-	\frametitle{\textsc{Combining Stata graphs}}
-		There are many ways to make it look better like the following. \\
-		The solution do file will contain the commands to make the below graph. \\
-		Change it around and have fun with it! \\
-		Remember help files are your best friend.
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> Does yours look like this?
 	
 \begin{center}
-    \includegraphics[width=0.5\textwidth]{combined_better.pdf}
+    \includegraphics[width=0.6\textwidth]{combined.pdf}
+\end{center}
+		\onslide<2-> Looks ugly... and hard to understand. \\ \vspace{1mm}
+					 Luckily, there are ways to make this nice like this. \\
+		\onslide<3-> Nonethless, let us learn how to save this in a sharable way.
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> \textbf{\textit{graph save}} save a graph in a Stata format
+					 which cannot be opend if your audience does not have Stata.
+		\vspace{2mm}
+		\onslide<2-> \textbf{\textit{graph export}} can save in many other formats. \\
+		\vspace{2mm}
+					 Its usage is very similar to \textbf{\textit{graph save}}. \\
+		\vspace{2mm}
+					 Let's save this in the png format.
+		\onslide<3-> Your command should look somehting like this. 
+					 
+	
+\begin{stlog}\input{stata_workshop_for_govt_officials_42.log.tex}\end{stlog}
+		Add this after your \textbf{\textit{graph combine}} command on your dofile.
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{\textsc{Stata graph exercise 6}}
+		\begin{center}
+		\Large \textbf{More on effective visualization}
+		\end{center}
+	\end{frame}	
+	
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+		There are many ways to make it look better like the following. \\
+		\vspace{1mm}
+	
+\begin{center}
+    \includegraphics[width=0.7\textwidth]{combined_better.pdf}
 \end{center}
 	\end{frame}
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+		\textbf{Please know that it took me a while to achieve this.} \\
+		\vspace{1mm}
+		You do NOT have to get everything right, but let's take some time to work 
+		on our own so we can play around with optional commands. 
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The box graph:
+\begin{stlog}\input{stata_workshop_for_govt_officials_44.log.tex}\end{stlog}
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The histogram graph:
+\begin{stlog}\input{stata_workshop_for_govt_officials_45.log.tex}\end{stlog}
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The bar graph:
+\begin{stlog}\input{stata_workshop_for_govt_officials_46.log.tex}\end{stlog}
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The scatter and lfit graph:
+\begin{stlog}\input{stata_workshop_for_govt_officials_47.log.tex}\end{stlog}
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	Finally, you must make some adjustments to the combining command.
+\begin{stlog}\input{stata_workshop_for_govt_officials_48.log.tex}\end{stlog}
+	\end{frame}	
+	
 	
 	\begin{frame}
 		\frametitle{\textsc{Importing an excel file}}
@@ -1246,7 +1311,7 @@
 		\item Let us import the excel file we saved yesterday
 		\end{itemize}
 		
-\begin{stlog}\input{stata_workshop_for_govt_officials_43.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_49.log.tex}\end{stlog}
 		
 		
 		
@@ -1260,7 +1325,7 @@
 			\item We can convert numbers stored as strings to numbers by using the \textit{destring} command
 			\item Let us try converting the variable \textit{earnings\_sell\_w} to a numeric variable
 		\end{itemize}
-\begin{stlog}\input{stata_workshop_for_govt_officials_44.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_50.log.tex}\end{stlog}
 	\end{frame}
 		\begin{frame}
 	\frametitle{\textsc{Some Stata do's and don't}}
@@ -1321,11 +1386,11 @@
 		Type in your dofile the following and \textit{run all the lines at once}.
 		\begin{itemize}
 			\item Note that \textbf{`} is not the same as \textbf{'}.
-\begin{stlog}\input{stata_workshop_for_govt_officials_45.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_51.log.tex}\end{stlog}
 		\vspace{2mm}
 		\onslide<2-> \item What did the result say?
 		\onslide<3-> 
-\begin{stlog}\input{stata_workshop_for_govt_officials_46.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_52.log.tex}\end{stlog}
 			\onslide<4-> \item Try running them one by one, and see what happens?
 				\begin{itemize}
 					\onslide<5-> \item It probably didn't run. 
@@ -1358,10 +1423,10 @@
 		Here are some examples.
 		\begin{itemize}
 			\item This is the very basic command.
-\begin{stlog}\input{stata_workshop_for_govt_officials_47.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_53.log.tex}\end{stlog}
 			\vspace{2mm}
 			\item You can add multiple variable at a time.
-\begin{stlog}\input{stata_workshop_for_govt_officials_48.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_54.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
 		
@@ -1371,7 +1436,7 @@
 		\begin{itemize}
 			\vspace{2mm}
 			\item You choose what types of statistics you want it to display.
-\begin{stlog}\input{stata_workshop_for_govt_officials_49.log.tex}\end{stlog}
+\begin{stlog}\input{stata_workshop_for_govt_officials_55.log.tex}\end{stlog}
 		\end{itemize}
 	\end{frame}
 	
@@ -1393,9 +1458,9 @@
 		\begin{center}
 			\Large Murakoze neza! \\
 			\vspace{10mm}
-			\normalsize Sakina Shibuya and Roshni Khincha \\
+			\normalsize Sakina Shibuya and Roshni Khincha  \\
 			\small (\url{sshibuya@worldbank.org})
-			\small (\url{rkhincha@worldbank.org})		
+			\small (\url{rkhincha@worldbank.org})			
 		\end{center}
 	\end{frame}	
 	

@@ -394,7 +394,7 @@
 		\end{enumerate}
 		
 	***/
-			use "$data\cs_s0_s5_household.dta", clear
+		use "$data\cs_s0_s5_household.dta", clear
 		texdoc stlog, nooutput cmdlog
 			tabulate s5bq3a
 			summarize s5bq3a 
@@ -1087,7 +1087,7 @@
 				texdoc stlog, nolog
 					graph box m_drink_ws
 				texdoc stlog close
-				texdoc graph boxplot_2, optargs(width=0.5\textwidth)
+				texdoc graph boxplot_2, optargs(width=0.4\textwidth)
 			/***
 		\end{enumerate}
 	\end{frame}
@@ -1145,7 +1145,7 @@
 			\vspace{2mm}
 			***/
 				texdoc stlog, nolog
-					histogram m_drink_ws, by(urban_2012)
+					histogram m_drink_ws
 				texdoc stlog close
 				texdoc graph hist_2, optargs(width=0.5\textwidth)
 			/***
@@ -1197,10 +1197,9 @@
 		texdoc stlog, nolog			
 			histogram m_drink_ws, by(urban_2012)
 		texdoc stlog close
-		texdoc graph hist_3
+		texdoc graph hist_3, optargs(width=0.5\textwidth)
 		/***
 	\end{frame}
-	
 
 	\begin{frame}
 	\frametitle{\textsc{Stata graph exercise 3}}
@@ -1221,7 +1220,7 @@
 				ytitle("Proportion of households whose main water source is the closest source", size(small))
 		texdoc stlog close
 		texdoc graph bar_1
-		graph save "$script/bar_1.gph", replace		
+		graph save "$script/graph_bar.gph", replace		
 		/***
 	\end{frame}
 	
@@ -1272,13 +1271,18 @@
 	\frametitle{\textsc{Bar graph}}	
 		\onslide<1-> The y axis has unintuitive labels. This is proportion.
 					 So let's convert to percentage. We can achieve this with 
-					 the optional command, \textbf{\textit{ylabel}}. \vspace{1mm}
+					 the optional command, \textbf{\textit{ylabel}}. \\
+		\vspace{1mm}			 
+					 Type \textbf{\textit{help axis\_label\_options}} in the
+					 command window to learn how to use this. 
+		\vspace{1mm}
+		\onslide<2-> Your command should look something like this. 
 		***/
 		texdoc stlog, cmdlog			
 			graph hbar d_closest_ws , over(urban_2012) ///
 				title("Closet water source is the main source") ///
 				ylabel(0 "0%" .25 "25%" .5 "50%" .75 "75%" 1 "100%") ///
-				ytitle("Proportion of households whose main water source is the closest source", size(small))
+				ytitle("Proportion of households", size(small))
 		texdoc stlog close
 		/***
 	\end{frame}
@@ -1363,34 +1367,34 @@
 		\onslide<1-> This is because the fitted line is a linear prediction and 
 					 no longer represents the raw distance values. 
 					 But we can simply add on titles that can be helpful for the graph's intended audience.
-		\begin{enumerate}
-			 \onslide<2-> \item Recall the \textbf{\textit{twoway\_options}}, and the \textbf{\textit{title()}} option.
+		
+		\onslide<2-> Recall the \textbf{\textit{twoway\_options}}, and the \textbf{\textit{title()}} option.
 								You can use the same option and very similar options called \textbf{\textit{xtitle()}} and
 								\textbf{\textit{ytitle()}}.
 			***/
 				texdoc stlog, cmdlog
 				scatter m_used_ws m_drink_ws  || ///
-				lfit m_drink_ws m_used_ws, ///
+				lfit m_used_ws m_drink_ws, ///
 					ytitle("Distance to the nearest drinking water source") ///
 					xtitle("Distance to the main drinking source used") ///
 					title("Is the main drinking water also the closest source?")
 				texdoc stlog close
 			/***
-		\end{enumerate}
 	\end{frame}
 	
 	\begin{frame}
-	\frametitle{\textsc{Stata graph exercise 3}}
+	\frametitle{\textsc{Stata graph exercise 5}}
 		\begin{center}
 		\Large \textbf{Saving and combining graphs}
 		\end{center}
 	\end{frame}	
 	
 	\begin{frame}
-	\frametitle{\textsc{Saving a Stata graph}}
-		Let's save all 3 graphs we made today.
-		\begin{enumerate}
-			\item To do so, add \textbf{\textit{graph save}} after each of your graphs like the following.
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> Let's save all 5 graphs we made during this training.
+		\vspace{2mm}
+		\onslide<2-> To do so, add \textbf{\textit{graph save}} 
+					 after each of your graphs like the following.
 		***/
 		texdoc stlog, nolog			
 			histogram m_drink_ws, ///
@@ -1398,80 +1402,225 @@
 			graph save "$script/histogram.gph", replace
 		texdoc stlog close
 		/***
-			\item Notice that you need to specify where you want save it,
-				  and how you want to name it.
-		\end{enumerate}
+		\vspace{1mm}
+		Notice that you need to specify where you want save it, 
+		and how you want to name it.
 	\end{frame}
 	
 	\begin{frame}
-	\frametitle{\textsc{Combining Stata graphs}}
-		Let's combine all 3 graphs we made today.
-		\begin{enumerate}
-			\item To do so, add \textbf{\textit{graph combine}} after each of your graphs like the following.
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> Stata can also combine multiple graphs and output
+					 as a single figure.
+			\vspace{1mm}
+		\onslide<2-> To do so, use the command,  \textbf{\textit{graph combine}}. \\
+					 Check the help file to learn how to use it.
+			\vspace{1mm}					
+		\onslide<3-> This is what your command should look like.
 		***/
 		texdoc stlog, nolog			
 			graph combine ///
 				"$script/box.gph" ///
 				"$script/histogram.gph" ///	
+				"$script/graph_bar.gph" ///
 				"$script/scatter.gph"
-			graph export "$script/stata_training.png", replace
 		texdoc stlog close
 		/***
-			\item Notice that you need to specify where you want save it,
-				  and how you want to name it.
-		\end{enumerate}
-	\end{frame}
-	
-	\begin{frame}
-	\frametitle{\textsc{Combining Stata graphs}}
-		\onslide<1-> Does yours look like this?
-		***/	
-			texdoc graph combined, optargs(width=0.5\textwidth) 
-		/***
-		\begin{itemize}
-			\onslide<2-> \item Why look so ugly?
-			\onslide<3-> \item Luckily, there are ways to make this nice like this.			
-		\end{itemize}
 	\end{frame}
 				
 	\begin{frame}
-	\frametitle{\textsc{Combining Stata graphs}}
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> Does yours look like this?
+		***/	
+			texdoc graph combined, optargs(width=0.6\textwidth) 
+		/***
+		\onslide<2-> Looks ugly... and hard to understand. \\ \vspace{1mm}
+					 Luckily, there are ways to make this nice like this. \\
+		\onslide<3-> Nonethless, let us learn how to save this in a sharable way.
+	\end{frame}
+	
+	\begin{frame}
+	\frametitle{\textsc{Saving and combining graphs}}
+		\onslide<1-> \textbf{\textit{graph save}} save a graph in a Stata format
+					 which cannot be opend if your audience does not have Stata.
+		\vspace{2mm}
+		\onslide<2-> \textbf{\textit{graph export}} can save in many other formats. \\
+		\vspace{2mm}
+					 Its usage is very similar to \textbf{\textit{graph save}}. \\
+		\vspace{2mm}
+					 Let's save this in the png format.
+		\onslide<3-> Your command should look somehting like this. 
+					 
+		***/	
+			texdoc stlog, cmdlog
+				graph save "$script/combined.png", replace
+			texdoc stlog close
+		/***
+		Add this after your \textbf{\textit{graph combine}} command on your dofile.
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{\textsc{Stata graph exercise 6}}
+		\begin{center}
+		\Large \textbf{More on effective visualization}
+		\end{center}
+	\end{frame}	
+	
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
 		There are many ways to make it look better like the following. \\
-		The solution do file will contain the commands to make the below graph. \\
-		Change it around and have fun with it! \\
-		Remember help files are your best friend.
+		\vspace{1mm}
 		***/
-			graph box m_drink_ws, over(urban_2012) ///
+			* Changed the size of the y and x axis label
+			graph box m_drink_ws, over(urban_2012, label(labsize(small))) ///
 				title("Distribution by residential area", size(small)) ///
-				ylabel(, angle(0) labsize(small)) 
+				ytitle(, size(small)) ///
+				ylabel(, angle(0) labsize(small)) ///
+				graphregion(color(white))								
 			graph save "$script/box_better.gph", replace
 			
+			* Changed the y axis AND x axis size AND change the bar and line color AND change the bar color
 			histogram m_drink_ws, ///
+				fcolor(gs12) lcolor(black) lwidth(medium) ///
 				title("Distribution of the Distance to Drinking Water (metres)", size(small)) ///
+				xtitle(, size(small)) ///				
+				ytitle(, size(small)) ///				
 				ylabel(, angle(0) labsize(small)) ///
-				xlabel(, labsize(small))
+				xlabel(, labsize(small)) ///
+				graphregion(color(white))				
 			graph save "$script/histogram_better.gph", replace
-
-			scatter m_used_ws m_drink_ws  || ///
-			lfit m_drink_ws m_used_ws, ///
+			
+			* Adding the black around each bar
+			graph hbar d_closest_ws , over(urban_2012, label(labsize(small))) ///
+				bar(1, fcolor(gs12) lcolor(black) lwidth(medium)) ///
+				title("Closet water source is the main source", size(small)) ///
+				ylabel(0 "0%" .25 "25%" .5 "50%" .75 "75%" 1 "100%", labsize(small)) ///
+				ytitle("Proportion of households", size(small)) ///
+				graphregion(color(white))				
+			graph save "$script/bar_better.gph", replace			
+			
+			/* Trim the x axis AND change the marker size and design AND turn the legend off 
+			   AND the size of the y and x labels AND the y axis label hotirontal */
+			scatter m_used_ws m_drink_ws, msize(small) msymbol(plus) || ///
+			lfit m_used_ws m_drink_ws, ///
 				ylabel(, angle(0) labsize(small)) legend(off) ///
 				xlabel(, labsize(small)) ///
 				ytitle("Distance to the nearest drinking water source", size(small)) ///
 				xtitle("Distance to the main drinking source used", size(small)) ///
-				title("Is the main drinking water source also the closest one?", size(small))
+				title("Is the main drinking water source also the closest one?", size(small)) ///
+				graphregion(color(white))							
 			graph save "$script/scatter_better.gph", replace		
 
-			
 			texdoc stlog, nolog			
 			graph combine ///
 				"$script/box_better.gph" ///
 				"$script/histogram_better.gph" ///	
+				"$script/bar_better.gph" ///					
 				"$script/scatter_better.gph", ///
+				graphregion(color(white)) ///
 				title("Statistics on the Distance to Drinking Water Sources")
 			texdoc stlog close
-			texdoc graph combined_better, optargs(width=0.5\textwidth) 	
+			graph save "$script/bar_better.gph", replace
+			texdoc graph combined_better, optargs(width=0.7\textwidth)			
 		/***
 	\end{frame}
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+		\textbf{Please know that it took me a while to achieve this.} \\
+		\vspace{1mm}
+		You do NOT have to get everything right, but let's take some time to work 
+		on our own so we can play around with optional commands. 
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The box graph:
+	***/
+		texdoc stlog, cmdlog
+		graph box m_drink_ws, over(urban_2012, label(labsize(small))) ///
+		title("Distribution by residential area", ///
+			  size(small)) ///
+		ytitle(, size(small)) ///
+		ylabel(, angle(0) labsize(small)) ///
+		graphregion(color(white))								
+		texdoc stlog close	
+	/***	
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The histogram graph:
+	***/
+		texdoc stlog, cmdlog
+			histogram m_drink_ws, ///
+			fcolor(gs12) lcolor(black) lwidth(medium) ///
+			title("Distribution of the Distance to Drinking Water (metres)", ///
+				  size(small)) ///
+			xtitle(, size(small)) ///				
+			ytitle(, size(small)) ///				
+			ylabel(, angle(0) labsize(small)) ///
+			xlabel(, labsize(small)) ///
+			graphregion(color(white))				
+		texdoc stlog close	
+	/***	
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The bar graph:
+	***/
+		texdoc stlog, cmdlog
+			graph hbar d_closest_ws , ///
+			over(urban_2012, label(labsize(small))) ///
+			bar(1, fcolor(gs12) lcolor(black) lwidth(medium)) ///
+			title("Closet water source is the main source", ///
+				  size(small)) ///	
+			ylabel(0 "0%" .25 "25%" .5 "50%" .75 "75%" 1 "100%", ///
+				  labsize(small)) ///
+			ytitle("Proportion of households", size(small)) ///
+			graphregion(color(white))				
+		texdoc stlog close	
+	/***	
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	The scatter and lfit graph:
+	***/
+		texdoc stlog, cmdlog
+			scatter m_used_ws m_drink_ws, ///
+				msize(small) msymbol(plus) || ///
+			lfit m_used_ws m_drink_ws, ///
+				ylabel(, angle(0) labsize(small)) ///
+			legend(off) ///
+			xlabel(, labsize(small)) ///
+			ytitle("Distance to the nearest drinking water source", ///
+				   size(small)) ///
+			xtitle("Distance to the main drinking source used", ///
+				   size(small)) ///
+			title("Is the main drinking water source also the closest one?", ///
+				  size(small)) ///
+			graphregion(color(white))							
+		texdoc stlog close	
+	/***	
+	\end{frame}	
+
+	\begin{frame}
+	\frametitle{\textsc{More on effective visualization}}
+	Finally, you must make some adjustments to the combining command.
+	***/
+		texdoc stlog, cmdlog
+			graph combine ///
+				"$script/box_better.gph" ///
+				"$script/histogram_better.gph" ///	
+				"$script/bar_better.gph" ///					
+				"$script/scatter_better.gph", ///
+				graphregion(color(white)) ///
+				title("Statistics on the Distance to Drinking Water Sources")
+		texdoc stlog close	
+	/***	
+	\end{frame}	
+	
 	
 	\begin{frame}
 		\frametitle{\textsc{Importing an excel file}}

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.10)  10 AUG 2018 07:21
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.18)  9 AUG 2018 12:22
+>>>>>>> master
 entering extended mode
 **C:/Users/Sakina/Documents/GitHub/stata_training_govt_officials/stata_workshop
 _for_govt_officials.tex
@@ -1604,10 +1608,15 @@ LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
 ] [55
 
 ]
-(stata_workshop_for_govt_officials_9.log.tex) [56
+(stata_workshop_for_govt_officials_9.log.tex
+Overfull \hbox (14.46016pt too wide) in paragraph at lines 2--2
+ []\OT1/lmtt/m/n/8 label variable d_closest_ws "Closest water source is used wa
+ter source"[] 
+ []
 
-]
-(stata_workshop_for_govt_officials_10.log.tex) [57
+) [56
+
+] (stata_workshop_for_govt_officials_10.log.tex) [57
 
 ]
 (stata_workshop_for_govt_officials_10.log.tex) [58
@@ -1657,8 +1666,14 @@ Package pdftex.def Info: file_path.png  used on input line 648.
 ] [68
 
 ]
-(stata_workshop_for_govt_officials_13.log.tex)
-Overfull \vbox (22.06226pt too high) detected at line 705
+(stata_workshop_for_govt_officials_13.log.tex
+Overfull \hbox (14.46016pt too wide) in paragraph at lines 17--17
+ []\OT1/lmtt/m/n/8 label variable d_closest_ws "Closest water source is used wa
+ter source"[] 
+ []
+
+)
+Overfull \vbox (1.36237pt too high) detected at line 705
  []
 
 [69
@@ -1954,21 +1969,41 @@ Overfull \vbox (2.0602pt too high) detected at line 1014
 
 [106
 
-] (stata_workshop_for_govt_officials_26.log.tex) [107
+] (stata_workshop_for_govt_officials_26.log.tex
+Overfull \hbox (4.71019pt too wide) in paragraph at lines 2--2
+ []\OT1/lmtt/m/n/8 title("Distribution of the Distance to Drinking Water (metre
+s)")[] 
+ []
 
-]
-(stata_workshop_for_govt_officials_26.log.tex) [108
+) [107
 
-]
-(stata_workshop_for_govt_officials_26.log.tex) [109
+] (stata_workshop_for_govt_officials_26.log.tex
+Overfull \hbox (4.71019pt too wide) in paragraph at lines 2--2
+ []\OT1/lmtt/m/n/8 title("Distribution of the Distance to Drinking Water (metre
+s)")[] 
+ []
 
-]
-(stata_workshop_for_govt_officials_26.log.tex) [110
+) [108
+
+] (stata_workshop_for_govt_officials_26.log.tex
+Overfull \hbox (4.71019pt too wide) in paragraph at lines 2--2
+ []\OT1/lmtt/m/n/8 title("Distribution of the Distance to Drinking Water (metre
+s)")[] 
+ []
+
+) [109
+
+] (stata_workshop_for_govt_officials_26.log.tex
+Overfull \hbox (4.71019pt too wide) in paragraph at lines 2--2
+ []\OT1/lmtt/m/n/8 title("Distribution of the Distance to Drinking Water (metre
+s)")[] 
+ []
+
+) [110
 
 ] [111
 
-]
-(stata_workshop_for_govt_officials_27.log.tex)
+] (stata_workshop_for_govt_officials_27.log.tex)
 
 pdfTeX warning: pdflatex (file ./hist_3.pdf): PDF inclusion: found PDF version 
 <1.6>, but at most version <1.5> allowed
@@ -2063,7 +2098,13 @@ Overfull \vbox (33.00595pt too high) detected at line 1104
 
 [123
 
-] (stata_workshop_for_govt_officials_33.log.tex) [124
+] (stata_workshop_for_govt_officials_33.log.tex
+Overfull \hbox (141.96016pt too wide) in paragraph at lines 4--4
+ []        \OT1/lmtt/m/n/8 ytitle("Proportion of households whose main water so
+urce is the closest source", size(small))[] 
+ []
+
+) [124
 
 ]
 (stata_workshop_for_govt_officials_33.log.tex) [125
@@ -2149,10 +2190,54 @@ Overfull \vbox (8.66402pt too high) detected at line 1174
 
 [133
 
+<<<<<<< HEAD
 ] (stata_workshop_for_govt_officials_39.log.tex) [134
 
 ]
 (stata_workshop_for_govt_officials_39.log.tex) [135
+=======
+] (stata_workshop_for_govt_officials_39.log.tex
+Overfull \hbox (17.46019pt too wide) in paragraph at lines 3--3
+ []        \OT1/lmtt/m/n/8 ytitle("Distance to the nearest drinking water sourc
+e") ///[] 
+ []
+
+
+Overfull \hbox (0.46019pt too wide) in paragraph at lines 4--4
+ []        \OT1/lmtt/m/n/8 xtitle("Distance to the main drinking source used") 
+///[] 
+ []
+
+
+Overfull \hbox (21.71019pt too wide) in paragraph at lines 5--5
+ []        \OT1/lmtt/m/n/8 title("Is the main drinking water also the closest s
+ource?")[] 
+ []
+
+) [133
+
+] (stata_workshop_for_govt_officials_39.log.tex
+Overfull \hbox (17.46019pt too wide) in paragraph at lines 3--3
+ []        \OT1/lmtt/m/n/8 ytitle("Distance to the nearest drinking water sourc
+e") ///[] 
+ []
+
+
+Overfull \hbox (0.46019pt too wide) in paragraph at lines 4--4
+ []        \OT1/lmtt/m/n/8 xtitle("Distance to the main drinking source used") 
+///[] 
+ []
+
+
+Overfull \hbox (21.71019pt too wide) in paragraph at lines 5--5
+ []        \OT1/lmtt/m/n/8 title("Is the main drinking water also the closest s
+ource?")[] 
+ []
+
+) [134
+
+] [135
+>>>>>>> master
 
 ] [136
 
@@ -2281,6 +2366,7 @@ LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <8> not available
 <dime_resource_1.png, id=1102, 236.082pt x 354.123pt>
 File: dime_resource_1.png Graphic file (type png)
 <use dime_resource_1.png>
+<<<<<<< HEAD
 Package pdftex.def Info: dime_resource_1.png  used on input line 1455.
 (pdftex.def)             Requested size: 99.58243pt x 142.26808pt.
 <dime_resource_2.png, id=1104, 425.4294pt x 340.49356pt>
@@ -2289,6 +2375,20 @@ File: dime_resource_2.png Graphic file (type png)
 Package pdftex.def Info: dime_resource_2.png  used on input line 1455.
 (pdftex.def)             Requested size: 170.71402pt x 142.26335pt.
  [170
+=======
+Package pdftex.def Info: dime_resource_1.png  used on input line 1396. on input
+ line 1396.
+Package pdftex.def Info: Requested size: 99.58243pt x 142.26808pt on input line
+ 1396.
+<dime_resource_2.png, id=1031, 425.4294pt x 340.49356pt>
+File: dime_resource_2.png Graphic file (type png)
+<use dime_resource_2.png>
+Package pdftex.def Info: dime_resource_2.png  used on input line 1396. on input
+ line 1396.
+Package pdftex.def Info: Requested size: 170.71402pt x 142.26335pt on input lin
+e 1396.
+ [156
+>>>>>>> master
 
  <./dime_resource_1.png> <./dime_resource_2.png>] [171
 
@@ -2302,11 +2402,19 @@ Package pdftex.def Info: dime_resource_2.png  used on input line 1455.
 \tf@snm=\write8
 \openout8 = `stata_workshop_for_govt_officials.snm'.
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1467.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1467.
  (stata_workshop_for_govt_officials.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1467.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1467.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1408.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1408.
+ (stata_workshop_for_govt_officials.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1408.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1408.
+>>>>>>> master
 
 Package rerunfilecheck Info: File `stata_workshop_for_govt_officials.out' has n
 ot changed.
@@ -2317,6 +2425,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  31840 strings out of 492973
  784954 string characters out of 3126249
  976119 words of memory out of 3000000
@@ -2346,6 +2455,33 @@ s/type1/public/lm/lmtk10.pfb><C:/Users/Sakina/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/lm/lmtt8.pfb><C:/Users/Sakina/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/lm/lmtt9.pfb>
 Output written on stata_workshop_for_govt_officials.pdf (171 pages, 4492564 byt
+=======
+ 31790 strings out of 493312
+ 775737 string characters out of 3136307
+ 969542 words of memory out of 3000000
+ 34103 multiletter control sequences out of 15000+200000
+ 75260 words of font info for 67 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,13n,98p,1863b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
+/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/lm/lmsso9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb>
+Output written on stata_workshop_for_govt_officials.pdf (157 pages, 4641310 byt
+>>>>>>> master
 es).
 PDF statistics:
  1254 PDF objects out of 1440 (max. 8388607)

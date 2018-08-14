@@ -12,7 +12,7 @@ Last updated : August, 2018
 ************************************ SET UP ************************************
 	clear all
 
-	global data "Insert your file path here"
+	global data "C:\Users\Sakina\Dropbox\DIME_work\minagri_stata_training_aug2018\data"
 
 *** Opening the dataset
 
@@ -62,7 +62,8 @@ Last updated : August, 2018
 
 ************************************ GRAPHS ************************************
 	* Box plot
-	graph box m_drink_ws
+	graph box m_drink_ws, over(urban_2012)
+	graph save "$data\box_plot.gph", replace
 	
 	* Histogram
 	histogram m_drink_ws
@@ -70,7 +71,26 @@ Last updated : August, 2018
 	* Histogram with title
 	histogram m_drink_ws, ///
 	title("Distribution of the Distance to Drinking Water (metres)")
+	graph save "$data\histogram.gph", replace
+	
+	histogram m_drink_ws, by(urban_2012)
 
+	graph hbar d_closest_ws , over(urban_2012) ///
+		title("Closet water source is the main source") ///
+		ylabel(0 "0%" .25 "25%" .5 "50%" .75 "75%" 1 "100%") ///
+		ytitle("Proportion of households whose main water source is the closest source", size(small))
+	graph save "$data\bar_graph.gph", replace
 
-
-
+	scatter m_used_ws m_drink_ws  || ///
+	lfit m_used_ws m_drink_ws , ///
+		ytitle("Distance to the nearest drinking water source") ///
+		xtitle("Distance to the main drinking source used") ///
+		title("Is the main drinking water source also the closest one?")
+	graph save "$data\scatter.gph", replace
+	
+	graph combine "$data\box_plot.gph" ///
+				  "$data\histogram.gph" ///
+				  "$data\bar_graph.gph" ///
+				  "$data\scatter.gph"
+	graph export "$data\combined_graph.png", replace
+	

@@ -18,6 +18,10 @@
 	\usepackage{stata}
 	\usepackage{graphicx}
 	\usepackage{lmodern}
+	\usepackage{hyperref}
+	\hypersetup{colorlinks=true, 
+				linkcolor=black, 
+				urlcolor=blue,}
 
 	\title{Stata Workshop} %% that will be typeset on the
 	\subtitle{} %% title page.
@@ -207,7 +211,7 @@
 			\frametitle{\textsc{Open a dataset - menus}}
 			 \begin{figure}[H] 
 				\centering
-				\includegraphics[width=0.9\linewidth]{open_dataset_menu}
+				\fbox{\includegraphics[width=0.9\linewidth]{open_dataset_menu}}
 			\end{figure}
 		\end{frame}
 
@@ -254,7 +258,7 @@
 
 		 \begin{figure}[H] 
 				\centering
-				\includegraphics[width=0.9\linewidth]{task1}
+				\fbox{\includegraphics[width=0.9\linewidth]{task1}}
 		\end{figure}
 	\end{frame}
 
@@ -263,10 +267,9 @@
 	\begin{frame}
 			\frametitle{\textsc{Task 1 - opening datasets}}
 		\begin{itemize}
-			\item You can perform both tasks by typing the in your command prompt. This will yield the same results
-			
+			\item You can perform both tasks by typing the in your command prompt. 
+				  This will yield the same results
 			\item Type \textit{browse} in the command window and press enter
-			
 			\item Type \textit{describe} and press enter
 			
 		\end{itemize}
@@ -476,8 +479,8 @@
 		\end{itemize}
 		***/
 		texdoc stlog, cmdlog
-			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 ///
-				s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
+			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 /// 
+			s5cq15 s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
 		texdoc stlog close			
 		/***
 		\begin{itemize}
@@ -593,7 +596,8 @@
 	***/
 		texdoc stlog, cmdlog
 			label variable cm_main_ws "Cm to main water source"
-			label variable d_closest_ws "Closest water source is used water source" 
+			label variable d_closest_ws ///
+			"Closest water source is used water source" 
 		texdoc stlog close
 	/***		
 		\begin{itemize}
@@ -618,20 +622,7 @@
 			\item This is very useful for binary or categorical variables when visualizing the data
 		\end{itemize}		
 	\end{frame}		
-	
-	
-	\begin{frame}
-		\frametitle{\textsc{Refresher}}
-		On day 1 we learnt ...
-		\begin{itemize}
-			\item how stata works
-			\item using the dropdown and command window to execute actions
-			\item how to explore a dataset using commands like \textit{browse describe tabulate summarize}
-			\item how to manipulate a dataset using commands like \textit{drop keep generate replace}
-			\item how to label variables and values
-		\end{itemize}
-	\end{frame}
-	
+		
 	\begin{frame}
 		\frametitle{\textsc{}}
 
@@ -684,7 +675,7 @@
 		\end{itemize}
 		\begin{figure}[H] 
 			\centering
-			\includegraphics[width=0.9\linewidth]{run}
+			\fbox{\includegraphics[width=0.9\linewidth]{run}}
 		\end{figure}		
 		
 	\end{frame}
@@ -696,7 +687,7 @@
 		\end{itemize}
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.9\linewidth]{file_path}
+			\fbox{\includegraphics[width=0.9\linewidth]{file_path}}
 		\end{figure}
 		\begin{itemize}
 			\item When you open any folder, clicking on the \textbf{Home} button on the top right
@@ -739,7 +730,7 @@
 			\item Create a \textbf{global} called \textit{data} using the file path you copied
 		\end{itemize}
 	***/
-		texdoc stlog	
+		texdoc stlog, cmdlog
 		global 	data "$dropbox\minagri_stata_training_aug2018\data"
 		texdoc stlog close	
 	/***
@@ -769,53 +760,52 @@
 		This is how your do-file should look now
 	***/
 		texdoc stlog, nooutput cmdlog
-		clear all
-		use "$data\cs_s0_s5_household.dta", clear 
-		keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 s5cq15 ///
-			s5cq23 s5bq2 s5cq22 s5cq13 s5cq17 
-		drop province s5bq2 s5cq17 s5cq15
-		rename ur2012 	urban_2012
-		rename s5cq2 	m_main_ws
-		rename s5cq4 	m_used_ws
-		rename s5cq8 	m_drink_ws
-		rename s5cq13 	earnings_sell_w
-		rename s5cq22 	d_affected_dis
-		rename s5cq23	dis_type
-		generate  cm_main_ws = m_main_ws*100
-		generate  d_closest_ws	 = 0
-		replace d_closest_ws = 1 if m_main_ws == m_used_ws
-		label variable cm_main_ws "Cm to main water source"
-		label variable d_closest_ws "Closest water source is used water source" 
-		label define yes_no_lb 1 "Yes" 0 "No"
-		label values d_closest_ws yes_no_lb
-	texdoc stlog close
-	save "${data}\cs_s0_s5_household_modified.dta", replace
-		
+			clear all
+			use "$data\cs_s0_s5_household.dta", clear 
+			keep hhid province district ur2012 s5cq2 s5cq4 s5cq8 ///
+			s5cq1 s5cq23 s5bq2 s5cq22 s5cq13 s5cq15 s5cq17 
+			drop province s5bq2 s5cq17 s5cq15
+			rename ur2012 	urban_2012
+			rename s5cq2 	m_main_ws
+			rename s5cq4 	m_used_ws
+			rename s5cq8 	m_drink_ws
+			rename s5cq13 	earnings_sell_w
+			rename s5cq22 	d_affected_dis
+			rename s5cq23	dis_type
+			generate  cm_main_ws = m_main_ws*100
+			generate  d_closest_ws = 0
+			replace d_closest_ws = 1 if m_main_ws == m_used_ws
+			label variable cm_main_ws "Cm to main water source"
+			label variable d_closest_ws ///
+			"Closest water source is used water source" 
+			label define yes_no_lb 1 "Yes" 0 "No"
+			label values d_closest_ws yes_no_lb
+		texdoc stlog close
+		save "${data}\cs_s0_s5_household_modified.dta", replace
 	/***
 	\end{frame}
 
 	\begin{frame}
 		\frametitle{\textsc{Task 7 - editing a do-file}}
-	
 		\begin{itemize}
 			\item Now let's edit the do-file!
 			\item We just realized that the number of centimeters to the main water source doesn't make much sense. Let's edit it to the number of kilometers. Replace the code:
 			\end{itemize}
-	***/
-	use "${data}\cs_s0_s5_household.dta",clear
-	rename s5cq2 	m_main_ws
-		texdoc stlog, cmdlog
-			generate  cm_main_ws = m_main_ws*1000
-		texdoc stlog close
-	/***
-	to
-	***/
-	use "${data}\cs_s0_s5_household_modified.dta", clear
-		texdoc stlog, cmdlog	
-			gen  km_main_ws = m_main_ws/1000
-		texdoc stlog close
-	/***
-	Also, remember to edit the label before you run the do-file!
+			***/
+			use "${data}\cs_s0_s5_household.dta",clear
+			rename s5cq2 	m_main_ws
+				texdoc stlog, cmdlog
+					generate  cm_main_ws = m_main_ws*1000
+				texdoc stlog close
+			/***
+			to
+			***/
+			use "${data}\cs_s0_s5_household_modified.dta", clear
+				texdoc stlog, cmdlog	
+					gen  km_main_ws = m_main_ws/1000
+				texdoc stlog close
+			/***
+			Also, remember to edit the label before you run the do-file!
 	\end{frame}
 	
 	\begin{frame}
@@ -900,16 +890,22 @@
 
 	\begin{frame}
 	\frametitle{\textsc{Saving Stata datasets}}	
-		\begin{columns}
-			\begin{column}{0.5\textwidth}
-				\includegraphics[width=\linewidth]{helpfile_save_1}
-				\includegraphics[width=\linewidth]{helpfile_save_2}
-			\end{column}
-			\begin{column}{0.5\textwidth}
-				\includegraphics[width=\linewidth]{helpfile_exportexcel_1}
-				\includegraphics[width=\linewidth]{helpfile_exportexcel_2}
-			\end{column}
-		\end{columns}
+		The help file for the \textbf{\textit{save}} command. \\
+		The \textbf{\textit{save}} command lets you save your 
+		dataset in the dta format, which is a Stata format which can only be 
+		open with Stata. 
+			\includegraphics[width=\linewidth]{helpfile_save_1}
+			\includegraphics[width=\linewidth]{helpfile_save_2}
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{\textsc{Saving Stata datasets}}	
+		The help file for the \textbf{\textit{export excel}} command.	\\
+		\vspace{1mm}
+		The \textbf{\textit{export excel}} command lets you save your dataset
+		in excel.
+			\includegraphics[width=\linewidth]{helpfile_exportexcel_1}
+			\includegraphics[width=\linewidth]{helpfile_exportexcel_2}
 	\end{frame}
 	
 	\begin{frame}
@@ -931,7 +927,7 @@
 		\vspace{2mm}			 
 		\onslide<3-> Did you get an error like this? 
 		\begin{center}			
-			\includegraphics[width=0.8\linewidth]{error_save_existing}
+			\fbox{\includegraphics[width=0.8\linewidth]{error_save_existing}}
 		\end{center}
 	\end{frame}
 	
@@ -965,10 +961,11 @@
 
 	/***
 		\vspace{2mm}
-		\onslide <4-> Notice \textbf{///}. This is a way to let Stata now that multiple lines
-					  constitute a single command. It's helpful when your command is getting too
-					  long on your do file.
-		\onslide<5-> Open the newly saved excel file. You will find column names!
+		\onslide <4-> Notice \textbf{///}. This is a way to let Stata now 
+					  that multiple lines constitute a single command. 
+					  It's helpful when your command is getting too
+					  long on your do file. Open the newly saved excel file. 
+					  You will find column names!
 	\end{frame}
 		
 	\section{Section 3: \\ Introduction to Stata Graphics}	
@@ -978,7 +975,7 @@
 		\begin{center}
 		What's happening in this regression table? What's important?
 		\begin{figure}
-			\includegraphics[width=0.7\linewidth]{reg_table_example}
+			\fbox{\includegraphics[width=0.7\linewidth]{reg_table_example}}
 		\end{figure}		
 		\end{center}
 	\end{frame}
@@ -987,7 +984,7 @@
 	\frametitle{\textsc{But figures \textit{tell the story}}}
 		\begin{columns}
 			\column{0.55\linewidth}
-			\includegraphics[height=5cm, width=6cm]{figure_example_1}
+			\fbox{\includegraphics[height=5cm, width=6cm]{figure_example_1}}
 			\hspace{5mm}
 			\column{0.45\linewidth}
 			\begin{itemize}
@@ -1170,18 +1167,7 @@
 			\onslide <4-> \item \textbf{\textit{help twoway\_options}} to find out more about the \textbf{\textit{title}} option and more.
 		\end{enumerate}
 	\end{frame}
-	
-	\begin{frame}
-		\frametitle{\textsc{Refresher}}
-		Yesterday we learnt ...
-		\begin{itemize}
-			\item how to use do-files
-			\item how to write comments in do-files
-			\item how to save and export datasets
-			\item how to create simple graphs
-		\end{itemize}
-	\end{frame}
-	
+		
 	\begin{frame}
 	\frametitle{\textsc{Histogram}}
 		\onslide<1-> I wanted to start today by adding onto the histrogram we made yesterday.
@@ -1302,7 +1288,7 @@
 		***/
 		texdoc stlog, nolog			
 			scatter m_used_ws m_drink_ws  || ///
-			lfit m_drink_ws m_used_ws, ///
+			lfit m_used_ws m_drink_ws , ///
 				ytitle("Distance to the nearest drinking water source") ///
 				xtitle("Distance to the main drinking source used") ///
 				title("Is the main drinking water source also the closest one?")
@@ -1350,7 +1336,7 @@
 				texdoc stlog close
 			/***
 			\vspace{1mm}
-			\onslide<3-> \item Notice the difference from earlier? No main title and y and y titles!
+			\onslide<3-> \item Notice the difference from earlier? No main title and x and y titles!
 			\vspace{1mm}
 			***/
 				texdoc stlog, nolog
@@ -1391,12 +1377,12 @@
 	
 	\begin{frame}
 	\frametitle{\textsc{Saving and combining graphs}}
-		\onslide<1-> Let's save all 5 graphs we made during this training.
-		\vspace{2mm}
+		\onslide<1-> Let's save all 5 graphs we made during this training. \\
+		\vspace{1mm}
 		\onslide<2-> To do so, add \textbf{\textit{graph save}} 
 					 after each of your graphs like the following.
 		***/
-		texdoc stlog, nolog			
+		texdoc stlog, cmdlog 		
 			histogram m_drink_ws, ///
 			title("Distribution of the Distance to Drinking Water (metres)")
 			graph save "$script/histogram.gph", replace
@@ -1409,15 +1395,15 @@
 	
 	\begin{frame}
 	\frametitle{\textsc{Saving and combining graphs}}
-		\onslide<1-> Stata can also combine multiple graphs and output
+		\onslide<1-> Stata can also combine multiple graphs and output \\
 					 as a single figure.
 			\vspace{1mm}
 		\onslide<2-> To do so, use the command,  \textbf{\textit{graph combine}}. \\
-					 Check the help file to learn how to use it.
+					 Check the help file to learn how to use it. \\
 			\vspace{1mm}					
 		\onslide<3-> This is what your command should look like.
 		***/
-		texdoc stlog, nolog			
+		texdoc stlog, cmdlog			
 			graph combine ///
 				"$script/box.gph" ///
 				"$script/histogram.gph" ///	
@@ -1519,7 +1505,7 @@
 				graphregion(color(white)) ///
 				title("Statistics on the Distance to Drinking Water Sources")
 			texdoc stlog close
-			graph save "$script/bar_better.gph", replace
+			graph save "$script/combined_better.gph", replace
 			texdoc graph combined_better, optargs(width=0.7\textwidth)			
 		/***
 	\end{frame}
@@ -1813,10 +1799,10 @@
 		\begin{center}
 		\begin{columns}
 		\column{0.4\linewidth}
-		\includegraphics[height=5cm, width=3.5cm]{dime_resource_1} \\
+		\fbox{\includegraphics[height=5cm, width=3.5cm]{dime_resource_1}} \\
 		\tiny \url{https://worldbank.github.io/Stata-IE-Visual-Library/}
 		\column{0.6\linewidth}
-		\includegraphics[height=5cm, width=6cm]{dime_resource_2} \\
+		\fbox{\includegraphics[height=5cm, width=6cm]{dime_resource_2}} \\
 		\tiny \url{https://worldbank.github.io/stata/}
 		\end{columns}	
 		\end{center}
